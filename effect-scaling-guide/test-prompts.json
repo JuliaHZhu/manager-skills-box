@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "scale-01",
+      "prompt": "My X is continuous (hours of sleep), Y is continuous (mood score). What scaling should I use?",
+      "expected_output": "Unstandardized b is most interpretable: effect of 1 additional hour of sleep on mood score. Completely standardized β̃ can be used for within-model comparison. Partially standardized is unnecessary here."
+    },
+    {
+      "id": "scale-02",
+      "prompt": "My X is dichotomous (treatment vs. control). Y is continuous (depression score). How should I report the effect?",
+      "expected_output": "Do NOT use completely standardized β̃. Report unstandardized b (mean difference in depression score) or partially standardized bps = b/SDY (mean difference in SD units of Y)."
+    },
+    {
+      "id": "scale-03",
+      "prompt": "I want to compare the relative importance of two predictors in my model. Can I use completely standardized coefficients?",
+      "expected_output": "Yes, if both predictors are continuous. β̃ allows comparison of relative importance within the same model. Report with caveat that β̃ is model-specific."
+    },
+    {
+      "id": "scale-04",
+      "prompt": "My mediation model has a dichotomous X and continuous M and Y. How do I report the indirect effect ab?",
+      "expected_output": "Report unstandardized ab with bootstrap CI. For effect size, report ab/SDY (partially standardized indirect effect) or ab/c if total effect is meaningful. Do not report completely standardized ab."
+    },
+    {
+      "id": "scale-05",
+      "prompt": "A reviewer asked me to report standardized coefficients. My X is a 3-group categorical variable. What do I do?",
+      "expected_output": "Explain that completely standardized coefficients are inappropriate for categorical X. Report unstandardized relative effects or partially standardized effects (dividing by SDY only). Cite Hayes (2022), Chapter 3."
+    },
+    {
+      "id": "scale-06",
+      "prompt": "I mean-centered my continuous X and W. How does this affect the interpretation of my coefficients?",
+      "expected_output": "Centering changes b1 and b2 (now represent effects at mean W and mean X) but not b3 (interaction). The regression constant is now predicted Y when X and W are at their means."
+    },
+    {
+      "id": "scale-07",
+      "prompt": "Should I report the interaction coefficient b3 in standardized form?",
+      "expected_output": "No. Standardized interaction coefficients are misleading because they depend on SDX, SDW, and SDY simultaneously. Always report b3 unstandardized."
+    },
+    {
+      "id": "scale-08",
+      "prompt": "My Y is measured on a 1-7 Likert scale. Is standardization appropriate?",
+      "expected_output": "Unstandardized b is preferred. Standardization assumes interval scaling. With Likert scales, b in original units is more interpretable. Partial standardization (bps) is acceptable if you want SD units."
+    },
+    {
+      "id": "scale-09",
+      "prompt": "I want to compare my effect size across two studies with different measures of Y. Can I use β̃?",
+      "expected_output": "Not directly, because SDY differs across studies. Use partially standardized effects (bps = b/SDY) or convert to Cohen's d for dichotomous X. Meta-analytic methods are preferred."
+    },
+    {
+      "id": "scale-10",
+      "prompt": "My proportion mediated is ab/c = 1.2. Is this a problem?",
+      "expected_output": "Not necessarily a problem, but interpret cautiously. Proportion mediated > 1 can occur with suppression (opposite signs). Report ab and c separately with CIs. Consider reporting ab/SDY instead."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "scale-neg-01",
+      "prompt": "I reported β̃ = 0.60 for my dichotomous gender variable predicting income. A colleague said this is fine.",
+      "expected_output": "Flag as major error. β̃ for dichotomous X depends on group split and is not comparable across studies. Switch to unstandardized b (mean income difference) or bps = b/SDincome."
+    },
+    {
+      "id": "scale-neg-02",
+      "prompt": "I standardized all variables before running my mediation analysis because standardized effects are more scientific.",
+      "expected_output": "Flag as error. Unstandardized effects are most interpretable. Standardization can obscure the original metric. Only standardize when there is a clear reason (within-model comparison of continuous predictors)."
+    },
+    {
+      "id": "scale-neg-03",
+      "prompt": "My indirect effect ab = 0.15. I standardized it to β̃_ab = 0.25. My X was dichotomous. Is this okay?",
+      "expected_output": "Flag as major error. Completely standardized indirect effect with dichotomous X is unstable. Report unstandardized ab with CI, or partially standardized ab/SDY."
+    },
+    {
+      "id": "scale-neg-04",
+      "prompt": "I computed proportion mediated as ab/c = -0.40 and concluded that 40% of the effect is mediated in the opposite direction.",
+      "expected_output": "Flag as caution. Negative proportion mediated indicates suppression, not negative mediation percentage. This metric is not meaningful in suppression cases. Report ab and c separately with CIs."
+    },
+    {
+      "id": "scale-neg-05",
+      "prompt": "I compared β̃ values from two different regression models with different sets of predictors to see which model has stronger effects.",
+      "expected_output": "Flag as error. β̃ is model-specific because SDY is conditional on the predictors in the model. Comparing β̃ across non-nested models is invalid. Compare raw coefficients or use information criteria."
+    }
+  ]
+}

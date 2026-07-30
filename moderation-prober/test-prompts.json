@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "mod-01",
+      "prompt": "I found a significant interaction b3 = 0.15, p = .003 in my moderation model. W is continuous (age). How do I probe this?",
+      "expected_output": "Use Johnson–Neyman technique (jn=1 in PROCESS) or pick-a-point at mean ± 1 SD. Report conditional effects with CIs. Create simple slope plot."
+    },
+    {
+      "id": "mod-02",
+      "prompt": "My moderator W is dichotomous (sex: 0=female, 1=male). How do I probe the interaction?",
+      "expected_output": "Use pick-a-point at W=0 and W=1. Compute conditional effects θ = b1 + b3W at both levels. Report both with CIs. JN is inappropriate for dichotomous W."
+    },
+    {
+      "id": "mod-03",
+      "prompt": "I mean-centered X and W before computing the product. Does this change my interaction test?",
+      "expected_output": "No. Mean-centering does not change b3, its SE, t, p, or R². The interaction test is identical. Centering only changes interpretation of b1 and b2."
+    },
+    {
+      "id": "mod-04",
+      "prompt": "My JN analysis shows the conditional effect is significant when W < 2.3 or W > 7.8. How do I report this?",
+      "expected_output": "Report two regions of significance. The effect of X on Y is significant when W is below 2.3 or above 7.8, but not in between. Include JN plot showing transition points."
+    },
+    {
+      "id": "mod-05",
+      "prompt": "I want to probe my interaction at the 25th, 50th, and 75th percentiles of W. Is this valid?",
+      "expected_output": "Yes. Pick-a-point can use any meaningful values. Quartiles are a reasonable choice when mean ± 1 SD is not theoretically motivated. Justify your choice."
+    },
+    {
+      "id": "mod-06",
+      "prompt": "My conditional effect at W = low is b = 0.30, CI = [0.05, 0.55]. At W = high, b = 0.05, CI = [-0.15, 0.25]. How do I interpret?",
+      "expected_output": "X significantly predicts Y when W is low, but not when W is high. The positive interaction means the effect of X weakens as W increases."
+    },
+    {
+      "id": "mod-07",
+      "prompt": "Should I use hierarchical regression (enter X and W first, then XW) to test moderation?",
+      "expected_output": "No. Hierarchical entry is unnecessary. Simultaneous entry of X, W, and XW yields the exact same test of b3. Use simultaneous entry."
+    },
+    {
+      "id": "mod-08",
+      "prompt": "I have two moderators W and Z in my model. How do I probe a three-way interaction?",
+      "expected_output": "Probe conditional effects of X on Y at combinations of W and Z values (e.g., low/low, low/high, high/low, high/high). Report conditional effects table with CIs. Consider 3D plot."
+    },
+    {
+      "id": "mod-09",
+      "prompt": "My interaction b3 is significant but the conditional effect at mean W is not. Is this a contradiction?",
+      "expected_output": "No. The interaction tests whether slopes differ. The conditional effect at mean W tests whether the slope is non-zero at that specific point. They answer different questions. Report conditional effects at values where they are significant."
+    },
+    {
+      "id": "mod-10",
+      "prompt": "How do I create a simple slope plot for my moderation analysis?",
+      "expected_output": "Plot predicted Y against X at representative values of W (e.g., low, medium, high). Use PROCESS output for predicted values, or use interact_plot in R. Include observed data as background scatter if space permits."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "mod-neg-01",
+      "prompt": "I split my continuous moderator W into low and high groups using a median split, then ran t-tests in each group. Is this correct?",
+      "expected_output": "Flag as critical error. Median split discards information, produces biased estimates, and inflates Type I error. Use pick-a-point or Johnson–Neyman with continuous W instead."
+    },
+    {
+      "id": "mod-neg-02",
+      "prompt": "I mean-centered X and W because my advisor said I must do this to avoid multicollinearity problems. Is this necessary?",
+      "expected_output": "Flag as minor error/myth. Centering is not required for the interaction test. Modern software handles collinearity. Center only if it aids interpretation."
+    },
+    {
+      "id": "mod-neg-03",
+      "prompt": "I report β̃ = 0.45 for the effect of a dichotomous treatment variable (0=control, 1=treatment) on my outcome. Is this appropriate?",
+      "expected_output": "Flag as major error. Completely standardized coefficients for dichotomous X depend on group split and are not comparable across studies. Report unstandardized b or partially standardized bps = b/SDY."
+    },
+    {
+      "id": "mod-neg-04",
+      "prompt": "My interaction is not significant (p = .08). I probed it anyway and found a significant simple slope at low W. Can I report this?",
+      "expected_output": "Flag as caution. Probing a non-significant interaction is generally not recommended unless there is strong a priori theoretical reason. The simple slope significance may be a Type I error. Report with heavy caveats or do not report."
+    },
+    {
+      "id": "mod-neg-05",
+      "prompt": "I report the interaction coefficient b3 = 0.12, p = .02, and conclude that W moderates X's effect on Y. I do not report conditional effects.",
+      "expected_output": "Flag as major error. Testing the interaction is only Step 1. Step 2 is probing and reporting conditional effects with CIs. An interaction coefficient alone does not tell the reader when or how X relates to Y."
+    }
+  ]
+}

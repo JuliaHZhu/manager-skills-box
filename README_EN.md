@@ -37,6 +37,14 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **intentional-stance** | -- | Three-stances analysis (physical / institutional / game-theoretic) of the same phenomenon. From Dennett's Intuition Pumps Ch18. | Daniel Dennett |
 | **piling-on-detector** | -- | Detect rhetorical piling-on: multiple claims bundled so refuting one seems to defeat all. From Dennett's Intuition Pumps Ch9. | Daniel Dennett |
 | **reductio-ad-absurdum** | -- | Accept premises, push to absurdity, check for contradiction. From Dennett's Intuition Pumps Ch2. | Daniel Dennett |
+| **mediation-model-designer** | -- | Design simple, parallel, serial, and multicategorical mediation models from theoretical hypotheses. | Hayes (2022) |
+| **indirect-effect-inference** | -- | Bootstrap / Monte Carlo inference for indirect effects. Replaces obsolete Sobel test and causal steps. | Hayes (2022) |
+| **moderation-prober** | -- | Probe interactions with pick-a-point and Johnson-Neyman technique. Includes simple slope visualization. | Hayes (2022) |
+| **conditional-process-builder** | -- | Build conditional process (moderated mediation) models. Map conceptual diagrams to PROCESS model numbers. | Hayes (2022) |
+| **effect-scaling-guide** | -- | Effect scaling guide: choose and report unstandardized, completely standardized, or partially standardized coefficients. | Hayes (2022) |
+| **multicategorical-mediation** | -- | Mediation, moderation, and conditional process with 3+ group antecedents. Indicator / sequential / Helmert coding. | Hayes (2022) |
+| **process-model-reporter** | -- | Publication-ready results writing. Structured reporting from regression coefficients to full results paragraphs. | Hayes (2022) |
+| **antipattern-diagnostician** | -- | Diagnose common errors in mediation and moderation: Baron & Kenny, median splits, standardized dichotomous variables, etc. | Hayes (2022) |
 
 ## Design Philosophy
 

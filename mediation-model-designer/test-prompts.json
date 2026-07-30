@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "med-01",
+      "prompt": "I theorize that workplace stress (X) increases burnout (Y) through the mechanism of sleep quality (M). I have cross-sectional survey data with these three variables measured. Design a mediation model for me.",
+      "expected_output": "Simple mediation model with X=stress, M=sleep, Y=burnout. Equations: M=iM+aX+eM, Y=iY+c'X+bM+eY. Inference: bootstrap CI for ab. PROCESS model 4."
+    },
+    {
+      "id": "med-02",
+      "prompt": "My theory says that a leadership training program (X) improves team performance (Y) through both team cohesion (M1) and individual self-efficacy (M2), which operate simultaneously. What model should I use?",
+      "expected_output": "Parallel multiple mediator model with M1=cohesion, M2=self-efficacy. PROCESS model 4 with m=cohesion selfeff. Test specific indirect effects a1b1 and a2b2 with contrasts."
+    },
+    {
+      "id": "med-03",
+      "prompt": "I believe that social support (X) reduces depression (Y) by first increasing coping skills (M1), which then improves sleep quality (M2). Both are mechanisms in a chain. Design the model.",
+      "expected_output": "Serial multiple mediator model: X→M1→M2→Y. PROCESS model 6. Specific indirect effects include a1b1 (X→M1→Y), a2b2 (X→M2→Y), and a1d21b2 (X→M1→M2→Y)."
+    },
+    {
+      "id": "med-04",
+      "prompt": "In my experiment, participants are randomized to three conditions: control, low dose, and high dose of a supplement. I want to test whether inflammation (M) mediates the effect of dose on recovery speed (Y). How do I set this up?",
+      "expected_output": "Multicategorical X with g=3 groups. Use indicator coding with control as reference. Relative total/direct/indirect effects for low vs. control and high vs. control. PROCESS model 4 with xmodval=1."
+    },
+    {
+      "id": "med-05",
+      "prompt": "My total effect of X on Y is not significant (p = .12), but my path a (X→M) is significant and path b (M→Y) is significant. Should I stop and conclude no mediation?",
+      "expected_output": "No. Total effect significance is neither necessary nor sufficient. Test the indirect effect ab directly with bootstrap CI. If CI excludes zero, mediation exists despite non-significant total effect (possible suppression)."
+    },
+    {
+      "id": "med-06",
+      "prompt": "I have two mediators that I think compete: one positive and one negative. How do I test which one carries the effect?",
+      "expected_output": "Parallel multiple mediator model. Estimate specific indirect effects a1b1 and a2b2. Test contrast a1b1 - a2b2 with bootstrap CI. If contrast CI excludes zero, one mediator is significantly stronger than the other."
+    },
+    {
+      "id": "med-07",
+      "prompt": "My indirect effect ab is significant, but my direct effect c' is also significant and larger than the total effect c. Is this a problem?",
+      "expected_output": "No. This is suppression — a and b have opposite signs, making c' > c. It is a valid statistical pattern. Report both partial and complete mediation interpretations cautiously."
+    },
+    {
+      "id": "med-08",
+      "prompt": "I want to test whether perceived organizational support (X) reduces turnover intention (Y) through job satisfaction (M). I also have organizational tenure as a covariate. How do I include it?",
+      "expected_output": "Add tenure as covariate in all equations. In PROCESS: cov=tenure. Covariate appears in M equation and Y equation but is not part of the mediation path. Interpret indirect effect controlling for tenure."
+    },
+    {
+      "id": "med-09",
+      "prompt": "My sample size is n = 50. Is this enough for bootstrap inference of an indirect effect?",
+      "expected_output": "n=50 is small. Bootstrap CIs may be unstable. Increase bootstrap samples to 10,000. Consider Monte Carlo if SEs are reliable. Acknowledge limited power in interpretation."
+    },
+    {
+      "id": "med-10",
+      "prompt": "I ran a simple mediation and got ab = 0.35, 95% CI = [0.12, 0.58]. c' = 0.20, 95% CI = [0.01, 0.39]. What do I conclude?",
+      "expected_output": "Significant indirect effect (mediation exists). Significant direct effect (partial mediation). X affects Y both directly and through M. Report ab and c' with CIs."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "med-neg-01",
+      "prompt": "I used the Baron & Kenny four-step method and passed all steps. Is my mediation established?",
+      "expected_output": "Flag as critical error. Baron & Kenny is outdated. The causal steps procedure has low power and no direct test of ab. Reanalyze using bootstrap CI for the indirect effect."
+    },
+    {
+      "id": "med-neg-02",
+      "prompt": "My Sobel test z = 1.85, p = .06. Is my indirect effect marginally significant?",
+      "expected_output": "Flag as critical error. Sobel test assumes normality of ab, which is false. Do not use Sobel. Reanalyze with bootstrap CI. The indirect effect may or may not be significant — only bootstrap can tell."
+    },
+    {
+      "id": "med-neg-03",
+      "prompt": "I have a dichotomous outcome (yes/no). Can I use OLS mediation analysis?",
+      "expected_output": "Flag as boundary violation. OLS assumes continuous Y. For dichotomous Y, use logistic regression or structural equation modeling. This skill does not cover categorical outcomes."
+    },
+    {
+      "id": "med-neg-04",
+      "prompt": "My path a is significant but path b is not. I concluded there is no mediation. Is this correct?",
+      "expected_output": "Flag as major error. Joint significance is insufficient. The indirect effect ab could still be significant. Test ab directly with bootstrap CI before concluding no mediation."
+    },
+    {
+      "id": "med-neg-05",
+      "prompt": "I want to test whether a variable is both a mediator and a moderator in the same model simultaneously.",
+      "expected_output": "Flag as conceptual error. A variable cannot simultaneously serve as mediator and moderator in a single cross-sectional model without strong longitudinal or experimental justification. These are different theoretical roles. Redesign the conceptual model."
+    }
+  ]
+}

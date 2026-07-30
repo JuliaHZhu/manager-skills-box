@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "rep-01",
+      "prompt": "I have a simple mediation result: a=0.40, b=0.30, c'=0.20, c=0.32, ab=0.12, 95% CI=[0.03,0.22]. Write a results paragraph.",
+      "expected_output": "A paragraph stating: X predicted M (b=0.40, SE=..., p=...), M predicted Y controlling for X (b=0.30, SE=..., p=...). The indirect effect was ab=0.12, 95% BCa CI=[0.03,0.22]. The direct effect was c'=0.20, 95% CI=[...]. Because c' was significant, partial mediation."
+    },
+    {
+      "id": "rep-02",
+      "prompt": "My moderation analysis shows b3=0.15, p=.003. Conditional effects: low W: b=0.40, CI=[0.15,0.65]; high W: b=0.10, CI=[-0.10,0.30]. Write the moderation results.",
+      "expected_output": "Report interaction first: W significantly moderated X's effect on Y (b3=0.15, SE=..., p=.003). Probe results: X significantly predicted Y when W was low (b=0.40, 95% CI=[0.15,0.65]) but not when W was high (b=0.10, 95% CI=[-0.10,0.30]). Include simple slope plot reference."
+    },
+    {
+      "id": "rep-03",
+      "prompt": "I have a conditional process model. My conditional indirect effect is significant at low W but not at high W. What should my results section emphasize?",
+      "expected_output": "Emphasize the boundary condition. The mediation mechanism operates under certain conditions (low W) but not others (high W). Report conditional indirect effects table with CIs. Reference the conditional effect plot."
+    },
+    {
+      "id": "rep-04",
+      "prompt": "My journal requires effect sizes. What should I report for my mediation model?",
+      "expected_output": "Report ab/c (proportion mediated) if c is non-zero and meaningful. Report partially standardized effects (bps = b/SDY) for key paths. Include R² for each regression equation."
+    },
+    {
+      "id": "rep-05",
+      "prompt": "I have three mediators in parallel. How do I report the specific indirect effects concisely?",
+      "expected_output": "Use a table: columns for mediator, point estimate, SE, bootstrap CI. In text, highlight key findings: e.g., 'The indirect effect through M1 was significant (ab=0.15, CI=[0.05,0.28]), whereas effects through M2 and M3 were not.'"
+    },
+    {
+      "id": "rep-06",
+      "prompt": "My data are cross-sectional. How do I write the limitations paragraph?",
+      "expected_output": "Because data were collected at a single time point, causal ordering of X, M, and Y cannot be established. The results are consistent with the proposed causal process but do not prove it. Experimental or longitudinal designs would strengthen causal claims."
+    },
+    {
+      "id": "rep-07",
+      "prompt": "My conditional process model has many parameters. How do I keep the results section concise?",
+      "expected_output": "Focus on conditional indirect and direct effects with CIs. Put full regression tables in supplementary materials. In text, report only key path coefficients and the conditional effects table."
+    },
+    {
+      "id": "rep-08",
+      "prompt": "A reviewer asked me to report p-values for my bootstrap CIs. Should I?",
+      "expected_output": "CIs are sufficient and preferred. If the journal requires p-values, you can derive them from the CI (p < .05 if 95% CI excludes zero). But prioritize CIs as they convey more information."
+    },
+    {
+      "id": "rep-09",
+      "prompt": "I have a multicategorical X with 3 groups. How do I report relative indirect effects without making the section too long?",
+      "expected_output": "Report the two relative indirect effects in a single sentence: 'Relative to the control group, the indirect effect was significant for treatment A (ab=0.20, CI=[0.05,0.38]) but not for treatment B (ab=0.05, CI=[-0.08,0.18]).' Include full table if needed."
+    },
+    {
+      "id": "rep-10",
+      "prompt": "My plot shows the conditional indirect effect across W with confidence bands. How do I reference it in the text?",
+      "expected_output": "'As shown in Figure 2, the indirect effect of X on Y through M decreased as W increased, becoming non-significant when W exceeded approximately 4.5 (as indicated by the Johnson–Neyman point).'"
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "rep-neg-01",
+      "prompt": "I wrote my results section using only p-values and significance stars, with no confidence intervals.",
+      "expected_output": "Flag as major error. Modern reporting standards require CIs for indirect and conditional effects. p-values alone are insufficient. Add CIs for all key effects."
+    },
+    {
+      "id": "rep-neg-02",
+      "prompt": "I used causal language throughout my cross-sectional mediation paper: 'X caused Y through M.'",
+      "expected_output": "Flag as major error. Cross-sectional data cannot establish causation. Use tentative language: 'X was associated with Y through M,' 'results are consistent with,' or 'the data support the proposed mechanism.'"
+    },
+    {
+      "id": "rep-neg-03",
+      "prompt": "I only reported significant paths and omitted non-significant paths from my results section to save space.",
+      "expected_output": "Flag as error. Selective reporting of significant results is a form of p-hacking. Report all theoretically relevant paths, significant or not. Put full tables in supplementary materials if space is limited."
+    },
+    {
+      "id": "rep-neg-04",
+      "prompt": "My results section is a list of numbers with no narrative connecting them to the theory.",
+      "expected_output": "Flag as suboptimal. Results should tell a story. Each statistical finding should be connected to a theoretical prediction. Use transitions: 'Consistent with Hypothesis 1,' 'Contrary to expectations,' etc."
+    },
+    {
+      "id": "rep-neg-05",
+      "prompt": "I reported standardized coefficients for all paths including my dichotomous treatment variable, because the journal requires standardized effects.",
+      "expected_output": "Flag as major error. Push back on the journal requirement if possible. Explain that standardized coefficients for dichotomous X are methodologically inappropriate. Cite Hayes (2022). Offer partially standardized or unstandardized effects instead."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "anti-01",
+      "prompt": "A researcher used the Baron & Kenny 4-step method and concluded mediation exists because all four steps were met. Diagnose.",
+      "expected_output": "CRITICAL: Baron & Kenny is outdated. The causal steps procedure has low power, conflates partial correlation with mediation, and lacks a direct test of ab. Correct approach: estimate ab directly and test with bootstrap CI."
+    },
+    {
+      "id": "anti-02",
+      "prompt": "A paper reports a mediation analysis using the Sobel test with z = 2.5, p = .01. Diagnose.",
+      "expected_output": "CRITICAL: Sobel test assumes normality of ab sampling distribution, which is false. The p-value is not trustworthy. Correct approach: bias-corrected bootstrap CI for indirect effect."
+    },
+    {
+      "id": "anti-03",
+      "prompt": "A researcher mean-centered X and W before computing their product and claims this was necessary to avoid multicollinearity and get correct results. Diagnose.",
+      "expected_output": "MINOR: Centering is optional, not required. The interaction test (b3, SE, t, p, R²) is mathematically identical with or without centering. Centering aids interpretation but does not affect correctness."
+    },
+    {
+      "id": "anti-04",
+      "prompt": "A study splits a continuous moderator into low/medium/high tertiles and runs ANOVA in each group. Diagnose.",
+      "expected_output": "CRITICAL: Artificial categorization discards information, produces biased estimates, inflates Type I error, and yields arbitrary results. Correct approach: keep W continuous. Use pick-a-point or Johnson–Neyman."
+    },
+    {
+      "id": "anti-05",
+      "prompt": "A researcher reports β̃ = 0.50 for a dichotomous gender variable in a moderation analysis. Diagnose.",
+      "expected_output": "MAJOR: Completely standardized coefficients for dichotomous X depend on group split and are not comparable across studies. Correct approach: report unstandardized b or partially standardized bps = b/SDY."
+    },
+    {
+      "id": "anti-06",
+      "prompt": "A paper requires total effect significance (X-Y correlation) before testing mediation. The total effect was not significant, so they stopped. Diagnose.",
+      "expected_output": "CRITICAL: Total effect significance is neither necessary nor sufficient for mediation. Indirect effect can exist despite non-significant total effect (suppression). Correct approach: test ab directly with bootstrap CI regardless of total effect."
+    },
+    {
+      "id": "anti-07",
+      "prompt": "A researcher tests mediated moderation as their main contribution, arguing it explains why a moderation effect exists. Diagnose.",
+      "expected_output": "MAJOR: Mediated moderation is rarely theoretically interesting according to Hayes. The mechanism of moderation is usually not the research question. Consider whether moderated mediation (mediation process is moderated) is the actual question."
+    },
+    {
+      "id": "anti-08",
+      "prompt": "A paper reports conditional effects at low and high W but does not report their confidence intervals. Diagnose.",
+      "expected_output": "MAJOR: Conditional effect estimates without CIs are uninterpretable. A large conditional effect could be non-significant. Correct approach: always report conditional effect + 95% CI."
+    },
+    {
+      "id": "anti-09",
+      "prompt": "A researcher tried several PROCESS models and selected Model 14 because it produced the most significant indirect effect. Diagnose.",
+      "expected_output": "MAJOR: Model selection must be theory-driven, not data-driven. PROCESS models are not nested for standard comparison. Correct approach: draw conceptual diagram based on theory → match to model number → estimate once."
+    },
+    {
+      "id": "anti-10",
+      "prompt": "A cross-sectional mediation paper uses strong causal language: 'Our findings prove that X causes Y through M.' Diagnose.",
+      "expected_output": "MAJOR to CRITICAL depending on field norms: Cross-sectional data cannot prove causation. Causal claims require experimental manipulation, temporal precedence, or strong design features. Correct approach: use tentative language ('consistent with,' 'suggest that')."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "anti-neg-01",
+      "prompt": "A researcher used bootstrap CIs with 10,000 samples for their indirect effects and reported all effects with CIs. They used cautious causal language appropriate for their cross-sectional design. Diagnose.",
+      "expected_output": "PASS. No anti-patterns detected. Analysis appears sound. Minor suggestion: ensure covariates are justified theoretically."
+    },
+    {
+      "id": "anti-neg-02",
+      "prompt": "A paper uses pick-a-point at mean ± 1 SD, reports conditional effects with CIs, and includes a simple slope plot. They mean-centered X and W for interpretability but note it is optional. Diagnose.",
+      "expected_output": "PASS. No anti-patterns detected. Centering for interpretability is acceptable. Probing method is correct. Reporting is complete."
+    },
+    {
+      "id": "anti-neg-03",
+      "prompt": "A researcher reported completely standardized effects for all continuous variables in their model, avoided standardizing dichotomous X, and included partially standardized effects for comparison. Diagnose.",
+      "expected_output": "PASS. Effect scaling choices are appropriate. No anti-patterns detected."
+    },
+    {
+      "id": "anti-neg-04",
+      "prompt": "A conditional process paper reports the conceptual diagram, matched it to PROCESS Model 7, estimated conditional indirect effects with bootstrap CIs, and included a plot with confidence bands. Diagnose.",
+      "expected_output": "PASS. Analysis follows best practices. No anti-patterns detected."
+    },
+    {
+      "id": "anti-neg-05",
+      "prompt": "A mediation paper with an experimental design randomly assigned participants to X conditions, measured M after manipulation, and measured Y after M. They used bootstrap CIs and reported all paths with CIs. Diagnose.",
+      "expected_output": "PASS. Strong design + correct analysis. No anti-patterns detected. This is a model example of mediation analysis."
+    }
+  ]
+}

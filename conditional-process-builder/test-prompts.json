@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "cp-01",
+      "prompt": "My conceptual diagram shows X→M is moderated by W, but M→Y is not. Which PROCESS model do I use?",
+      "expected_output": "First-stage moderation → Model 7. Equations: M=iM+a1X+a2W+a3XW+eM; Y=iY+c'X+bM+eY. Conditional indirect effect = (a1+a3W)b."
+    },
+    {
+      "id": "cp-02",
+      "prompt": "I have a model where M→Y is moderated by W, but X→M is not. What model should I use?",
+      "expected_output": "Second-stage moderation → Model 14. Equations: M=iM+aX+eM; Y=iY+c'X+b1M+b2W+b3MW+eY. Conditional indirect effect = a(b1+b3W)."
+    },
+    {
+      "id": "cp-03",
+      "prompt": "Both X→M and M→Y are moderated by the same W. What is my conditional indirect effect function?",
+      "expected_output": "Model 8. Conditional indirect effect = (a1+a3W)(b1+b2W) = a1b1 + (a1b2+a3b1)W + a3b2W². This is a quadratic function of W. Probe at low, medium, high W values."
+    },
+    {
+      "id": "cp-04",
+      "prompt": "How do I test whether my indirect effect is significantly moderated?",
+      "expected_output": "Examine the bootstrap CI for the slope of the conditional indirect effect function. For Model 7, test a3b (index of moderated mediation). If CI excludes zero, moderated mediation is supported."
+    },
+    {
+      "id": "cp-05",
+      "prompt": "My conditional indirect effect is significant at low W but not at high W. What does this mean?",
+      "expected_output": "The mediation process operates when W is low but not when W is high. W is a boundary condition for the mechanism. Report conditional indirect effects with CIs and show plot."
+    },
+    {
+      "id": "cp-06",
+      "prompt": "I want to visualize my conditional indirect effect across the full range of W. How do I do this?",
+      "expected_output": "Plot conditional indirect effect (Y-axis) against W (X-axis). Add confidence bands. Mark regions of significance if using JN. PROCESS can generate data for this plot."
+    },
+    {
+      "id": "cp-07",
+      "prompt": "My conceptual diagram has two mediators M1 and M2 in parallel, and W moderates X→M1. Which PROCESS model handles this?",
+      "expected_output": "Model 85 (parallel multiple mediators with first-stage moderation of one path). If not pre-programmed, use Appendix B model customization."
+    },
+    {
+      "id": "cp-08",
+      "prompt": "Can I have different moderators for different paths? For example, W moderates X→M and Z moderates M→Y.",
+      "expected_output": "Yes. Model 17 or 18 in PROCESS. Conditional indirect effect = (a1+a3W)(b1+b2Z) = a1b1 + a1b2Z + a3b1W + a3b2WZ. This is a function of both W and Z."
+    },
+    {
+      "id": "cp-09",
+      "prompt": "I want to build a custom conditional process model not in the PROCESS catalog. How?",
+      "expected_output": "Use Appendix B model customization. Write custom equations for each consequent. Specify y=..., x=..., m=..., w=..., and define custom paths. This requires understanding the underlying regression equations."
+    },
+    {
+      "id": "cp-10",
+      "prompt": "My conditional process model has a direct effect that is also moderated by W. How does this affect interpretation?",
+      "expected_output": "Report both conditional indirect and conditional direct effects. The total effect is the sum of conditional direct and conditional indirect effects at each W value. Both may vary with W."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "cp-neg-01",
+      "prompt": "I tried several PROCESS models and picked the one with the most significant effects. Is this acceptable?",
+      "expected_output": "Flag as major error. Model selection must be theory-driven, not data-driven. PROCESS models are not nested for standard model comparison. Choose based on conceptual diagram."
+    },
+    {
+      "id": "cp-neg-02",
+      "prompt": "I found that my direct effect is moderated but my indirect effect is not. Should I still call this a conditional process model?",
+      "expected_output": "Flag as caution. This is a simple mediation model with moderated direct effect (not moderated mediation). It is technically a conditional process model but the mediation mechanism itself is not conditional. Be precise in terminology."
+    },
+    {
+      "id": "cp-neg-03",
+      "prompt": "My conditional indirect effect is a quadratic function of W. I probed it at mean ± 1 SD and reported linear trends. Is this okay?",
+      "expected_output": "Flag as error. A quadratic function cannot be summarized by linear trends alone. The effect may increase then decrease (or vice versa). Probe at multiple W values and show full curve."
+    },
+    {
+      "id": "cp-neg-04",
+      "prompt": "I have a significant interaction in my conditional process model but I only report the regression coefficients. I don't report conditional indirect effects.",
+      "expected_output": "Flag as major error. The interaction coefficient alone does not tell you whether or how the indirect effect is moderated. Always report conditional indirect effects with CIs."
+    },
+    {
+      "id": "cp-neg-05",
+      "prompt": "I believe my model shows mediated moderation: the moderation of X→Y by W is itself mediated through M. This is my main theoretical contribution.",
+      "expected_output": "Flag as caution. Mediated moderation is rarely theoretically interesting according to Hayes. Consider whether your research question is actually about moderated mediation (when the mediation process is moderated) rather than mediated moderation."
+    }
+  ]
+}

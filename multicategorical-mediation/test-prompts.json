@@ -1,0 +1,81 @@
+{
+  "positive_tests": [
+    {
+      "id": "multi-01",
+      "prompt": "I have three experimental conditions: control, treatment A, treatment B. I want to test whether self-esteem (M) mediates the effect of condition on well-being (Y). Which coding should I use?",
+      "expected_output": "Use indicator (dummy) coding with control as reference. Two codes: D1 (A vs control), D2 (B vs control). Relative indirect effects: ab for A vs control and ab for B vs control."
+    },
+    {
+      "id": "multi-02",
+      "prompt": "My groups are low, medium, and high dose of a drug. What coding is most appropriate?",
+      "expected_output": "Sequential coding is natural: D1 compares medium to low, D2 compares high to medium. Use if dose order is theoretically meaningful."
+    },
+    {
+      "id": "multi-03",
+      "prompt": "I want to compare each treatment group to the mean of all groups that come after it in a sequence. Which coding?",
+      "expected_output": "Helmert coding. Each code compares one group to the mean of all subsequent groups. Useful for cumulative or developmental comparisons."
+    },
+    {
+      "id": "multi-04",
+      "prompt": "My relative indirect effect for treatment A vs control is ab = 0.25, CI = [0.05, 0.45]. For treatment B vs control, ab = 0.10, CI = [-0.05, 0.25]. How do I interpret?",
+      "expected_output": "Treatment A has a significant indirect effect through M relative to control. Treatment B does not show significant mediation relative to control. The mechanism operates for A but not B."
+    },
+    {
+      "id": "multi-05",
+      "prompt": "I have a multicategorical X (3 groups) and a continuous moderator W. How do I test whether W moderates the effect of condition on Y?",
+      "expected_output": "Estimate model with X (2 codes) × W interactions. Test omnibus F for the set of interaction terms. If significant, probe conditional relative effects at values of W for each group comparison."
+    },
+    {
+      "id": "multi-06",
+      "prompt": "Can I do a conditional process analysis with a multicategorical X?",
+      "expected_output": "Yes. PROCESS models 2 and 3 handle multicategorical X in moderation. For conditional process, use models with xmodval=1. Relative conditional indirect effects compare each group to reference at values of moderator."
+    },
+    {
+      "id": "multi-07",
+      "prompt": "My reference group has only n = 8. Is this a problem?",
+      "expected_output": "Yes. Small reference group leads to unstable relative effects. Consider collapsing groups, using Bayesian methods, or choosing a different reference group with larger n."
+    },
+    {
+      "id": "multi-08",
+      "prompt": "I want to compare treatment A directly to treatment B, not to control. How?",
+      "expected_output": "Recode with A or B as reference. Or compute contrast: (relative effect for B vs control) − (relative effect for A vs control) = effect of B vs A. Test with bootstrap CI."
+    },
+    {
+      "id": "multi-09",
+      "prompt": "My omnibus F for the X × W interaction is significant, but none of the individual interaction terms are. What do I do?",
+      "expected_output": "The set of interactions as a whole is significant. Probe conditional relative effects anyway. The omnibus test has more power than individual tests. Report conditional effects at key W values."
+    },
+    {
+      "id": "multi-10",
+      "prompt": "I have 5 treatment groups. How many relative indirect effects will I have?",
+      "expected_output": "With indicator coding: g−1 = 4 relative indirect effects (each group vs reference). If you want all pairwise comparisons, there are g(g−1)/2 = 10 pairs. Use contrasts or recode reference group."
+    }
+  ],
+  "negative_tests": [
+    {
+      "id": "multi-neg-01",
+      "prompt": "I treated my 3-group condition variable as continuous (coded 1, 2, 3) and ran a mediation analysis. Is this okay?",
+      "expected_output": "Flag as critical error. Treating a categorical variable as continuous assumes equal intervals between groups, which is usually false. Use indicator coding and test relative effects properly."
+    },
+    {
+      "id": "multi-neg-02",
+      "prompt": "I used indicator coding but my reference group is one of the treatment groups, not the control. Is this a problem?",
+      "expected_output": "Flag as minor error. Not wrong statistically, but interpretation may be awkward. Relative effects compare groups to a treatment group rather than to control. Recode with control as reference if theoretically preferred."
+    },
+    {
+      "id": "multi-neg-03",
+      "prompt": "I have significant relative total effects for both groups but only one significant relative indirect effect. I concluded the other group has no effect on Y.",
+      "expected_output": "Flag as error. A non-significant relative indirect effect does not mean no effect. It means no evidence of mediation through the tested mechanism. The group may still have a significant direct effect."
+    },
+    {
+      "id": "multi-neg-04",
+      "prompt": "I want to test all 10 pairwise comparisons among my 5 groups without adjusting for multiple comparisons.",
+      "expected_output": "Flag as error. Multiple comparisons inflate familywise Type I error. Use Bonferroni or Holm correction. Alternatively, focus on theoretically planned comparisons only."
+    },
+    {
+      "id": "multi-neg-05",
+      "prompt": "My groups are naturally ordered (low, medium, high) but I used indicator coding because it is the default.",
+      "expected_output": "Flag as suboptimal. Indicator coding is not wrong, but sequential coding would be more theoretically informative for ordered groups. Consider switching to capture dose-response patterns."
+    }
+  ]
+}

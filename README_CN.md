@@ -37,6 +37,14 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **intentional-stance** | -- | 三视角分析同一现象：物理/制度/博弈。源自丹尼特《直觉泵》Ch18。 | Daniel Dennett |
 | **piling-on-detector** | -- | 检测"故意堆积"：多个主张打包，驳倒一个就当全驳倒。源自丹尼特《直觉泵》Ch9。 | Daniel Dennett |
 | **reductio-ad-absurdum** | -- | 接受前提，推到荒谬，检验矛盾。源自丹尼特《直觉泵》Ch2。 | Daniel Dennett |
+| **mediation-model-designer** | -- | 设计简单、并行、串行及多分类中介模型。从理论假设到统计方程与PROCESS模型选择。 | Hayes (2022) |
+| **indirect-effect-inference** | -- | Bootstrap / Monte Carlo 间接效应推断。取代过时的Sobel检验与因果步骤法。 | Hayes (2022) |
+| **moderation-prober** | -- | pick-a-point / Johnson–Neyman 交互探测。含条件效应可视化与简单斜率图。 | Hayes (2022) |
+| **conditional-process-builder** | -- | 构建条件过程（有调节的中介）模型。将概念图映射到PROCESS模型编号。 | Hayes (2022) |
+| **effect-scaling-guide** | -- | 效应量标准化指南：非标准化/完全标准化/部分标准化的选择与报告。 | Hayes (2022) |
+| **multicategorical-mediation** | -- | 多分类前因变量的中介、调节与条件过程分析。指示/顺序/Helmert编码。 | Hayes (2022) |
+| **process-model-reporter** | -- | 期刊标准结果写作。从回归系数到完整结果段落的结构化报告。 | Hayes (2022) |
+| **antipattern-diagnostician** | -- | 中介与调节分析常见误区诊断：Baron&Kenny、中位数分割、完全标准化二分类变量等。 | Hayes (2022) |
 
 ## 快速上手
 
