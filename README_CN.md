@@ -32,10 +32,11 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **hw-normalization-design** | -- | 四层归一化设计方法论：器件 → 单板 → 平台 → 网络架构。 | 华为硬件平台设计 |
 | **project-delay-prevention** | -- | 研发项目防拖延六步法：从用人到计划到跟踪到闭环。 | 华为研发管理实践 + 曾国藩识人用人 |
 | **topic-analysis-driven-design** | -- | 用"专题分析"取代"画图-调试-改版"，先电源/时钟/小系统，再动手画原理图。 | 华为硬件设计方法论 |
-| **reductio-ad-absurdum** | -- | 归谬法：接受对方前提，严格推理到底，检查是否出现逻辑矛盾。基于丹尼特《直觉泵》Ch2。 | 丹尼特哲学工具箱 |
-| **piling-on-detector** | -- | 检测"故意堆积"：把多个主张混在一起，驳倒一个就当全驳倒了。基于丹尼特《直觉泵》Ch9。 | 丹尼特哲学工具箱 |
-| **assumption-hunter** | -- | 跳出系统：找出论证中被默认的、可能错误的共同假设。基于丹尼特《直觉泵》Ch8。 | 丹尼特哲学工具箱 |
-| **intentional-stance** | -- | 意向立场：物理(事物/因果)、制度(权力/结构)、博弈(策略/盈亏)三视角分析。基于丹尼特《直觉泵》Ch18。 | 丹尼特哲学工具箱 |
+| **darwin-skill** | -- | 自主 Skill 优化器。9 维评分 rubric、定向优化、独立 judge agent、验证门控设计、可视化结果卡片。 | SkillLens (MSR) + SkillOpt + alchaincyf |
+| **assumption-hunter** | -- | 找出论证中被默认的隐藏假设。跳出系统（Jootsing），源自丹尼特《直觉泵》Ch8。 | Daniel Dennett |
+| **intentional-stance** | -- | 三视角分析同一现象：物理/制度/博弈。源自丹尼特《直觉泵》Ch18。 | Daniel Dennett |
+| **piling-on-detector** | -- | 检测"故意堆积"：多个主张打包，驳倒一个就当全驳倒。源自丹尼特《直觉泵》Ch9。 | Daniel Dennett |
+| **reductio-ad-absurdum** | -- | 接受前提，推到荒谬，检验矛盾。源自丹尼特《直觉泵》Ch2。 | Daniel Dennett |
 
 ## 快速上手
 
