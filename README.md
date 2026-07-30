@@ -29,6 +29,7 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **CodeGraph** | P1 | Parse codebases (Python/JS/TS/Java/Go/Rust/C/C++) via Tree-sitter, build a SQLite call graph. Blast radius analysis: "what breaks if I change X?" | Internal toolchain |
 | **WikiBrain** | P1 | Raw material → structured wiki. Parallel ingestion, frontmatter indexing, FTS5 search, dead-link detection, session feedback extraction. | Internal toolchain |
 | **NeatFreak** | P2 | Aggregate quality signals from all lower layers. Three safe modes: Scan (read-only), Fix (deterministic repairs), Clean (agent-supervised). | Internal toolchain |
+| **hw-normalization-design** | — | Four-layer normalization methodology: component -> board -> platform -> network architecture. | Huawei hardware platform design |
 | **project-delay-prevention** | — | Six-step anti-procrastination system for complex projects: team-building, assessment, decomposition, monitoring, coaching, and closed-loop tracking. | Huawei R&D management practice + Zeng Guofan's personnel philosophy |
 | **topic-analysis-driven-design** | — | Replace "draw-debug-redraw" loops with mandatory topic analyses (power, clock, subsystem) before any design work begins. | Huawei hardware design methodology |
 

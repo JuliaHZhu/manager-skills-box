@@ -21,14 +21,17 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 
 上层依赖下层。P0 是基石——所有文件操作都经过它。P1 在基础上构建能力。P2 跨层治理。
 
-## 四个 Skill
+## Skills
 
-| Skill | 层级 | 职责 |
-|-------|------|------|
-| **FileStates** | P0 | 每次写入自动快照、支持回滚。按角色标注文件（source/test/doc/config）。计划模式：创建、追踪、验收任务计划。 |
-| **CodeGraph** | P1 | 用 Tree-sitter 解析代码（Python/JS/TS/Java/Go/Rust/C/C++），构建 SQLite 调用图谱。影响范围分析："改了 X 会波及哪些模块？" |
-| **WikiBrain** | P1 | 原始资料 → 结构化 wiki。并行摄入、frontmatter 索引、FTS5 全文搜索、死链检测、会话反馈提炼。 |
-| **NeatFreak** | P2 | 聚合所有底层的质量信号。三种安全模式：Scan（只读检测）、Fix（确定性修复）、Clean（agent 监督下深度清理）。 |
+| Skill | 层级 | 职责 | 来源 |
+|-------|------|------|------|
+| **FileStates** | P0 | 每次写入自动快照、支持回滚。按角色标注文件（source/test/doc/config）。计划模式：创建、追踪、验收任务计划。 | 内部工具链 |
+| **CodeGraph** | P1 | 用 Tree-sitter 解析代码（Python/JS/TS/Java/Go/Rust/C/C++），构建 SQLite 调用图谱。影响范围分析："改了 X 会波及哪些模块？" | 内部工具链 |
+| **WikiBrain** | P1 | 原始资料 → 结构化 wiki。并行摄入、frontmatter 索引、FTS5 全文搜索、死链检测、会话反馈提炼。 | 内部工具链 |
+| **NeatFreak** | P2 | 聚合所有底层的质量信号。三种安全模式：Scan（只读检测）、Fix（确定性修复）、Clean（agent 监督下深度清理）。 | 内部工具链 |
+| **hw-normalization-design** | -- | 四层归一化设计方法论：器件 → 单板 → 平台 → 网络架构。 | 华为硬件平台设计 |
+| **project-delay-prevention** | -- | 研发项目防拖延六步法：从用人到计划到跟踪到闭环。 | 华为研发管理实践 + 曾国藩识人用人 |
+| **topic-analysis-driven-design** | -- | 用"专题分析"取代"画图-调试-改版"，先电源/时钟/小系统，再动手画原理图。 | 华为硬件设计方法论 |
 
 ## 快速上手
 

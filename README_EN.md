@@ -2,21 +2,36 @@
 
 A curated collection of agent skills distilled from real-world management and engineering practices -- not theory, but battle-tested playbooks.
 
----
+## Architecture
+
+```
++-----------------------------------------------------+
+|  P2  NeatFreak     Quality Governance               |
+|       Scan / Fix / Clean -> safety-gated             |
++-----------------------------------------------------+
+|  P1  CodeGraph     Code Structure                   |
+|       AST -> SQLite graph -> blast radius             |
+|  P1  WikiBrain     Knowledge Engine                 |
+|       Ingest -> Compile -> Index -> Query              |
++-----------------------------------------------------+
+|  P0  FileStates    Foundation Layer                 |
+|       Snapshot / Rollback / Plan / Role tracking    |
++-----------------------------------------------------+
+```
+
+Higher layers depend on lower ones. P0 is the bedrock -- every file operation flows through it. P1 layers build capability on top. P2 governs across all layers.
 
 ## Skills
 
-| Skill | Description | Source |
-|-------|-------------|--------|
-| **project-delay-prevention** | Six-step anti-procrastination system for complex projects: team-building, assessment, decomposition, monitoring, coaching, and closed-loop tracking. | Huawei R&D management practice + Zeng Guofan's personnel philosophy |
-| **topic-analysis-driven-design** | Replace "draw-debug-redraw" loops with mandatory topic analyses (power, clock, subsystem) before any design work begins. | Huawei hardware design methodology |
-| **hw-normalization-design** | Four-layer normalization methodology: component -> board -> platform -> network architecture. | Huawei hardware platform design |
-| **filestates** | Lightweight file-state tracking with snapshot, plan, and archive management for project artifacts. | Internal toolchain |
-| **codegraph** | Code dependency graph analysis with blast-radius indexing for refactoring and review. | Internal toolchain |
-| **wikibrain** | Structured knowledge-base indexing with concept/entity pages and session extraction. | Internal toolchain |
-| **neatfreak** | Automated workspace cleanup with safety rules, pattern matching, and archival reporting. | Internal toolchain |
-
----
+| Skill | Layer | Responsibility | Source |
+|-------|-------|---------------|--------|
+| **FileStates** | P0 | Track every file write with snapshots and rollback. Tag files by role (source/test/doc/config). Plan-mode: create, track, and verify task plans. | Internal toolchain |
+| **CodeGraph** | P1 | Parse codebases (Python/JS/TS/Java/Go/Rust/C/C++) via Tree-sitter, build a SQLite call graph. Blast radius analysis: "what breaks if I change X?" | Internal toolchain |
+| **WikiBrain** | P1 | Raw material -> structured wiki. Parallel ingestion, frontmatter indexing, FTS5 search, dead-link detection, session feedback extraction. | Internal toolchain |
+| **NeatFreak** | P2 | Aggregate quality signals from all lower layers. Three safe modes: Scan (read-only), Fix (deterministic repairs), Clean (agent-supervised). | Internal toolchain |
+| **hw-normalization-design** | -- | Four-layer normalization methodology: component -> board -> platform -> network architecture. | Huawei hardware platform design |
+| **project-delay-prevention** | -- | Six-step anti-procrastination system for complex projects: team-building, assessment, decomposition, monitoring, coaching, and closed-loop tracking. | Huawei R&D management practice + Zeng Guofan's personnel philosophy |
+| **topic-analysis-driven-design** | -- | Replace "draw-debug-redraw" loops with mandatory topic analyses (power, clock, subsystem) before any design work begins. | Huawei hardware design methodology |
 
 ## Design Philosophy
 
@@ -26,7 +41,60 @@ Each skill follows three principles:
 2. **Scenario demos enrich coverage** -- A skill becomes more useful when it carries cross-domain demos (film crews, novel writing, brand planning, course design) mapped onto the same underlying steps.
 3. **Actionable, not academic** -- Every skill must answer "What do I do Monday morning?" not just "What is the theory?"
 
----
+Additional engineering principles:
+
+- **Layered, not monolithic.** Each skill does one thing and depends downward.
+- **Safety-gated.** NeatFreak has three explicit modes; destructive operations require agent confirmation.
+- **Index once, query many.** CodeGraph and WikiBrain both build SQLite FTS5 indexes for fast retrieval.
+- **Agent-native.** Designed for AI agents to use as tools -- CLI interfaces, structured output, self-contained dependencies.
+
+## Quick Start
+
+```bash
+git clone https://github.com/JuliaHZhu/manager-skills-box.git
+cd manager-skills-box
+```
+
+Each skill is self-contained under its own directory with a `SKILL.md` reference, `scripts/`, and supporting files.
+
+### Initialize & Index
+
+```bash
+# Foundation: track your workspace files
+python filestates/scripts/cli.py plan new my-task --objective="Build feature X" --goal-kind=feature
+
+# Code: index your source tree
+python codegraph/scripts/cli.py init
+python codegraph/scripts/cli.py index ./src
+
+# Knowledge: build a wiki from raw materials
+python wikibrain/scripts/cli.py init
+python wikibrain/scripts/cli.py ingest paper.pdf --category papers
+python wikibrain/scripts/cli.py index
+
+# Govern: scan for issues across all layers
+python neatfreak/scripts/cli.py scan
+```
+
+### Key Commands
+
+```bash
+# FileStates -- never write directly again
+python filestates/scripts/cli.py fs_write path/to/file.py "content" source
+python filestates/scripts/cli.py fs_rewind path/to/file.py 1   # undo last write
+
+# CodeGraph -- understand your codebase
+python codegraph/scripts/cli.py search "function_name"
+python codegraph/scripts/cli.py blast "critical_function" 200
+
+# WikiBrain -- query your knowledge
+python wikibrain/scripts/cli.py query "research question" 10
+python wikibrain/scripts/cli.py lint
+
+# NeatFreak -- keep it clean
+python neatfreak/scripts/cli.py report
+python neatfreak/scripts/cli.py fix --apply
+```
 
 ## Usage
 
@@ -38,8 +106,6 @@ clawhub install <skill-name>
 ```
 
 Or copy the `SKILL.md` and supporting files directly into your agent's skills directory.
-
----
 
 ## License
 
