@@ -32,6 +32,10 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **hw-normalization-design** | — | Four-layer normalization methodology: component -> board -> platform -> network architecture. | Huawei hardware platform design |
 | **project-delay-prevention** | — | Six-step anti-procrastination system for complex projects: team-building, assessment, decomposition, monitoring, coaching, and closed-loop tracking. | Huawei R&D management practice + Zeng Guofan's personnel philosophy |
 | **topic-analysis-driven-design** | — | Replace "draw-debug-redraw" loops with mandatory topic analyses (power, clock, subsystem) before any design work begins. | Huawei hardware design methodology |
+| **reductio-ad-absurdum** | — | Reductio ad absurdum: accept opponent's premise, derive strict logical consequences, check for contradictions. Based on Dennett's *Intuition Pumps* Ch2. | Dennett's philosophical toolkit |
+| **piling-on-detector** | — | Detect "piling on": bundled claims where refuting one is treated as refuting all. Based on Dennett's *Intuition Pumps* Ch9. | Dennett's philosophical toolkit |
+| **assumption-hunter** | — | Step outside the system: find shared assumptions that may be wrong. Based on Dennett's *Intuition Pumps* Ch8. | Dennett's philosophical toolkit |
+| **intentional-stance** | — | Three analytical stances: physical (cause/effect), institutional (power/structure), strategic (game theory/payoff). Based on Dennett's *Intuition Pumps* Ch18. | Dennett's philosophical toolkit |
 
 ## Design Philosophy
 
