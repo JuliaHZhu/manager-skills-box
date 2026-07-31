@@ -1,0 +1,41 @@
+{
+  "skill": "iatrogenics-principle",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "产品好像少了点什么，要不要再加一个功能？",
+      "expected_behavior": "调用 iatrogenics-principle，评估加功能的副作用",
+      "notes": "正面场景: 产品功能膨胀"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "医生建议手术，但我想知道不手术会怎样",
+      "expected_behavior": "调用 iatrogenics-principle，评估手术的医源性风险",
+      "notes": "正面场景: 医疗决策"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一段SQL查询",
+      "expected_behavior": "纯技术问题，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我想系统性地审查一下推出新政策的流程",
+      "expected_behavior": "应调用 intervention-threshold-test——这是操作化审查协议",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "着火了，要不要打119？",
+      "expected_behavior": "不应调用——紧急救命场景，不行动的代价明确大于行动",
+      "notes": "边界: 紧急救命"
+    }
+  ]
+}

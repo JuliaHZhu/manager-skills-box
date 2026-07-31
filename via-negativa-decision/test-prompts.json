@@ -1,0 +1,41 @@
+{
+  "skill": "via-negativa-decision",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我在纠结选哪个项目，每个看起来都不错，越分析越乱",
+      "expected_behavior": "调用 via-negativa-decision，通过减法消除最坏选项",
+      "notes": "正面场景: 选项过多正向分析失效"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我想做减法，但不知道该砍掉哪些产品线",
+      "expected_behavior": "调用 via-negativa-decision，识别并消除脆弱/有害选项",
+      "notes": "正面场景: 主动减法"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我生成一段Python代码",
+      "expected_behavior": "纯技术问题，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我在考虑推出一个新功能，有什么风险？",
+      "expected_behavior": "应调用 intervention-threshold-test 或 iatrogenics-principle",
+      "notes": "跨skill混淆: 干预场景"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "团队brainstorm新产品idea，怎么筛选？",
+      "expected_behavior": "不应调用——创意发散阶段需要先加法再减法，过早否定会扼杀创新",
+      "notes": "边界: 创意发散阶段"
+    }
+  ]
+}

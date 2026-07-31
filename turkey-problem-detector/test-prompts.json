@@ -1,0 +1,48 @@
+{
+  "positive": [
+    {
+      "prompt": "我们公司过去10年每年都实现20%增长，明年目标定25%应该很合理吧？",
+      "expected_behavior": "激活 turkey-problem-detector，指出这是典型的火鸡问题（基于历史数据的线性外推），追问极端斯坦检验和屠宰者视角",
+      "why": "直接用历史增长率外推未来，是火鸡问题的经典形式"
+    },
+    {
+      "prompt": "我们的风控模型基于过去5年的历史数据训练，回测表现非常好，可以上线了吧？",
+      "expected_behavior": "激活 turkey-problem-detector 和 gaussian-illusion-detector，指出历史回测在极端斯坦中的局限性，追问第1001天效应",
+      "why": "金融模型回测是典型的反向学习陷阱"
+    },
+    {
+      "prompt": "根据过去的数据，房价每7年翻一番，我现在买房是安全的吧？",
+      "expected_behavior": "激活 turkey-problem-detector，追问：什么条件会让这个规律失效？2008年发生了什么？你在哪个国度（平均斯坦还是极端斯坦）？",
+      "why": "房地产在某些时期表现出规律，但极端事件（金融危机）会打破一切"
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "根据牛顿定律，一个10kg的物体在重力加速度下下落1秒后的速度是多少？",
+      "expected_behavior": "不激活 turkey-problem-detector，直接计算",
+      "why": "物理定律在地球表面是稳定的归纳"
+    },
+    {
+      "prompt": "火鸡问题是谁提出的？",
+      "expected_behavior": "不激活 turkey-problem-detector，直接回答事实性问题",
+      "why": "纯信息查询，无决策含义"
+    },
+    {
+      "prompt": "我想用杠铃策略配置资产，你觉得怎样？",
+      "expected_behavior": "不激活 turkey-problem-detector，激活 barbell-strategy",
+      "why": "用户已经在执行应对策略，不是在用归纳做预测"
+    }
+  ],
+  "edge_cases": [
+    {
+      "prompt": "我已经用同一个交易策略做了1000笔交易，胜率65%，现在加大杠杆应该没问题吧？",
+      "expected_behavior": "激活 turkey-problem-detector，但需要 nuanced：交易次数多 ≠ 规律稳定，追问每笔交易的独立性、市场结构变化、杠杆对第1001天效应的放大",
+      "why": "高频交易数据量大，但市场结构变化可能是真正的第1001天"
+    },
+    {
+      "prompt": "我们公司从未发生过安全事故，所以我们的安全管理做得很好。",
+      "expected_behavior": "激活 turkey-problem-detector 和 silent-evidence-analyzer，追问：有没有可能你只是在成为火鸡？沉默的证据在哪里？",
+      "why": "零事故可能是运气好，而非管理好"
+    }
+  ]
+}

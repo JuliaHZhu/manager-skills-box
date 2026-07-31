@@ -1,0 +1,41 @@
+{
+  "skill": "optionality-evaluation",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我有两个offer，一个稳定但上限低，一个不确定但可能翻转，怎么选？",
+      "expected_behavior": "调用 optionality-evaluation，评估两个offer的可选择性",
+      "notes": "正面场景: 职业选择"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这个创业项目失败了会怎样？成功了又能赚多少？",
+      "expected_behavior": "调用 optionality-evaluation，分析该项目的期权结构",
+      "notes": "正面场景: 创业评估"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "Redis的持久化机制是什么？",
+      "expected_behavior": "纯技术问题，不应调用",
+      "notes": "诱饵: 非决策场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我有100万，该怎么分配投资？",
+      "expected_behavior": "应调用 barbell-strategy——这是组合分配而非单元评估",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想辞职all in创业，但老婆怀孕了",
+      "expected_behavior": "可调用，但需结合 skin-in-the-game 和 barbell-strategy 综合判断",
+      "notes": "边界: 高风险决策涉及家庭责任"
+    }
+  ]
+}

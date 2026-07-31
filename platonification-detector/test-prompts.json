@@ -1,0 +1,48 @@
+{
+  "positive": [
+    {
+      "prompt": "根据波特五力模型分析，这个行业的竞争格局很清晰，进入壁垒高，我们可以放心投资。",
+      "expected_behavior": "激活 platonification-detector，追问：五力模型的假设（理性参与者、可预测的竞争）在现实中成立吗？有没有被模型归类为'异常'但实际改变格局的事件？",
+      "why": "用经典战略模型做投资决策，是典型的柏拉图化"
+    },
+    {
+      "prompt": "我们把客户分为高端、中端、低端三个市场，分别制定策略。",
+      "expected_behavior": "激活 platonification-detector，追问：这种分类是否忽略了中间的模糊地带？客户是否真的会按你的分类行动？有没有被归入'低端'但实际高价值的客户？",
+      "why": "人为分类是概念柏拉图化的典型"
+    },
+    {
+      "prompt": "根据我们的计量经济学模型，GDP明年增长3.5%，通胀2%，所以我们应该这样配置资产。",
+      "expected_behavior": "激活 platonification-detector 和 gaussian-illusion-detector，追问：模型的假设（结构稳定、线性关系）是否成立？历史上模型预测准确度如何？",
+      "why": "宏观计量模型是社会科学的柏拉图化重灾区"
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "三角形的内角和是多少？",
+      "expected_behavior": "不激活 platonification-detector，直接回答180度",
+      "why": "数学形式本身就是柏拉图形式，适用"
+    },
+    {
+      "prompt": "用有限元分析这个桥梁结构的应力分布。",
+      "expected_behavior": "不激活 platonification-detector，直接进行工程分析",
+      "why": "工程领域中模型经过验证，是有效的"
+    },
+    {
+      "prompt": "模型的局限性有哪些？",
+      "expected_behavior": "不激活 platonification-detector（用户已经在讨论局限性），直接回答",
+      "why": "用户已经超越柏拉图化阶段"
+    }
+  ],
+  "edge_cases": [
+    {
+      "prompt": "我们用人格测试（MBTI/大五人格）筛选候选人，数据显示INTJ型的人表现更好。",
+      "expected_behavior": "激活 platonification-detector，但需要 nuanced：人格分类是概念柏拉图化，追问测试的效度、分类边界的模糊性、是否忽略了人格的动态变化",
+      "why": "心理学分类是柏拉图化的灰色地带"
+    },
+    {
+      "prompt": "根据历史数据，我们可以用蒙特卡洛模拟预测项目完成时间。",
+      "expected_behavior": "激活 platonification-detector（如果涉及复杂项目）或正常使用（如果是简单重复性项目），需要根据项目类型判断",
+      "why": "蒙特卡洛本身是中性的，关键在于输入分布是否柏拉图化"
+    }
+  ]
+}

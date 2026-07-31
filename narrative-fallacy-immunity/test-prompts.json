@@ -1,0 +1,41 @@
+{
+  "skill": "narrative-fallacy-immunity",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我读了某成功企业家的传记，想复制他的成功路径",
+      "expected_behavior": "调用 narrative-fallacy-immunity，提醒叙述谬误和幸存者偏差",
+      "notes": "正面场景: 成功学故事"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "专家说这个策略过去10年年化15%，推荐我也用",
+      "expected_behavior": "调用 narrative-fallacy-immunity，质疑事后归因和选择偏差",
+      "notes": "正面场景: 专家历史业绩"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个故事大纲",
+      "expected_behavior": "不应调用——叙述本身就是创作目的",
+      "notes": "诱饵: 创意写作"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个新出的技术框架值得学吗？",
+      "expected_behavior": "应调用 lindy-filter——这是时间筛选而非故事批判",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "历史老师说二战爆发的原因分析",
+      "expected_behavior": "不应调用——历史叙事是史学家的工作，不是决策谬误",
+      "notes": "边界: 历史研究"
+    }
+  ]
+}

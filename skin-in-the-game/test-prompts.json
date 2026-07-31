@@ -1,0 +1,41 @@
+{
+  "skill": "skin-in-the-game",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个理财顾问推荐的产品可信吗？",
+      "expected_behavior": "调用 skin-in-the-game，评估顾问是否有切身利益",
+      "notes": "正面场景: 评估建议可信度"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "他说这个项目稳赚，但我有点怀疑",
+      "expected_behavior": "调用 skin-in-the-game，检查对方是否承担下行风险",
+      "notes": "正面场景: 评估承诺可信度"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "HTTP 404是什么意思？",
+      "expected_behavior": "纯技术问题，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我感觉这个行业快不行了",
+      "expected_behavior": "应调用 fat-tony-heuristic——这是识别脆弱性而非评估可信度",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我推荐一本好书",
+      "expected_behavior": "不应调用——图书推荐不涉及判断/承诺，是纯信息查询",
+      "notes": "边界: 纯信息推荐"
+    }
+  ]
+}

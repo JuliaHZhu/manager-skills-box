@@ -1,0 +1,41 @@
+{
+  "skill": "triad-classification",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想评估一下我的职业结构——如果行业波动，我会怎么样？",
+      "expected_behavior": "调用 triad-classification，将用户的职业结构分类为脆弱/强韧/反脆弱",
+      "notes": "正面场景: 评估系统抗压能力"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "帮我分析一下这个商业模式是脆弱的还是反脆弱的",
+      "expected_behavior": "调用 triad-classification，分析商业模式的三元结构",
+      "notes": "正面场景: 商业模式分析"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "Python里怎么写循环？",
+      "expected_behavior": "纯技术问题，不应调用任何决策skill",
+      "notes": "诱饵: 非决策场景"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我手里有50万，该怎么分配投资？",
+      "expected_behavior": "应调用 barbell-strategy 而非 triad-classification",
+      "notes": "跨skill混淆: 资源分配场景属于杠铃策略"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想知道我的性格是内向还是外向",
+      "expected_behavior": "不应调用——三元结构不适用于心理学人格分类",
+      "notes": "边界: 非功能性/结构性评估"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "positive": [
+    {
+      "prompt": "我看报道说创业成功率有10%，好像也没那么难？",
+      "expected_behavior": "激活 silent-evidence-analyzer，追问：这10%的分母是什么？破产的公司被计算了吗？沉默的证据在哪里？实际成功率可能远低于10%",
+      "why": "媒体报道的成功率通常忽略了大量沉默的失败者"
+    },
+    {
+      "prompt": "比尔·盖茨辍学创业成功了，我是不是也应该辍学？",
+      "expected_behavior": "激活 silent-evidence-analyzer，追问：有多少辍学创业的人失败了？比尔·盖茨的家世、时机、运气是否被忽略？成功者偏差严重",
+      "why": "只看到一个成功案例，忽略了海量的沉默失败"
+    },
+    {
+      "prompt": "我们药物的临床试验显示治愈率90%，可以大规模推广了吧？",
+      "expected_behavior": "激活 silent-evidence-analyzer，追问：试验排除了哪些人群？副作用致死案例是否被充分报告？未发表的研究在哪里？",
+      "why": "医药领域是沉默证据的重灾区"
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "掷骰子出现6的概率是多少？",
+      "expected_behavior": "不激活 silent-evidence-analyzer，直接回答1/6",
+      "why": "完整已知样本空间，无沉默证据"
+    },
+    {
+      "prompt": "帮我分析一下幸存者偏差的定义和案例。",
+      "expected_behavior": "不激活 silent-evidence-analyzer（用户已经知道概念），直接解释",
+      "why": "用户明确讨论概念本身"
+    },
+    {
+      "prompt": "今天天气怎么样？",
+      "expected_behavior": "不激活任何黑天鹅技能",
+      "why": "无决策含义的日常问题"
+    }
+  ],
+  "edge_cases": [
+    {
+      "prompt": "我们分析了市场上所有存活了10年以上的公司，发现它们都有X特征，所以我们应该学习X。",
+      "expected_behavior": "激活 silent-evidence-analyzer，追问：那些同样有X特征但在5年内倒闭的公司呢？X是因果还是相关？存活者偏差严重",
+      "why": "经典的后向选择偏差：只分析存活者"
+    },
+    {
+      "prompt": "这个基金经理过去10年年化收益20%，能力很强吧？",
+      "expected_behavior": "激活 silent-evidence-analyzer，追问：同期有多少基金经理失败了？20%的收益是否来自运气？如果考虑所有同时起步的基金，幸存者有多少？",
+      "why": "基金行业是沉默证据的典型：只宣传成功者"
+    }
+  ]
+}

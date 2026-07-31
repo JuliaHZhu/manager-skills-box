@@ -1,0 +1,48 @@
+{
+  "positive": [
+    {
+      "prompt": "我们用VaR模型计算了，99%置信度下最大日亏损不超过2%，风险可控。",
+      "expected_behavior": "激活 gaussian-illusion-detector，追问：VaR基于什么分布假设？99%置信度在极端斯坦中意味着什么？2008年VaR模型说了什么？",
+      "why": "VaR是钟形曲线幻觉的典型代表"
+    },
+    {
+      "prompt": "根据历史数据，这只股票的年化波动率（标准差）是15%，属于低风险。",
+      "expected_behavior": "激活 gaussian-illusion-detector，追问：标准差在存在跳跃性变化的市场中有意义吗？最大的单次跌幅是多少？是否远超'3σ事件'？",
+      "why": "用标准差衡量股票风险是典型的误用"
+    },
+    {
+      "prompt": "我们的风控系统显示，在95%置信区间下，最坏情况损失是X。",
+      "expected_behavior": "激活 gaussian-illusion-detector 和 turkey-problem-detector，追问：置信区间基于什么假设？历史上是否发生过超出'最坏情况'的事件？",
+      "why": "置信区间给人精确量化风险的幻觉"
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "人类成年男性的身高服从正态分布，均值170cm，标准差7cm，请问身高超过185cm的比例是多少？",
+      "expected_behavior": "不激活 gaussian-illusion-detector，直接计算",
+      "why": "身高是平均斯坦，高斯适用"
+    },
+    {
+      "prompt": "帮我推导正态分布的概率密度函数。",
+      "expected_behavior": "不激活 gaussian-illusion-detector，直接推导",
+      "why": "纯数学推导"
+    },
+    {
+      "prompt": "我想了解幂律分布和高斯分布的区别。",
+      "expected_behavior": "不激活 gaussian-illusion-detector（用户已经知道两者的区别），直接解释",
+      "why": "用户已经超越幻觉阶段"
+    }
+  ],
+  "edge_cases": [
+    {
+      "prompt": "我们在做芯片制造的良率控制，用3σ原则管理生产偏差，同时也在做投资评估。",
+      "expected_behavior": "分别分析：制造良率控制（平均斯坦，3σ基本可用）vs. 投资评估（极端斯坦，3σ不可用），指出不能混用",
+      "why": "同一组织内不同业务需要不同统计工具"
+    },
+    {
+      "prompt": "气候变化模型预测未来100年平均升温2度，这个预测可靠吗？",
+      "expected_behavior": " nuanced：气候系统是复杂系统，模型有柏拉图化风险，但长期物理趋势（温室效应）有科学依据。需要区分"物理趋势"和"精确预测"，指出模型在局部/短期预测的局限性",
+      "why": "边界案例：有物理基础但仍存在模型风险"
+    }
+  ]
+}

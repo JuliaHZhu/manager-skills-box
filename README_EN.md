@@ -45,6 +45,31 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **multicategorical-mediation** | -- | Mediation, moderation, and conditional process with 3+ group antecedents. Indicator / sequential / Helmert coding. | Hayes (2022) |
 | **process-model-reporter** | -- | Publication-ready results writing. Structured reporting from regression coefficients to full results paragraphs. | Hayes (2022) |
 | **antipattern-diagnostician** | -- | Diagnose common errors in mediation and moderation: Baron & Kenny, median splits, standardized dichotomous variables, etc. | Hayes (2022) |
+| **triad-classification** | -- | Classify anything into Fragile / Robust / Antifragile triad. How it behaves under volatility, pressure, disorder. | Taleb -- *Antifragile* |
+| **fragility-diagnosis-checklist** | -- | 10-question rapid fragility check for systems, strategies, careers, investments. | Taleb -- *Antifragile* |
+| **barbell-strategy** | -- | Allocate resources to extreme safety + extreme risk, discard the middle. Portfolio, career, learning path design. | Taleb -- *Antifragile* |
+| **convexity-spotting** | -- | Judge if a payoff structure is convex (limited loss, unlimited gain, volatility-friendly) or concave. | Taleb -- *Antifragile* |
+| **optionality-evaluation** | -- | Assess whether an option has "free optionality" -- limited downside, unlimited upside, no precise prediction needed. | Taleb -- *Antifragile* |
+| **fat-tony-heuristic** | -- | Don't predict the future; identify who is fragile right now. Switch from forecasting to fragility detection. | Taleb -- *Antifragile* |
+| **via-negativa-decision** | -- | Complex decision with too many options? Eliminate the worst first via negativa (subtraction). | Taleb -- *Antifragile* |
+| **lindy-filter** | -- | Use time as a filter: old and surviving is more reliable than new and shiny. Tech stack, diet, career choices. | Taleb -- *Antifragile* |
+| **skin-in-the-game** | -- | Evaluate credibility by checking if the advisor/decision-maker bears the consequences of their advice. | Taleb -- *Antifragile* |
+| **intervention-threshold-test** | -- | Six-step review protocol before taking action. Prefer subtraction and inaction. Do no harm. | Taleb -- *Antifragile* |
+| **iatrogenics-principle** | -- | Will the proposed intervention cause more harm than benefit? Evaluate before acting. | Taleb -- *Antifragile* |
+| **narrative-fallacy-immunity** | -- | Distinguish narratable knowledge from actionable knowledge. Don't be misled by post-hoc causal stories. | Taleb -- *Antifragile* |
+| **extremistan-detector** | -- | Is this domain Mediocristan (normal-friendly) or Extremistan (dominated by extreme events)? Avoid wrong stats. | Taleb -- *The Black Swan* |
+| **gaussian-illusion-detector** | -- | Detect fatal misuse of Gaussian / bell-curve in Extremistan fields. VaR, confidence intervals, tail risk. | Taleb -- *The Black Swan* |
+| **platonification-detector** | -- | Detect over-simplified models, categories, or frameworks forced onto complex reality. Map vs territory. | Taleb -- *The Black Swan* |
+| **silent-evidence-analyzer** | -- | When judging by "success stories" or "historical records", identify the unseen negative evidence that skews perception. | Taleb -- *The Black Swan* |
+| **turkey-problem-detector** | -- | Detect turkey problems: misinterpreting stability as permanence. 1000 days of feeding don't predict day 1001. | Taleb -- *The Black Swan* |
+| **gray-rhino-spotter** | -- | Spot high-probability, high-impact, obvious-but-ignored crises. Not unpredictable -- just not acted upon. | Wucker -- *The Gray Rhino* |
+| **rhino-stage-diagnoser** | -- | Diagnose which of the five stages (denial -> muddling -> diagnosis -> panic -> action) your team is in. | Wucker -- *The Gray Rhino* |
+| **rhino-classifier** | -- | Classify gray rhinos by type: recurring, charging, meta-rhino, domino, Gordian knot, disruptive. Different tactics. | Wucker -- *The Gray Rhino* |
+| **denial-breaker** | -- | Break through denial and resistance. Data shock, external perspective, personalization, anti-groupthink. | Wucker -- *The Gray Rhino* |
+| **procrastination-interrupter** | -- | Interrupt "muddling through" -- acknowledged but postponed crises. Manufacture urgency, shrink decision units. | Wucker -- *The Gray Rhino* |
+| **panic-to-action-bridge** | -- | Move from panic to rational action. Physical pause, data anchor, pre-set protocol, divide and conquer. | Wucker -- *The Gray Rhino* |
+| **measure-change-scale** | -- | Measure -> Change -> Scale. Turn epiphany into organizational capability. Systematic change management. | Wucker -- *The Gray Rhino* |
+| **crisis-as-opportunity** | -- | Post-crisis reconstruction. Reframe crisis as opportunity. Stop bleeding, honest post-mortem, institutionalize. | Wucker -- *The Gray Rhino* |
 
 ## Design Philosophy
 

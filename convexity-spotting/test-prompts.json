@@ -1,0 +1,41 @@
+{
+  "skill": "convexity-spotting",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我看看这个商业模式的收益结构——成功了能赚多少，失败了会亏多少？",
+      "expected_behavior": "调用 convexity-spotting，分析收益曲线的凸凹性",
+      "notes": "正面场景: 商业模式收益结构"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我想评估一个投资标的的波动友好度",
+      "expected_behavior": "调用 convexity-spotting，判断是凸性还是凹性",
+      "notes": "正面场景: 投资波动分析"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我算一下这个月的房贷利息",
+      "expected_behavior": "纯计算问题，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我有两个offer，一个稳定一个冒险，怎么选？",
+      "expected_behavior": "应调用 optionality-evaluation——这是选项评估而非收益曲线分析",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "公平的硬币赌局，正反各50%，赔率1:1",
+      "expected_behavior": "不应调用——纯线性对称博弈，凸凹性无意义",
+      "notes": "边界: 线性对称场景"
+    }
+  ]
+}

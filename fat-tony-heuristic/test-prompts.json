@@ -1,0 +1,41 @@
+{
+  "skill": "fat-tony-heuristic",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我感觉这个行业快不行了，但说不清为什么",
+      "expected_behavior": "调用 fat-tony-heuristic，识别行业中的脆弱性",
+      "notes": "正面场景: 行业脆弱性直觉"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "你说经济明年会怎样？",
+      "expected_behavior": "调用 fat-tony-heuristic，转换视角为'不预测只识别脆弱'",
+      "notes": "正面场景: 拒绝预测"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我查一下明天的天气",
+      "expected_behavior": "纯信息查询，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我想快速评估一下我的投资组合是否安全",
+      "expected_behavior": "应调用 fragility-diagnosis-checklist——这是系统化诊断工具",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "你觉得我女朋友会不会和我分手？",
+      "expected_behavior": "不应调用——脆弱性框架不适合处理情感关系预测",
+      "notes": "边界: 情感关系"
+    }
+  ]
+}

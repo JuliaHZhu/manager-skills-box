@@ -1,0 +1,41 @@
+{
+  "skill": "intervention-threshold-test",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们要不要给团队再加一个KPI？",
+      "expected_behavior": "调用 intervention-threshold-test，6步审查是否真有必要",
+      "notes": "正面场景: 制度干预"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "新政策草案出来了，我想在推出前做个风险评估",
+      "expected_behavior": "调用 intervention-threshold-test，运行干预前审查",
+      "notes": "正面场景: 政策审查"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写个正则表达式",
+      "expected_behavior": "纯技术问题，不应调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "医生说我需要手术，我想了解手术本身的副作用",
+      "expected_behavior": "应调用 iatrogenics-principle——这是医源性损伤的理论评估",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "有人晕倒在地上，要不要做心肺复苏？",
+      "expected_behavior": "不应调用——紧急救命场景， CPR是标准操作",
+      "notes": "边界: 紧急救命"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "skill": "lindy-filter",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "技术选型纠结了，用成熟框架还是最新出的那个？",
+      "expected_behavior": "调用 lindy-filter，用时间验证度评估技术",
+      "notes": "正面场景: 技术选型"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "最新流行的饮食法值得尝试吗？",
+      "expected_behavior": "调用 lindy-filter，对比古老饮食vs新潮饮食",
+      "notes": "正面场景: 饮食健康"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "iPhone 16和Pixel 9哪个拍照好？",
+      "expected_behavior": "具体产品比较，不应调用——具体产品属于'会自然消亡的'，应优先新技术",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "大V说这个方法让他年入百万，我该学吗？",
+      "expected_behavior": "应调用 narrative-fallacy-immunity——这是故事可信度问题",
+      "notes": "跨skill混淆"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "心脏骤停需要CPR，但CPR技术也有更新版本",
+      "expected_behavior": "不应调用——紧急救命场景不应受林迪效应约束",
+      "notes": "边界: 紧急医疗"
+    }
+  ]
+}
