@@ -70,6 +70,7 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **panic-to-action-bridge** | — | Move from panic to rational action. Physical pause, data anchor, pre-set protocol, divide and conquer. | Wucker — *The Gray Rhino* |
 | **measure-change-scale** | — | Measure → Change → Scale. Turn epiphany into organizational capability. Systematic change management. | Wucker — *The Gray Rhino* |
 | **crisis-as-opportunity** | — | Post-crisis reconstruction. Reframe crisis as opportunity. Stop bleeding, honest post-mortem, institutionalize. | Wucker — *The Gray Rhino* |
+| **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy
 
