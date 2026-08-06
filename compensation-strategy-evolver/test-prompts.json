@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "scenario": "Biotech初创公司从天使轮到C轮，薪酬怎么演进",
+      "expected_invocation": true,
+      "reason": "直接对应发展阶段薪酬战略选择"
+    },
+    {
+      "scenario": "公司处于高速扩张期，薪酬应该领先市场还是跟随市场",
+      "expected_invocation": true,
+      "reason": "对应成长期领先型薪酬策略选择"
+    },
+    {
+      "scenario": "如何做岗位价值评估",
+      "expected_invocation": false,
+      "reason": "这是岗位评估技术，应由position-based-pay-architect处理"
+    }
+  ]
+}

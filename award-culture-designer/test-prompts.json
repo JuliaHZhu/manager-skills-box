@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "scenario": "创业公司年会奖项怎么设计才有仪式感",
+      "expected_invocation": true,
+      "reason": "直接对应发奖文化、仪式感激励、奖项多样化"
+    },
+    {
+      "scenario": "团队没完成底线目标，负责人还要发奖金吗",
+      "expected_invocation": true,
+      "reason": "对应零奖金承诺、规则刚性"
+    },
+    {
+      "scenario": "如何给候选人设计offer方案",
+      "expected_invocation": false,
+      "reason": "这是薪酬谈判，应由executive-compensation-negotiator处理"
+    }
+  ]
+}

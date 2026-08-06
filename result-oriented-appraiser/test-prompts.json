@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "scenario": "技术团队有人每天加班到很晚但产出很低，怎么考核",
+      "expected_invocation": true,
+      "reason": "直接对应不为假动作付酬、责任结果导向"
+    },
+    {
+      "scenario": "公司应该按工龄还是按贡献涨工资",
+      "expected_invocation": true,
+      "reason": "对应华为按贡献拿待遇、反对按工龄付酬"
+    },
+    {
+      "scenario": "如何设计宽带薪酬表",
+      "expected_invocation": false,
+      "reason": "这是薪酬体系设计，应由position-based-pay-architect处理"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "scenario": "SaaS公司从20人扩张到200人，需要建立职级薪酬体系",
+      "expected_invocation": true,
+      "reason": "直接对应以岗定级、以级定薪、宽带薪酬体系设计"
+    },
+    {
+      "scenario": "如何做岗位价值评估，确保技术岗和管理岗公平对比",
+      "expected_invocation": true,
+      "reason": "对应HAY三维度八要素岗位评估方法论"
+    },
+    {
+      "scenario": "华为BLM模型怎么做市场洞察",
+      "expected_invocation": false,
+      "reason": "这是战略分析，应由blm-strategic-planning处理"
+    }
+  ]
+}

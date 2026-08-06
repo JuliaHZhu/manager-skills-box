@@ -108,6 +108,11 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **innovation-seven-principles** | -- | 创新七原则：反对盲目创新、双轮驱动、领先半步、一杯咖啡、继承创新、宽容失败、知识产权。 | 华为研发管理 |
 | **blue-army-evolution** | -- | 蓝军进化论：从Femto到LampSite的实战演进，蓝军五阶段转化模型。 | 华为研发管理 |
 | **rd-incentive-architect** | -- | 研发激励架构师：机制优先论，短中长期分层激励，股权激励设计框架。 | 华为研发管理 |
+| **position-based-pay-architect** | -- | 职位薪酬体系设计：以岗定级→以级定薪→人岗匹配→易岗易薪。含HAY三维度八要素法。 | 华为薪酬管理 |
+| **executive-compensation-negotiator** | -- | 高管薪酬谈判：3P1M模型、LEADER谈判框架、5C人才匹配法。 | 华为薪酬管理 |
+| **result-oriented-appraiser** | -- | 结果导向绩效评估：不为假动作付酬、三类劳动者划分、贡献导向分配。 | 华为薪酬管理 |
+| **compensation-strategy-evolver** | -- | 薪酬战略演化：三阶段薪酬战略（初创/高速成长/成熟）、效率优先兼顾公平。 | 华为薪酬管理 |
+| **award-culture-designer** | -- | 发奖文化设计：仪式感、奖励创新、从零起飞奖、让奖励成为管理手段。 | 华为薪酬管理 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手

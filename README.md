@@ -115,6 +115,11 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **innovation-seven-principles** | — | Huawei innovation seven principles: anti-blind, dual-drive, half-step lead, open collaboration, inherited innovation, failure tolerance, IP dominance. | Huawei R&D management |
 | **blue-army-evolution** | — | Blue army evolution path: from challenger to incubator, Femto-to-LampSite case study, five-stage conversion model. | Huawei R&D management |
 | **rd-incentive-architect** | — | R&D incentive mechanism design: mechanism-first philosophy, layered short/mid/long-term incentives, equity design framework. | Huawei R&D management |
+| **position-based-pay-architect** | — | Position-based pay architecture: job evaluation -> pay grade -> pay range -> person-job match -> pay adjustment on change. | Huawei compensation management |
+| **executive-compensation-negotiator** | — | Executive compensation negotiation: 3P1M model, LEADER negotiation framework, 5C talent matching. | Huawei compensation management |
+| **result-oriented-appraiser** | — | Result-oriented appraisal: pay for real results not fake motion, three-employee-type classification, contribution-based distribution. | Huawei compensation management |
+| **compensation-strategy-evolver** | — | Compensation strategy evolution: three-stage pay strategy (startup / growth / maturity), efficiency-first fairness balance. | Huawei compensation management |
+| **award-culture-designer** | — | Award culture design: ceremony, innovation, zero-to-takeoff awards, making awards a management instrument. | Huawei compensation management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "scenario": "AI芯片创业公司想从英伟达挖架构师，怎么谈薪酬",
+      "expected_invocation": true,
+      "reason": "直接对应高管猎聘、5C评估、3P1M设计、LEADER谈判"
+    },
+    {
+      "scenario": "候选人要的薪酬超出预算30%，怎么办",
+      "expected_invocation": true,
+      "reason": "对应3P1M中'钱给不到怎么办'的4招策略"
+    },
+    {
+      "scenario": "如何设计公司的职级体系",
+      "expected_invocation": false,
+      "reason": "这是薪酬体系架构，应由position-based-pay-architect处理"
+    }
+  ]
+}
