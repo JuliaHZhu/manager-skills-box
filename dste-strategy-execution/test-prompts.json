@@ -1,0 +1,52 @@
+{
+  "skill": "dste-strategy-execution",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司战略、预算、KPI各自为政，怎么把它们打通？",
+      "expected_behavior": "应激活 dste-strategy-execution，设计DSTE流程框架将战略管理活动集成",
+      "notes": "典型管理碎片化场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "怎么设计一个年度战略运营日历？",
+      "expected_behavior": "应激活 dste-strategy-execution，输出DSTE三大循环的管理日历",
+      "notes": "管理日历设计场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "SP和BP怎么衔接？我们做完战略规划后年度计划总是脱节",
+      "expected_behavior": "应激活 dste-strategy-execution，设计SP到BP的集成机制",
+      "notes": "SP-BP衔接场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "用BLM帮我们做一个业务战略规划",
+      "expected_behavior": "不应激活本 skill，应激活 blm-strategic-planning，因为用户需要的是战略制定工具而非战略运营流程",
+      "notes": "跨 skill 混淆诱饵: 战略制定 vs 战略运营流程"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么做一个部门预算表？",
+      "expected_behavior": "不应激活本 skill，因为这是一个具体的财务工具使用问题",
+      "notes": "诱饵: 单一工具 vs 流程框架"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个快速变化的互联网公司，年度规划跟不上市场变化，DSTE还适用吗？",
+      "expected_behavior": "可以调用 dste-strategy-execution，但需建议缩短周期（如季度SP+月度BP+周度审视），并增加敏捷反馈机制",
+      "notes": "边界: 快速变化行业需要适配传统年度周期"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

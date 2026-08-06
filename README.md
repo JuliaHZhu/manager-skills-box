@@ -94,6 +94,14 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **red-team-analyst** | — | Red team analysis methodology: 7 critical thinking + 7 imagination + 3 reverse analysis tools for systematic plan stress-testing. | Huawei Red-Blue Army |
 | **capability-trap-escaper** | — | Escape the capability trap through odd-normal mutual generation (ambidexterity): dual-structure design, unlearning, red-blue conversion. | Huawei Red-Blue Army |
 | **direction-vitality-balancer** | — | Balance "roughly correct direction" with "vibrant organization": five dimensions of organizational vitality, fast-action flywheel. | Huawei Red-Blue Army |
+| **five-looks-market-insight** | — | Five-looks market insight: industry/trends, customers, competition, self-assessment, opportunity. Structured scanning before strategy design. | Huawei strategic management |
+| **blm-strategic-planning** | — | BLM (Business Leadership Model): gap analysis → market insight → strategic intent → innovation focus → business design → execution system. | Huawei strategic management |
+| **business-model-five-elements** | — | Business model design via five elements: customer selection, value proposition, profit model, strategic control, business scope. | Huawei strategic management |
+| **strategic-control-point** | — | Strategic control point assessment: four-level profit-protection capability rating (high/medium/low/none) with upgrade paths. | Huawei strategic management |
+| **strategy-decoding-sp-bp** | — | Strategy decoding: translate SP (strategic plan) into BP (business plan), organizational KPIs, and personal PBCs. Value creation drives value distribution. | Huawei strategic management |
+| **stretch-goals-capability-building** | — | Stretch goals to force capability building: opportunity logic replaces extension-line thinking. Goals exist to create tension, not just to be hit. | Huawei strategic management |
+| **org-capability-elevation** | — | Organizational capability elevation: five management levels (business → functional → factor → collaboration → strategic) with upgrade paths. | Huawei strategic management |
+| **dste-strategy-execution** | — | DSTE (Develop Strategy to Execute): integrated SP → BP → budget → KPI → PBC → monitoring closed-loop with annual management calendar. | Huawei strategic management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

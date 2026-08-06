@@ -1,0 +1,52 @@
+{
+  "skill": "business-model-five-elements",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们想从传统的软件授权模式转型SaaS订阅，能帮我们用业务模式五要素重新设计一下吗？",
+      "expected_behavior": "应激活 business-model-five-elements，用五要素框架设计SaaS转型后的客户选择、价值主张、盈利模式、战略控制和业务范围",
+      "notes": "典型业务模式重构场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们的技术很领先，但就是赚不到钱，问题出在哪？",
+      "expected_behavior": "应激活 business-model-five-elements，诊断技术与盈利模式、客户选择、战略控制之间的断裂",
+      "notes": "技术领先但盈利困难的典型场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "帮我设计一个AI写作工具的商业模式",
+      "expected_behavior": "应激活 business-model-five-elements，从零设计五要素",
+      "notes": "新业务模式设计场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么提高我们App的用户留存率？",
+      "expected_behavior": "不应激活本 skill，因为这是一个运营优化问题，业务模式未变",
+      "notes": "诱饵: 运营优化而非业务模式设计"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我分析一下新能源汽车行业的竞争格局",
+      "expected_behavior": "不应激活本 skill，应激活 five-looks-market-insight，因为用户需要的是市场洞察而非业务模式设计",
+      "notes": "跨 skill 混淆诱饵: 需要的是市场洞察"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们想给现有产品增加一个AI功能，收费模式怎么定？",
+      "expected_behavior": "可以调用 business-model-five-elements，但只聚焦于盈利模式和价值主张的调整，不需要完整重构五要素",
+      "notes": "边界: 部分要素调整而非完整重构"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

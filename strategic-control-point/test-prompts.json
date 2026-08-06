@@ -1,0 +1,52 @@
+{
+  "skill": "strategic-control-point",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们做了一个AI工具，竞争对手大概多久能抄过去？我们的护城河是什么？",
+      "expected_behavior": "应激活 strategic-control-point，评估AI工具当前的战略控制点等级和脆弱性",
+      "notes": "典型护城河评估场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "帮我评估一下这个项目的竞争壁垒强度",
+      "expected_behavior": "应激活 strategic-control-point，用四级分类评估利润保护能力",
+      "notes": "竞争壁垒评估场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么防止利润被新进入者侵蚀？",
+      "expected_behavior": "应激活 strategic-control-point，诊断当前控制点并提出升级路径",
+      "notes": "利润保护场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我设计一个SaaS产品的客户选择策略",
+      "expected_behavior": "不应激活本 skill，应激活 business-model-five-elements，因为用户需要完整的业务模式设计而非仅控制点评估",
+      "notes": "跨 skill 混淆诱饵: 业务模式设计 vs 控制点评估"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "这个新技术比我们现有的好在哪里？",
+      "expected_behavior": "不应激活本 skill，因为这是一个纯技术比较问题，不涉及利润保护能力评估",
+      "notes": "诱饵: 技术比较 vs 战略控制"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个开源软件公司，怎么建立护城河？",
+      "expected_behavior": "可以调用 strategic-control-point，但需扩展框架——开源公司的控制点可能来自生态控制、云服务绑定、认证体系等，传统四级分类需调整",
+      "notes": "边界: 开源/平台经济等新型业务形态，传统框架需适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

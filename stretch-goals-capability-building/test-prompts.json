@@ -1,0 +1,52 @@
+{
+  "skill": "stretch-goals-capability-building",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "明年目标该定多少？团队说20%增长，我觉得太少了",
+      "expected_behavior": "应激活 stretch-goals-capability-building，用机会逻辑重新评估目标，识别能力缺口",
+      "notes": "典型目标设定场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们有一个很大的市场机会，但团队能力明显不够，怎么办？",
+      "expected_behavior": "应激活 stretch-goals-capability-building，用高目标倒逼能力建设的框架分析",
+      "notes": "能力缺口场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么打破延长线思维？",
+      "expected_behavior": "应激活 stretch-goals-capability-building，解释机会逻辑 vs 延长线思维的区别",
+      "notes": "思维模式突破场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么把公司战略分解到各部门KPI？",
+      "expected_behavior": "不应激活本 skill，应激活 strategy-decoding-sp-bp，因为用户需要的是目标分解而非目标设定方法论",
+      "notes": "跨 skill 混淆诱饵: 目标分解 vs 目标设定"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我们公司现金流紧张，怎么砍成本？",
+      "expected_behavior": "不应激活本 skill，因为收缩期需要降本保命，不适合高目标倒逼",
+      "notes": "诱饵: 收缩期 vs 扩张期"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个小团队，老板定了不可能完成的目标，大家都很焦虑",
+      "expected_behavior": "可以调用 stretch-goals-capability-building，但需先诊断目标是否基于机会逻辑还是拍脑袋，同时补充建立容错机制和资源支持方案，避免变成压榨员工",
+      "notes": "边界: 高目标可能异化为压迫，需要区分健康倒逼和有毒KPI"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

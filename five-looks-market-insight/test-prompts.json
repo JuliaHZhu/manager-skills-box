@@ -1,0 +1,52 @@
+{
+  "skill": "five-looks-market-insight",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想做一个新的创业项目，但不知道现在AI教育这个赛道还有没有进入的机会，能帮我分析一下吗？",
+      "expected_behavior": "应激活 five-looks-market-insight，通过五看框架分析AI教育赛道的行业趋势、客户需求、竞争格局、自身能力和机会点",
+      "notes": "典型赛道选择场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们公司做SaaS的，最近增长停滞了，用五看看看到底出了什么问题",
+      "expected_behavior": "应激活 five-looks-market-insight，用五看框架诊断增长停滞的根因",
+      "notes": "业务复盘场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "帮我做一个新能源行业的战略洞察",
+      "expected_behavior": "应激活 five-looks-market-insight，输出新能源行业的五看分析",
+      "notes": "直接请求战略洞察"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "特斯拉2024年的财报数据是多少？",
+      "expected_behavior": "不应激活本 skill，因为这是一个纯数据查询问题，不需要战略洞察",
+      "notes": "诱饵: 纯数据查询"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我想设计一个SaaS产品的盈利模式，帮我梳理一下",
+      "expected_behavior": "不应激活本 skill，应激活 business-model-five-elements，因为用户需要的是业务模型设计而非市场洞察",
+      "notes": "跨 skill 混淆诱饵: 需要的是业务设计而非市场洞察"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想转行做产品经理，你觉得互联网行业还有前途吗？",
+      "expected_behavior": "可以调用 five-looks-market-insight，但需缩小范围至个人可切入的细分岗位和地域市场，而非全行业宏观分析",
+      "notes": "边界: 个人职业选择 + 行业分析的组合场景，需要调整洞察粒度"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

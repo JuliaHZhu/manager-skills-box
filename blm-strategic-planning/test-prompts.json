@@ -1,0 +1,52 @@
+{
+  "skill": "blm-strategic-planning",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们事业部明年要做战略规划，想用BLM框架，能帮我们梳理一下吗？",
+      "expected_behavior": "应激活 blm-strategic-planning，按BLM左右两半的完整框架引导用户完成差距分析、市场洞察、战略意图、创新焦点、业务设计和执行体系",
+      "notes": "典型BLM业务战略规划场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "战略和执行总是脱节，有什么框架能把它们打通吗？",
+      "expected_behavior": "应激活 blm-strategic-planning，介绍BLM如何将战略制定与执行设计熔于一炉",
+      "notes": "战略执行对齐场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "用业务领先模型分析一下我们新产品的战略",
+      "expected_behavior": "应激活 blm-strategic-planning，用BLM框架分析新产品战略",
+      "notes": "直接请求BLM分析"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们公司要重新定义愿景和使命，帮我们做一下",
+      "expected_behavior": "不应激活本 skill，因为BLM主要用于业务战略规划，不是公司总体战略（愿景/使命/投资组合）",
+      "notes": "诱饵: 公司总体战略 vs 业务战略"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么用五看分析新能源汽车市场？",
+      "expected_behavior": "不应激活本 skill，应激活 five-looks-market-insight，因为用户只需要市场洞察而非完整的BLM框架",
+      "notes": "跨 skill 混淆诱饵: 市场洞察 vs 完整BLM"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个SaaS初创公司，只有20人，能用BLM做规划吗？",
+      "expected_behavior": "可以调用 blm-strategic-planning，但需大幅简化，聚焦差距分析、客户选择和业务设计三个核心要素，跳过复杂的执行体系设计",
+      "notes": "边界: 初创公司资源有限，需要轻量版BLM"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}

@@ -87,6 +87,14 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **procurement-ethics-guardian** | -- | 采购合规与行为准则：利益回避、信息保密、馈赠限制、两人原则、离职限制。 | 华为采购管理 |
 | **emergency-procurement-protocol** | -- | 应急采购三级响应：立即抢修/尽快实施/政府指令，事后审计防止滥用。 | 华为采购管理 |
 | **vmi-inventory-designer** | -- | VMI供应商管理库存设计：库存前移交易模式、法律框架、系统对接、五步落地法。 | 华为采购管理 |
+| **five-looks-market-insight** | -- | 五看市场洞察法：看行业/趋势、看客户、看竞争、看自己、看机会。战略设计前的结构化扫描。 | 华为战略管理 |
+| **blm-strategic-planning** | -- | BLM业务领先模型：差距分析→市场洞察→战略意图→创新焦点→业务设计→执行体系。 | 华为战略管理 |
+| **business-model-five-elements** | -- | 业务模式五要素设计：客户选择+价值主张+盈利模式+战略控制+业务范围。 | 华为战略管理 |
+| **strategic-control-point** | -- | 战略控制点四级评估：高/中/低/无利润保护能力评级与升级路径。 | 华为战略管理 |
+| **strategy-decoding-sp-bp** | -- | 战略解码：SP（战略规划）到BP（业务计划）分解，组织KPI与个人PBC。价值创造决定价值分配。 | 华为战略管理 |
+| **stretch-goals-capability-building** | -- | 高目标倒逼能力建设：机会逻辑替代延长线思维，用差距创造"创造性张力"。 | 华为战略管理 |
+| **org-capability-elevation** | -- | 组织能力升维：五层级管理能力（业务→职能→要素→协作→战略）诊断与升级路径。 | 华为战略管理 |
+| **dste-strategy-execution** | -- | DSTE战略运营流程：SP→BP→预算→KPI→PBC→监控的闭环管理日历。 | 华为战略管理 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手

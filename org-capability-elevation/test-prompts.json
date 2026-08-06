@@ -1,0 +1,52 @@
+{
+  "skill": "org-capability-elevation",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（战略·执行·创新篇）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司从50人扩张到200人，以前灵活现在僵化，怎么办？",
+      "expected_behavior": "应激活 org-capability-elevation，诊断当前管理层级（可能从业务管理需升维到职能管理/要素管理），给出升维路径",
+      "notes": "典型组织扩张场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们想从卖产品转型卖解决方案，但团队总是转不过来",
+      "expected_behavior": "应激活 org-capability-elevation，分析业务转型所需的组织能力升维路径",
+      "notes": "业务转型场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "部门之间协作很差，各自为政，怎么提升组织能力？",
+      "expected_behavior": "应激活 org-capability-elevation，诊断是否需要从要素管理升维到协作管理",
+      "notes": "协同困难场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们团队有一个员工总是拖延，怎么提升他的执行力？",
+      "expected_behavior": "不应激活本 skill，因为这是一个纯个人执行力问题",
+      "notes": "诱饵: 个人问题 vs 组织问题"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么用高目标倒逼团队能力建设？",
+      "expected_behavior": "不应激活本 skill，应激活 stretch-goals-capability-building，因为用户需要的是目标设定方法论而非组织管理层级诊断",
+      "notes": "跨 skill 混淆诱饵: 目标倒逼 vs 组织升维"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是一个远程工作的分布式团队，30人，需要建立什么样的组织能力？",
+      "expected_behavior": "可以调用 org-capability-elevation，但需调整框架——远程团队的管理复杂度在于异步协作和信任机制，传统五层级模型需要补充远程协作要素",
+      "notes": "边界: 新型组织形态需要适配传统模型"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过 (诱饵容错为 0), 且其中至少 1 条是同书兄弟 skill 的场景 (跨 skill 混淆测试)。"
+}
