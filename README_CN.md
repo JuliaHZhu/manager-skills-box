@@ -113,6 +113,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **result-oriented-appraiser** | -- | 结果导向绩效评估：不为假动作付酬、三类劳动者划分、贡献导向分配。 | 华为薪酬管理 |
 | **compensation-strategy-evolver** | -- | 薪酬战略演化：三阶段薪酬战略（初创/高速成长/成熟）、效率优先兼顾公平。 | 华为薪酬管理 |
 | **award-culture-designer** | -- | 发奖文化设计：仪式感、奖励创新、从零起飞奖、让奖励成为管理手段。 | 华为薪酬管理 |
+| **pbc-performance-contractor** | -- | PBC绩效承诺设计与拆解：战略解码→BSC→KPI→个人PBC，WET三要素，SMART标准，刷新机制。 | 华为绩效管理 |
+| **forced-distribution-enforcer** | -- | 强制分布与绩效结果应用：5等级绝对定义、赛马机制、分层分级评价、10%末位淘汰。 | 华为绩效管理 |
+| **org-performance-aligner** | -- | 组织绩效与个人绩效对齐：DSTE+BLM+PBC对接、戴帽子与拧麻花、预算与工资包管理。 | 华为绩效管理 |
+| **rd-performance-designer** | -- | 研发体系绩效管理：效益/效率/路径/行为四维指标、IPD体系下研发绩效、项目制考核。 | 华为绩效管理 |
+| **incremental-performance-driver** | -- | 增量绩效与价值分配：价值创造→评价→分配闭环、工资包管理、3人干5活拿4工资。 | 华为绩效管理 |
+| **performance-coach-grow** | -- | 绩效辅导与GROW模型：教练式辅导、GROW四步法、绩效面谈、低绩效员工PIP管理。 | 华为绩效管理 |
 | **admin-baseline-manager** | -- | 行政基线管理：二元分类（自治类vs标准化类）+ 国家颗粒度基线设计 + 节约分享/浪费分担激励机制。 | 华为行政管理 |
 | **internal-service-marketizer** | -- | 内部服务市场化：基础保障与增值服务分层 + 私有化/竞争机制 + 动态租金/末位淘汰。 | 华为行政管理 |
 | **lean-process-reformer** | -- | 流程简化与责任制：价值审计砍掉无价值步骤 + 非主干流程责任制 + 小循环颗粒度控制。 | 华为行政管理 |

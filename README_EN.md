@@ -113,6 +113,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **result-oriented-appraiser** | -- | Result-oriented appraisal: pay for real results not fake motion, three-employee-type classification, contribution-based distribution. | Huawei compensation management |
 | **compensation-strategy-evolver** | -- | Compensation strategy evolution: three-stage pay strategy (startup / growth / maturity), efficiency-first fairness balance. | Huawei compensation management |
 | **award-culture-designer** | -- | Award culture design: ceremony, innovation, zero-to-takeoff awards, making awards a management instrument. | Huawei compensation management |
+| **pbc-performance-contractor** | -- | PBC performance commitment design: strategy decoding -> BSC -> KPI -> personal PBC, WET three elements, SMART criteria, refresh mechanism. | Huawei performance management |
+| **forced-distribution-enforcer** | -- | Forced distribution and performance result application: 5-grade absolute definition, horse-racing mechanism, layered evaluation, 10% elimination. | Huawei performance management |
+| **org-performance-aligner** | -- | Organizational and personal performance alignment: DSTE+BLM+PBC docking, hat-wearing and twisted rope, budget and payroll management. | Huawei performance management |
+| **rd-performance-designer** | -- | R&D performance management: benefit/efficiency/path/behavior four-dimension indicators, IPD-based R&D performance, project-based assessment. | Huawei performance management |
+| **incremental-performance-driver** | -- | Incremental performance and value distribution: value creation -> evaluation -> distribution closed loop, payroll control, 3-people-5-jobs-4-pay. | Huawei performance management |
+| **performance-coach-grow** | -- | Performance coaching and GROW model: coaching-style辅导, GROW four-step, performance interview, low-performer PIP management. | Huawei performance management |
 | **admin-baseline-manager** | -- | Admin baseline management: dual classification (autonomy vs standardization), country-level cost baselines, save-share/waste-burden incentives. | Huawei admin management |
 | **internal-service-marketizer** | -- | Internal service marketization: basic/premium tiering, privatization + competition, dynamic rent + survival-of-the-fittest. | Huawei admin management |
 | **lean-process-reformer** | -- | Lean process reform: value audit, cut non-value steps, process accountability for non-core flows, small-loop granularity. | Huawei admin management |
