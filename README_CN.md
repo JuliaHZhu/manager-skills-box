@@ -135,6 +135,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **competency-qualification-integrator** | -- | 素质模型与任职资格整合：冰山上下的定位、统一术语、轻量素质落地。 | 华为任职资格体系 |
 | **learning-path-mapper** | -- | 基于任职资格的学习路径图设计：70-20-10培养、加速成长方案、分层成长路线。 | 华为任职资格体系 |
 | **qualification-hr-integrator** | -- | 任职资格与HR体系整合：以岗定级定薪、绩效边界厘清、晋升门槛设计。 | 华为任职资格体系 |
+| **admin-support-qualification-architect** | -- | 行政支持类任职资格架构设计：双通道五级分类、单元-要素行为标准、四维度门槛设计。 | 华为秘书任职资格体系 |
+| **secretary-excellence-ladder** | -- | 九段秘书卓越工作法：从任务执行到体系建设，含三层楼境界与四重成熟度模型。 | 华为秘书任职资格体系 |
+| **routine-exception-delegator** | -- | 例行与例外管理分离设计：经理管例外、秘书管例行，组织时间价值优化。 | 华为秘书任职资格体系 |
+| **meeting-management-master** | -- | 会议管理全流程方法论：会前三要点、会中三服务、会后三件事，外加查三遍质控。 | 华为秘书任职资格体系 |
+| **executive-support-system-designer** | -- | 高管支持体系设计：秘书定位、五项核心职责、成长通道、规范化服务体系。 | 华为秘书任职资格体系 |
+| **behavioral-standards-engineer** | -- | 行为标准工程师：任务到能力转化、分级行为描述、NVQ本土化、认证重点设计。 | 华为秘书任职资格体系 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手

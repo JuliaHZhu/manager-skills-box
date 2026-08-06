@@ -142,6 +142,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **competency-qualification-integrator** | — | Integrate competency models with qualification systems: iceberg-above vs iceberg-below, unified terminology, and lightweight competency deployment. | Huawei qualification system |
 | **learning-path-mapper** | — | Learning path design based on qualification gaps: 70-20-10 development, acceleration programs, and tiered growth routes. | Huawei qualification system |
 | **qualification-hr-integrator** | — | Qualification-HR integration: job-grade-pay linkage, performance boundary clarification, and promotion gatekeeping. | Huawei qualification system |
+| **admin-support-qualification-architect** | — | Support-role qualification architecture: dual-track five-level classification, unit-element behavioral standards, four-dimension threshold design. | Huawei secretary qualification system |
+| **secretary-excellence-ladder** | — | Nine-level secretary excellence ladder: from task execution to system building, with three-floor and four-realm maturity models. | Huawei secretary qualification system |
+| **routine-exception-delegator** | — | Routine vs exception separation: manager handles exceptions, support staff manages routines. Organizational time-value optimization. | Huawei secretary qualification system |
+| **meeting-management-master** | — | Meeting management full-cycle methodology: three essentials before, three services during, three actions after, plus three-check quality control. | Huawei secretary qualification system |
+| **executive-support-system-designer** | — | Executive support system design: secretary positioning, five-core duties, growth channel, and normalization service system. | Huawei secretary qualification system |
+| **behavioral-standards-engineer** | — | Behavioral standards engineering: task-to-competency translation, graded behavior description, NVQ localization, and certification focus design. | Huawei secretary qualification system |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy
