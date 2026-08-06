@@ -113,6 +113,10 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **result-oriented-appraiser** | -- | Result-oriented appraisal: pay for real results not fake motion, three-employee-type classification, contribution-based distribution. | Huawei compensation management |
 | **compensation-strategy-evolver** | -- | Compensation strategy evolution: three-stage pay strategy (startup / growth / maturity), efficiency-first fairness balance. | Huawei compensation management |
 | **award-culture-designer** | -- | Award culture design: ceremony, innovation, zero-to-takeoff awards, making awards a management instrument. | Huawei compensation management |
+| **admin-baseline-manager** | -- | Admin baseline management: dual classification (autonomy vs standardization), country-level cost baselines, save-share/waste-burden incentives. | Huawei admin management |
+| **internal-service-marketizer** | -- | Internal service marketization: basic/premium tiering, privatization + competition, dynamic rent + survival-of-the-fittest. | Huawei admin management |
+| **lean-process-reformer** | -- | Lean process reform: value audit, cut non-value steps, process accountability for non-core flows, small-loop granularity. | Huawei admin management |
+| **expat-welfare-designer** | -- | Expat welfare design: four-pillar overseas support (cafeteria/medical/housing/relationship), self-governance + oversight. | Huawei admin management |
 | **it-value-transformer** | -- | IT positioning shift: from cost center to value center to profit center. Role redesign, performance metrics, and business-value proof. | Huawei IT management |
 | **process-it-integrator** | -- | Process-IT fusion operating model: cross-functional project teams, process Owner mechanism, end-to-end flow integration. | Huawei IT management |
 | **it-governance-architect** | -- | IT governance architecture: EA three-layer model, tiered decision-making, version-train demand management, balanced scorecard. | Huawei IT management |
