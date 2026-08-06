@@ -1,0 +1,62 @@
+{
+  "skill": "red-team-analyst",
+  "tests": [
+    {
+      "prompt": "我的商业计划书完成了，想在做融资路演前做一次系统的反向分析，看看有没有盲点。有什么方法论可以用？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "红队的7大批判分析法和魔鬼辩护具体怎么用？能给我详细讲讲吗？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "公司准备进入一个全新的海外市场，需要预判各种风险和竞争对手的反应。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "请帮我设计一个红蓝对抗的战略辩论流程。",
+      "expected": "PASS_TO_RED_BLUE_DEBATER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-blue-debater"
+    },
+    {
+      "prompt": "帮我设计一个备胎战略，防止核心供应商断供。",
+      "expected": "PASS_TO_PLAN_B_STRATEGIST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的plan-b-strategist"
+    },
+    {
+      "prompt": "请帮我做一份财务预测模型，计算未来三年的现金流。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "纯数据建模"
+    },
+    {
+      "prompt": "我们的新产品创意还在brainstorm阶段，想先收集各种疯狂想法。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "创意发散阶段，批判过早"
+    },
+    {
+      "prompt": "这个方案是否符合GDPR合规要求？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "合规检查，非红队分析"
+    },
+    {
+      "prompt": "我们要做一个全新的探索性项目，连市场是否存在都不确定。红队分析有用吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "高度不确定，连假设都不知道"
+    },
+    {
+      "prompt": "感觉这个投资方案太完美了，想找个方法强制性地挑挑毛病。",
+      "expected": "CALL",
+      "type": "boundary",
+      "notes": "完美是盲点的信号，正是红队分析的价值"
+    }
+  ]
+}

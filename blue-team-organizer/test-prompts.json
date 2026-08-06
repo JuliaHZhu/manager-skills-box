@@ -1,0 +1,61 @@
+{
+  "skill": "blue-team-organizer",
+  "tests": [
+    {
+      "prompt": "我们公司200多人，每次战略会都是老板一个人说，其他人附和。我想组建一个能唱反调的小团队，应该怎么设计组织架构和汇报关系？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "华为蓝军部是怎么运作的？我想参考华为的做法在我公司设立类似的部门。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我是一家50人的创业公司CEO，感觉团队太安逸了，想引入内部竞争机制。是不是该建个蓝军部门？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我们公司准备并购一家竞品公司，董事会想做个压力测试，看看这个决策有没有盲点。该找谁来做？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "请帮我设计一个红蓝对抗的战略辩论流程，包括议题选择、辩论规则和决策机制。",
+      "expected": "PASS_TO_RED_BLUE_DEBATER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-blue-debater，而非本skill"
+    },
+    {
+      "prompt": "我的公司已经被竞争对手逼到墙角了，现金流只能撑3个月。现在建蓝军还有用吗？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "生存危机期，蓝军不适用"
+    },
+    {
+      "prompt": "我们公司的网络安全团队想开展红蓝对抗演习，模拟黑客攻击。需要买什么工具？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "纯技术渗透测试，已有专业安全skill覆盖"
+    },
+    {
+      "prompt": "我想学习如何进行红队策略分析，用7大批判分析法和魔鬼辩护来审视我的商业计划。",
+      "expected": "PASS_TO_RED_TEAM_ANALYST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-team-analyst"
+    },
+    {
+      "prompt": "我的团队只有8个人，大家都很熟，不好意思互相提反对意见。这种情况怎么解决？",
+      "expected": "CALL",
+      "type": "boundary",
+      "notes": "规模小但仍有价值，可推荐轮岗制而非部门制"
+    },
+    {
+      "prompt": "帮我写一份关于华为管理模式的论文综述。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "纯学术研究，非实操需求"
+    }
+  ]
+}

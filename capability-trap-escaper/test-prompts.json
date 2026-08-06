@@ -1,0 +1,61 @@
+{
+  "skill": "capability-trap-escaper",
+  "tests": [
+    {
+      "prompt": "我们公司做了20年传统零售，电商冲击越来越大，但内部总觉得'我们以前成功过'。怎么打破这种能力陷阱？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "华为是怎么通过奇正相生避免能力陷阱的？我想学习这种红蓝转换的机制。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "感觉公司越来越僵化，新业务总被老业务的KPI同化。怎么设计一个独立的创新部门？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我在这个行业干了15年，想转型但担心放弃积累。个人怎么避免能力陷阱？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "帮我设计一个企业蓝军部门的组织架构和运作机制。",
+      "expected": "PASS_TO_BLUE_TEAM_ORGANIZER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的blue-team-organizer"
+    },
+    {
+      "prompt": "创业公司刚成立半年，产品还在打磨中。现在需要担心能力陷阱吗？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "初创期，先专注打磨PMF"
+    },
+    {
+      "prompt": "传统胶卷行业已经被数码相机彻底替代了，现在进入还有什么办法？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "已被验证的衰退行业，应退出而非突破"
+    },
+    {
+      "prompt": "公司准备上市，未来6个月需要全力冲刺业绩。这时候适合搞内部创新吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "需要极致专注的阶段"
+    },
+    {
+      "prompt": "我想用红队策略分析方法来审视我的转型计划。",
+      "expected": "PASS_TO_RED_TEAM_ANALYST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-team-analyst"
+    },
+    {
+      "prompt": "公司核心供应商是单一来源，需要设计备胎方案。",
+      "expected": "PASS_TO_PLAN_B_STRATEGIST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的plan-b-strategist"
+    }
+  ]
+}

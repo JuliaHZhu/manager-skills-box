@@ -87,6 +87,13 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **procurement-ethics-guardian** | — | Procurement compliance and ethics: conflict of interest, information confidentiality, gift limits, two-person rule, post-employment restrictions. | Huawei procurement management |
 | **emergency-procurement-protocol** | — | Three-tier emergency procurement: immediate repair / urgent implementation / government directive. Post-hoc audit to prevent abuse. | Huawei procurement management |
 | **vmi-inventory-designer** | — | Vendor Managed Inventory design: inventory-forward transaction models, legal framework, system integration, five-step implementation. | Huawei procurement management |
+| **blue-team-organizer** | — | Build an internal opposition team: positioning, staffing, budget, operations, protection mechanisms. Red-blue army organizational design. | Huawei Red-Blue Army |
+| **red-blue-debater** | — | Design and execute structured red-blue strategic debates: issue selection, role assignment, rules, decision flow. | Huawei Red-Blue Army |
+| **self-critique-institutionalizer** | — | Transform self-critique from personal virtue into organizational capability: anonymous channels, leadership modeling, closed-loop improvement. | Huawei Red-Blue Army |
+| **plan-b-strategist** | — | Plan B / backup strategy design: identify vulnerabilities, strategic interdependence assessment, readiness triggers, maintenance cadence. | Huawei Red-Blue Army |
+| **red-team-analyst** | — | Red team analysis methodology: 7 critical thinking + 7 imagination + 3 reverse analysis tools for systematic plan stress-testing. | Huawei Red-Blue Army |
+| **capability-trap-escaper** | — | Escape the capability trap through odd-normal mutual generation (ambidexterity): dual-structure design, unlearning, red-blue conversion. | Huawei Red-Blue Army |
+| **direction-vitality-balancer** | — | Balance "roughly correct direction" with "vibrant organization": five dimensions of organizational vitality, fast-action flywheel. | Huawei Red-Blue Army |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

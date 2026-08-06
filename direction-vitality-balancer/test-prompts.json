@@ -1,0 +1,61 @@
+{
+  "skill": "direction-vitality-balancer",
+  "tests": [
+    {
+      "prompt": "公司战略方向定了，但团队执行特别乏力，中层都在等指令。怎么激活组织活力？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "任正非说'方向大致正确，组织必须充满活力'。这个哲学在我们公司怎么落地？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "公司越来越大，决策越来越慢，PPT做了无数版本。怎么让组织重新有活力？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "年轻人才流失严重，老人占着位置不做事。华为是怎么保持人才活力的？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "帮我设计一个企业蓝军部门。",
+      "expected": "PASS_TO_BLUE_TEAM_ORGANIZER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的blue-team-organizer"
+    },
+    {
+      "prompt": "帮我设计红蓝对抗的战略辩论流程。",
+      "expected": "PASS_TO_RED_BLUE_DEBATER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-blue-debater"
+    },
+    {
+      "prompt": "我们公司战略完全错了，正在往死路上走。需要怎么调整方向？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "方向完全错误，活力越强死得越快"
+    },
+    {
+      "prompt": "创业刚起步，产品方向还没找到。怎么保持团队活力？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "初创期先找PMF"
+    },
+    {
+      "prompt": "公司核心人才都走光了，剩下的人都在混日子。还有救吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "组织已被掏空的晚期，需先止血"
+    },
+    {
+      "prompt": "团队里有个员工总是拖延，影响了项目进度。",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "纯个人执行力问题"
+    }
+  ]
+}

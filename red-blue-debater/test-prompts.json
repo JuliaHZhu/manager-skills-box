@@ -1,0 +1,61 @@
+{
+  "skill": "red-blue-debater",
+  "tests": [
+    {
+      "prompt": "下个月我们要开年度战略会，我想设计一个红蓝对抗环节，让正反双方充分辩论后再做决策。能帮我设计流程和规则吗？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "公司高层对是否进入东南亚市场分歧很大，一派支持一派反对。怎么组织一场高质量的战略PK？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "华为的红蓝对抗是怎么搞的？我们想学华为的做法，在决策前先做压力测试。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我们要投5000万建一个新工厂，董事会想先做一个反向论证，看看这个决策有没有盲区。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我想在公司设立一个专门的蓝军部门，负责日常挑刺和战略审查。应该怎么设计组织架构？",
+      "expected": "PASS_TO_BLUE_TEAM_ORGANIZER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的blue-team-organizer"
+    },
+    {
+      "prompt": "请帮我设计一个红队策略分析框架，用7大批判分析法来审视我的商业计划。",
+      "expected": "PASS_TO_RED_TEAM_ANALYST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-team-analyst"
+    },
+    {
+      "prompt": "我们团队这周的项目周会，总有人迟到，怎么解决？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "纯 operational 问题，不需要战略对抗"
+    },
+    {
+      "prompt": "上次的市场活动效果很差，我们想复盘一下哪里出了问题。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "已达成共识的复盘，不是为了重新争论决策"
+    },
+    {
+      "prompt": "公司服务器被黑客攻击了，需要立即决定是否支付赎金。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "紧急危机，没有时间对抗"
+    },
+    {
+      "prompt": "我们有个新产品创意，想先 brainstorm 一下各种可能性。",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "创意发散阶段，对抗过早会扼杀创意"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "skill": "plan-b-strategist",
+  "tests": [
+    {
+      "prompt": "我们公司80%的营收依赖一个大客户，如果这个大客户流失了公司就完了。怎么设计一个备胎战略降低这种依赖？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "华为的海思备胎是怎么策划的？我们想学习这种极限生存的思维。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我们的核心技术依赖一个国外的开源项目，如果它改闭源了或者被收购了，我们该怎么办？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "请帮我设计一个供应链双源化方案，确保关键元器件不会因为单一供应商断供而停产。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "帮我设计一个企业内部的蓝军部门，专门负责挑刺和战略审查。",
+      "expected": "PASS_TO_BLUE_TEAM_ORGANIZER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的blue-team-organizer"
+    },
+    {
+      "prompt": "我们公司的服务器总是宕机，需要做双机热备和异地灾备。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "日常IT冗余，已有专业方案"
+    },
+    {
+      "prompt": "创业早期资金紧张，是不是该同时做ToB和ToC两条业务线，哪个起来了押哪个？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "纯投机性多押注，不是备胎战略"
+    },
+    {
+      "prompt": "我想用红队策略分析方法来审视我的商业计划，看看有没有盲点。",
+      "expected": "PASS_TO_RED_TEAM_ANALYST",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-team-analyst"
+    },
+    {
+      "prompt": "我们是一个3个月的短期咨询项目，需要为客户设计一个长期的技术路线备胎方案吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "短期项目，ROI为负"
+    },
+    {
+      "prompt": "公司在考虑是否投资一个可能需要10年才能成熟的新技术领域，但不确定未来需求。该不该投？",
+      "expected": "CALL",
+      "type": "boundary",
+      "notes": "典型的备胎战略场景——不确定性高、时间跨度长"
+    }
+  ]
+}

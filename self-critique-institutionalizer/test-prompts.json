@@ -1,0 +1,61 @@
+{
+  "skill": "self-critique-institutionalizer",
+  "tests": [
+    {
+      "prompt": "我们公司复盘会总是开成甩锅会，没有人愿意主动承认错误。怎么把自我批判变成组织能力？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "华为的自我批判文化是怎么运作的？我想参考华为建立类似的机制。",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "员工明明知道问题但都不敢说，领导还自我感觉良好。怎么打破这种信息过滤？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "我想在公司设立一个匿名心声社区，让员工可以安全地提出批评。应该怎么设计？",
+      "expected": "CALL",
+      "type": "should_trigger"
+    },
+    {
+      "prompt": "帮我设计一个企业蓝军部门的组织架构和预算方案。",
+      "expected": "PASS_TO_BLUE_TEAM_ORGANIZER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的blue-team-organizer"
+    },
+    {
+      "prompt": "团队里有个员工总是自我否定，觉得自己做什么都错，该怎么帮助他建立自信？",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "个人心理咨询问题"
+    },
+    {
+      "prompt": "我们公司财务账目有些问题，需要内部自查一下。",
+      "expected": "NO_CALL",
+      "type": "should_not_trigger",
+      "notes": "合规问题需要外部审计"
+    },
+    {
+      "prompt": "设计一个红蓝对抗的战略辩论流程，用于下个月的投资决策会。",
+      "expected": "PASS_TO_RED_BLUE_DEBATER",
+      "type": "cross_skill_bait",
+      "notes": "应触发同书的red-blue-debater"
+    },
+    {
+      "prompt": "我们是一个临时项目组，只有2个月就要解散了，还需要建立自我批判机制吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "短期项目，ROI过低"
+    },
+    {
+      "prompt": "公司最近丑闻曝光，员工对管理层完全不信任了。现在推行自我批判有用吗？",
+      "expected": "NO_CALL",
+      "type": "boundary",
+      "notes": "信任已崩塌，需先修复信任"
+    }
+  ]
+}
