@@ -120,6 +120,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **result-oriented-appraiser** | — | Result-oriented appraisal: pay for real results not fake motion, three-employee-type classification, contribution-based distribution. | Huawei compensation management |
 | **compensation-strategy-evolver** | — | Compensation strategy evolution: three-stage pay strategy (startup / growth / maturity), efficiency-first fairness balance. | Huawei compensation management |
 | **award-culture-designer** | — | Award culture design: ceremony, innovation, zero-to-takeoff awards, making awards a management instrument. | Huawei compensation management |
+| **it-value-transformer** | — | IT positioning shift: from cost center to value center to profit center. Role redesign, performance metrics, and business-value proof. | Huawei IT management |
+| **process-it-integrator** | — | Process-IT fusion operating model: cross-functional project teams, process Owner mechanism, end-to-end flow integration. | Huawei IT management |
+| **it-governance-architect** | — | IT governance architecture: EA three-layer model, tiered decision-making, version-train demand management, balanced scorecard. | Huawei IT management |
+| **business-change-it-land** | — | Business transformation IT landing: rigid -> fixed -> optimized methodology, package-driven change, capability decoupling. | Huawei IT management |
+| **roads-digital-transformer** | — | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
+| **global-it-controller** | — | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

@@ -113,6 +113,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **result-oriented-appraiser** | -- | 结果导向绩效评估：不为假动作付酬、三类劳动者划分、贡献导向分配。 | 华为薪酬管理 |
 | **compensation-strategy-evolver** | -- | 薪酬战略演化：三阶段薪酬战略（初创/高速成长/成熟）、效率优先兼顾公平。 | 华为薪酬管理 |
 | **award-culture-designer** | -- | 发奖文化设计：仪式感、奖励创新、从零起飞奖、让奖励成为管理手段。 | 华为薪酬管理 |
+| **it-value-transformer** | -- | IT价值定位转型：从成本中心到价值中心到利润中心，角色重塑与绩效重构。 | 华为IT管理 |
+| **process-it-integrator** | -- | 流程IT一体化运作：跨部门项目组、流程Owner机制、端到端流程贯通。 | 华为IT管理 |
+| **it-governance-architect** | -- | IT治理架构设计：EA三层架构、分层分级决策、版本火车、平衡计分卡。 | 华为IT管理 |
+| **business-change-it-land** | -- | 业务变革IT落地：先僵化再固化后优化、软件包驱动、流程与能力解耦。 | 华为IT管理 |
+| **roads-digital-transformer** | -- | ROADS驱动数字化转型：三大架构转变、前轻后重作业系统、多云架构。 | 华为IT管理 |
+| **global-it-controller** | -- | 全球IT管控模式：集中控制分散资源、主干简捷末端灵活、一线驱动。 | 华为IT管理 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手
