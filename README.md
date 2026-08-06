@@ -80,6 +80,13 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **panic-to-action-bridge** | — | Move from panic to rational action. Physical pause, data anchor, pre-set protocol, divide and conquer. | Wucker — *The Gray Rhino* |
 | **measure-change-scale** | — | Measure → Change → Scale. Turn epiphany into organizational capability. Systematic change management. | Wucker — *The Gray Rhino* |
 | **crisis-as-opportunity** | — | Post-crisis reconstruction. Reframe crisis as opportunity. Stop bleeding, honest post-mortem, institutionalize. | Wucker — *The Gray Rhino* |
+| **ceg-expert-group** | — | Commodity Expert Group (CEG) operations: cross-functional procurement decision teams, collective voting, supplier certification governance. | Huawei procurement management |
+| **tqrdc-supplier-evaluation** | — | TQRDC + ES seven-dimension supplier evaluation: Technology, Quality, Responsiveness, Delivery, Cost, Environment, Social Responsibility. | Huawei procurement management |
+| **procurement-strategy-designer** | — | Procurement strategy selection: framework agreement, limited competition, split/combine. Match strategy to material characteristics. | Huawei procurement management |
+| **supplier-lifecycle-manager** | — | End-to-end supplier lifecycle: sourcing -> certification -> selection -> performance -> CSR -> exit. With CRCPE five-step improvement. | Huawei procurement management |
+| **procurement-ethics-guardian** | — | Procurement compliance and ethics: conflict of interest, information confidentiality, gift limits, two-person rule, post-employment restrictions. | Huawei procurement management |
+| **emergency-procurement-protocol** | — | Three-tier emergency procurement: immediate repair / urgent implementation / government directive. Post-hoc audit to prevent abuse. | Huawei procurement management |
+| **vmi-inventory-designer** | — | Vendor Managed Inventory design: inventory-forward transaction models, legal framework, system integration, five-step implementation. | Huawei procurement management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy
