@@ -32,6 +32,16 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **hw-normalization-design** | -- | 四层归一化设计方法论：器件 → 单板 → 平台 → 网络架构。 | 华为硬件平台设计 |
 | **project-delay-prevention** | -- | 研发项目防拖延六步法：从用人到计划到跟踪到闭环。 | 华为研发管理实践 + 曾国藩识人用人 |
 | **topic-analysis-driven-design** | -- | 用"专题分析"取代"画图-调试-改版"，先电源/时钟/小系统，再动手画原理图。 | 华为硬件设计方法论 |
+| **ipd-charter-developer** | -- | Charter开发方法论：像开发产品一样开发Charter，端到端跨职能团队参与商业计划制定。 | 华为IPD变革管理手册（5版，2023） |
+| **ipd-product-launch** | -- | 产品上市管理：受控上市、逐步放量、ADCP评审、"一五一"上市法、"一纸禅"销售法。 | 华为IPD变革管理手册（5版，2023） |
+| **ipd-lifecycle-manager** | -- | 产品生命周期管理：LDCP评审、版本切换、退市规划、主动衰退管理。 | 华为IPD变革管理手册（5版，2023） |
+| **ipd-change-management** | -- | IPD变革管理：先僵化→再固化→后优化。三阶段推行、试点验证、逐步推广。 | 华为IPD变革管理手册（5版，2023） |
+| **ipd-cross-functional-team** | -- | 跨部门团队运作：IPMT/PDT组织架构、DCP决策评审、双线汇报矩阵。 | 华为IPD变革管理手册（5版，2023） |
+| **hw-derating-design** | -- | 器件降额设计：稳态/瞬态应力分析、温度极限、降额审查流程。 | 华为硬件研发实践 |
+| **hw-halt-hass-testing** | -- | HALT/HASS高加速试验：步进应力至失效、工作/破坏极限、生产筛选。 | 华为硬件研发实践 |
+| **hw-dfm-design** | -- | 可生产性设计：连接器设计、公差分析、螺钉标准化、装配时间优化。 | 华为硬件研发实践 |
+| **hw-reliability-design** | -- | 硬件可靠性设计体系：热设计、冗余、EMC、漂移、互连、环境适应性。 | 华为硬件研发实践 |
+| **hw-component-failure-analysis** | -- | 元器件失效分析八步法：电测、X-Ray、开封、SEM、FA、根因、纠正措施。 | 华为硬件研发实践 |
 | **darwin-skill** | -- | 自主 Skill 优化器。9 维评分 rubric、定向优化、独立 judge agent、验证门控设计、可视化结果卡片。 | SkillLens (MSR) + SkillOpt + alchaincyf |
 | **assumption-hunter** | -- | 找出论证中被默认的隐藏假设。跳出系统（Jootsing），源自丹尼特《直觉泵》Ch8。 | Daniel Dennett |
 | **intentional-stance** | -- | 三视角分析同一现象：物理/制度/博弈。源自丹尼特《直觉泵》Ch18。 | Daniel Dennett |

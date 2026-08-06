@@ -32,6 +32,16 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **hw-normalization-design** | — | Four-layer normalization methodology: component -> board -> platform -> network architecture. | Huawei hardware platform design |
 | **project-delay-prevention** | — | Six-step anti-procrastination system for complex projects: team-building, assessment, decomposition, monitoring, coaching, and closed-loop tracking. | Huawei R&D management practice + Zeng Guofan's personnel philosophy |
 | **topic-analysis-driven-design** | — | Replace "draw-debug-redraw" loops with mandatory topic analyses (power, clock, subsystem) before any design work begins. | Huawei hardware design methodology |
+| **ipd-charter-developer** | — | Charter development methodology: treat Charter as a product, develop business plans with end-to-end cross-functional teams. | Huawei IPD Transformation Handbook (5th Ed, 2023) |
+| **ipd-product-launch** | — | Controlled product launch: phased GA, ADCP review, "one-five-one" launch method, "one-paper Zen" sales pitch. | Huawei IPD Transformation Handbook (5th Ed, 2023) |
+| **ipd-lifecycle-manager** | — | Product lifecycle management: LDCP review, version switching, EOL planning, active decline management. | Huawei IPD Transformation Handbook (5th Ed, 2023) |
+| **ipd-change-management** | — | IPD change management: rigid -> fixed -> optimized. Three-stage deployment with pilot-then-scale pattern. | Huawei IPD Transformation Handbook (5th Ed, 2023) |
+| **ipd-cross-functional-team** | — | Cross-functional team operations: IPMT/PDT structure, DCP decision reviews, dual-line reporting matrix. | Huawei IPD Transformation Handbook (5th Ed, 2023) |
+| **hw-derating-design** | — | Component derating design: steady-state and transient stress analysis, temperature limits, derating review process. | Huawei hardware R&D practice |
+| **hw-halt-hass-testing** | — | HALT/HASS accelerated reliability testing: step-stress to failure, operational/destruct limits, production screening. | Huawei hardware R&D practice |
+| **hw-dfm-design** | — | Design for Manufacturing: connector design, tolerance analysis, screw standardization, assembly time optimization. | Huawei hardware R&D practice |
+| **hw-reliability-design** | — | Hardware reliability design system: thermal, redundancy, EMC, drift, interconnect, environmental adaptation. | Huawei hardware R&D practice |
+| **hw-component-failure-analysis** | — | Component failure analysis 8-step method: electrical test, X-ray, decapsulation, SEM, FA, root cause, corrective action. | Huawei hardware R&D practice |
 | **darwin-skill** | — | Autonomous skill optimizer. 9-dimension rubric evaluation, hill-climbing optimization, independent judge agents, validation-gated design, visual result cards. | SkillLens (MSR) + SkillOpt + alchaincyf |
 | **assumption-hunter** | — | Find hidden shared assumptions in arguments. Jump out of the system (Jootsing) from Dennett's Intuition Pumps Ch8. | Daniel Dennett |
 | **intentional-stance** | — | Three-stances analysis (physical / institutional / game-theoretic) of the same phenomenon. From Dennett's Intuition Pumps Ch18. | Daniel Dennett |
