@@ -149,6 +149,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **executive-support-system-designer** | — | Executive support system design: secretary positioning, five-core duties, growth channel, and normalization service system. | Huawei secretary qualification system |
 | **behavioral-standards-engineer** | — | Behavioral standards engineering: task-to-competency translation, graded behavior description, NVQ localization, and certification focus design. | Huawei secretary qualification system |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
+| **training-battle-designer** | — | Design and operate a training-battle (训战结合) talent development system: strategic reserve force, heavy-brigade bootcamp, train-fight-recharge loop. | Huawei talent & leadership development |
+| **mentor-system-builder** | — | Full-cycle mentor system design: selection, matching, agreements, progress tracking, and incentive mechanisms. Great leaders lead leaders. | Huawei talent & leadership development |
+| **training-needs-analyst** | — | Training needs analysis via "Three Hard + Three Soft" framework. Align training investment with business strategy and prioritize by ROI. | Huawei talent & leadership development |
+| **enterprise-university-architect** | — | Self-sustaining corporate university design: revenue-sharing funding, part-time faculty cycles, budget autonomy, curriculum architecture. | Huawei talent & leadership development |
+| **iron-triangle-organizer** | — | Frontline iron-triangle operating model: AR+SR+FR integrated teams, platform empowerment, delegated authority. Let those who hear gunfire call shots. | Huawei talent & leadership development |
+| **training-effect-measurer** | — | Training effectiveness measurement: Kirkpatrick four-level model, conversion rate methodology, linking training to business outcomes. | Huawei talent & leadership development |
 
 ## Design Philosophy
 
