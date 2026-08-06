@@ -109,6 +109,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **global-rd-footprint-architect** | — | Global R&D footprint design: research institutes, joint innovation centers, capability centers mapped to country comparative advantages. | Huawei internationalization |
 | **global-innovation-leap-strategist** | — | Innovation leap from follower to leader: pinprick strategy, edge-to-mainstream breakthrough, IPR and standards dominance. | Huawei internationalization |
 | **intl-crisis-resilience-builder** | — | International crisis resilience: spare-tire planning,低谷persistence, crisis response differentiation, BT-style certification trust-building. | Huawei internationalization |
+| **rd-project-classifier** | — | R&D project four-quadrant classification: custom / new product / new tech / pre-research with differentiated management strategies. | Huawei R&D management |
+| **product-manager-compass** | — | Product manager positioning and five-competency model: demand, planning, quality, launch, and system-building capabilities. | Huawei R&D management |
+| **five-force-talent-developer** | — | R&D talent development five-force model: learning, motivation, development, qualification, and competency. | Huawei R&D management |
+| **innovation-seven-principles** | — | Huawei innovation seven principles: anti-blind, dual-drive, half-step lead, open collaboration, inherited innovation, failure tolerance, IP dominance. | Huawei R&D management |
+| **blue-army-evolution** | — | Blue army evolution path: from challenger to incubator, Femto-to-LampSite case study, five-stage conversion model. | Huawei R&D management |
+| **rd-incentive-architect** | — | R&D incentive mechanism design: mechanism-first philosophy, layered short/mid/long-term incentives, equity design framework. | Huawei R&D management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

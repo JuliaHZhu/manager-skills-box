@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们研发团队总想追最新技术，但产品卖不出去",
+    "expected_trigger": true,
+    "expected_behavior": "诊断领先度过高，建议领先半步原则"
+  },
+  {
+    "prompt": "创新项目老是失败，团队不敢再试了",
+    "expected_trigger": true,
+    "expected_behavior": "建议容错机制设计"
+  },
+  {
+    "prompt": "研发投入占比多少合适？",
+    "expected_trigger": true,
+    "expected_behavior": "引用华为10%原则，建议结合行业调整"
+  },
+  {
+    "prompt": "这个新技术我们该不该自己做？",
+    "expected_trigger": true,
+    "expected_behavior": "用双轮驱动矩阵评估"
+  }
+]

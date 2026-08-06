@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们产品经理老是被研发牵着鼻子走，怎么提升话语权？",
+    "expected_trigger": true,
+    "expected_behavior": "诊断权力结构，建议赋予决策权和考核权"
+  },
+  {
+    "prompt": "招聘产品经理应该考察哪些能力？",
+    "expected_trigger": true,
+    "expected_behavior": "提供五大素质评估框架"
+  },
+  {
+    "prompt": "产品经理和项目经理职责怎么划分？",
+    "expected_trigger": true,
+    "expected_behavior": "明确产品经理管'什么'、项目经理管'怎么做'"
+  },
+  {
+    "prompt": "怎么写一个好的PRD？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发（纯执行问题）"
+  }
+]

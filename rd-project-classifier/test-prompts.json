@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们公司同时在做给大客户的定制开发和自主产品研发，但项目经理老是抱怨KPI不公平，怎么办？",
+    "expected_trigger": true,
+    "expected_behavior": "引导用户区分项目类型，设计差异化绩效"
+  },
+  {
+    "prompt": "怎么设计预研项目的考核指标？",
+    "expected_trigger": true,
+    "expected_behavior": "提供预研项目KPI框架"
+  },
+  {
+    "prompt": "写一个Python函数计算斐波那契数列",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  },
+  {
+    "prompt": "我们研发预算全花在客户定制上了，自己的产品线一直没时间做",
+    "expected_trigger": true,
+    "expected_behavior": "诊断投资组合失衡，建议比例调整"
+  }
+]

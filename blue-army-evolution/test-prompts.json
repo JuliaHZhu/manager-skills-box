@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们内部创新团队老是挑毛病但不出成果，怎么让他们转正？",
+    "expected_trigger": true,
+    "expected_behavior": "提供蓝军五阶段演进路径"
+  },
+  {
+    "prompt": "怎么设计一个战略预备队机制？",
+    "expected_trigger": true,
+    "expected_behavior": "建议蓝军孵化模式"
+  },
+  {
+    "prompt": "新业务验证成功了，但转正后团队失去了创新活力",
+    "expected_trigger": true,
+    "expected_behavior": "建议保留蓝军基因+孕育新蓝军"
+  },
+  {
+    "prompt": "怎么组织红蓝军对抗演练？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发（已有blue-team-organizer覆盖）"
+  }
+]

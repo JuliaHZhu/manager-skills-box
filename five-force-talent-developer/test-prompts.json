@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们技术团队老员工离职后，新人接不上，怎么建立梯队？",
+    "expected_trigger": true,
+    "expected_behavior": "建议五力模型，从任职资格到导师制"
+  },
+  {
+    "prompt": "技术人员不想做管理，但不做管理就没出路，怎么办？",
+    "expected_trigger": true,
+    "expected_behavior": "建议双通道晋升体系"
+  },
+  {
+    "prompt": "新员工入职三个月还无法独立工作",
+    "expected_trigger": true,
+    "expected_behavior": "建议180天培养路径+导师制"
+  },
+  {
+    "prompt": "怎么设计一个Python培训课程？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发（单一技能培训）"
+  }
+]

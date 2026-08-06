@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "研发人员流失率高，怎么设计激励机制留住人？",
+    "expected_trigger": true,
+    "expected_behavior": "建议分层激励体系+长期绑定"
+  },
+  {
+    "prompt": "股权激励怎么设计？",
+    "expected_trigger": true,
+    "expected_behavior": "提供股权设计框架（授予/归属/退出）"
+  },
+  {
+    "prompt": "研发团队干多干少一个样，怎么打破大锅饭？",
+    "expected_trigger": true,
+    "expected_behavior": "建议绩效差异化+项目制激励"
+  },
+  {
+    "prompt": "销售团队的提成制度怎么设计？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发（非研发岗位）"
+  }
+]
