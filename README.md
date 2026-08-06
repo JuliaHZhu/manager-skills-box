@@ -102,6 +102,13 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **stretch-goals-capability-building** | — | Stretch goals to force capability building: opportunity logic replaces extension-line thinking. Goals exist to create tension, not just to be hit. | Huawei strategic management |
 | **org-capability-elevation** | — | Organizational capability elevation: five management levels (business → functional → factor → collaboration → strategic) with upgrade paths. | Huawei strategic management |
 | **dste-strategy-execution** | — | DSTE (Develop Strategy to Execute): integrated SP → BP → budget → KPI → PBC → monitoring closed-loop with annual management calendar. | Huawei strategic management |
+| **global-market-entry-strategist** | — | Global market entry path design: rural-surrounds-city sequencing, market attractiveness × competitiveness matrix, phased focus. | Huawei internationalization |
+| **brand-globalization-builder** | — | Brand globalization: three-stage model (exhibit → diplomacy → certification), glocalized cross-cultural communication, B2B-to-B2C trust transfer. | Huawei internationalization |
+| **glocalization-operator** | — | Glocalization operations: global resource integration + local value creation, capability/shared center footprint, localization rate governance. | Huawei internationalization |
+| **cross-culture-team-commander** | — | Cross-cultural team building: core values translation, expat-to-local transition, TUP incentive, leadership selection principles. | Huawei internationalization |
+| **global-rd-footprint-architect** | — | Global R&D footprint design: research institutes, joint innovation centers, capability centers mapped to country comparative advantages. | Huawei internationalization |
+| **global-innovation-leap-strategist** | — | Innovation leap from follower to leader: pinprick strategy, edge-to-mainstream breakthrough, IPR and standards dominance. | Huawei internationalization |
+| **intl-crisis-resilience-builder** | — | International crisis resilience: spare-tire planning,低谷persistence, crisis response differentiation, BT-style certification trust-building. | Huawei internationalization |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

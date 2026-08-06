@@ -95,6 +95,13 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **stretch-goals-capability-building** | -- | 高目标倒逼能力建设：机会逻辑替代延长线思维，用差距创造"创造性张力"。 | 华为战略管理 |
 | **org-capability-elevation** | -- | 组织能力升维：五层级管理能力（业务→职能→要素→协作→战略）诊断与升级路径。 | 华为战略管理 |
 | **dste-strategy-execution** | -- | DSTE战略运营流程：SP→BP→预算→KPI→PBC→监控的闭环管理日历。 | 华为战略管理 |
+| **global-market-entry-strategist** | -- | 全球市场进入策略师：农村包围城市路径、市场吸引力×竞争力矩阵、阶段聚焦、进入模式组合。 | 华为国际化 |
+| **brand-globalization-builder** | -- | 品牌全球化建设者：三阶段模型（造势→外交→检阅）、跨文化品牌传播、B2B到B2C信任迁移。 | 华为国际化 |
+| **glocalization-operator** | -- | 全球本土化运营者：全球资源整合+本地价值创造、能力中心与共享中心布局、本土化率的度。 | 华为国际化 |
+| **cross-culture-team-commander** | -- | 跨文化团队指挥官：核心价值观全球传递、外派与本地化人才策略、TUP长效激励、一把手选派。 | 华为国际化 |
+| **global-rd-footprint-architect** | -- | 全球研发布局架构师：研究所、联合创新中心、能力中心的三层架构与各国比较优势地图。 | 华为国际化 |
+| **global-innovation-leap-strategist** | -- | 全球创新跃迁策略师：针尖战略、边缘到主流突破、压强投入、知识产权与标准卡位。 | 华为国际化 |
+| **intl-crisis-resilience-builder** | -- | 国际化韧性建设者：备胎思维、低谷坚持、危机差异化响应、极限生存预案。 | 华为国际化 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手
