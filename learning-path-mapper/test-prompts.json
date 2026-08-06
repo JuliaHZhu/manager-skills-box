@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "员工想晋升但不知道学什么，培训部门和任职资格脱节，怎么打通？",
+    "expected_trigger": true,
+    "expected_behavior": "提供任职资格-培训映射方法和分层学习路径设计"
+  },
+  {
+    "prompt": "怎么设计'以赛代练'的加速培养方案？",
+    "expected_trigger": true,
+    "expected_behavior": "提供加速方案模板，强调真实场景+导师+验收标准"
+  },
+  {
+    "prompt": "培训做了很多，但领导说看不到效果，怎么评估培训价值？",
+    "expected_trigger": true,
+    "expected_behavior": "提供四级评估框架，强调任职资格认证作为行为层和结果层的抓手"
+  },
+  {
+    "prompt": "推荐几本项目管理的书",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]

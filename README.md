@@ -136,6 +136,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **business-change-it-land** | — | Business transformation IT landing: rigid -> fixed -> optimized methodology, package-driven change, capability decoupling. | Huawei IT management |
 | **roads-digital-transformer** | — | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
 | **global-it-controller** | — | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
+| **qualification-standard-builder** | — | Qualification standard development: five-step method from job analysis to behavioral standards, with broadband grading and "three sentences" clarity rule. | Huawei qualification system |
+| **dual-channel-career-designer** | — | Dual-channel career design: management + professional tracks, five-level progression, top-tier pay parity, and cross-channel mobility rules. | Huawei qualification system |
+| **qualification-certifier** | — | Qualification certification design: seven-step process, evidence-based evaluation, four-grade results, and committee governance. | Huawei qualification system |
+| **competency-qualification-integrator** | — | Integrate competency models with qualification systems: iceberg-above vs iceberg-below, unified terminology, and lightweight competency deployment. | Huawei qualification system |
+| **learning-path-mapper** | — | Learning path design based on qualification gaps: 70-20-10 development, acceleration programs, and tiered growth routes. | Huawei qualification system |
+| **qualification-hr-integrator** | — | Qualification-HR integration: job-grade-pay linkage, performance boundary clarification, and promotion gatekeeping. | Huawei qualification system |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

@@ -129,6 +129,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **business-change-it-land** | -- | 业务变革IT落地：先僵化再固化后优化、软件包驱动、流程与能力解耦。 | 华为IT管理 |
 | **roads-digital-transformer** | -- | ROADS驱动数字化转型：三大架构转变、前轻后重作业系统、多云架构。 | 华为IT管理 |
 | **global-it-controller** | -- | 全球IT管控模式：集中控制分散资源、主干简捷末端灵活、一线驱动。 | 华为IT管理 |
+| **qualification-standard-builder** | -- | 任职资格标准开发五步法：从职位分析到行为标准定义，含宽带化设计与"三句话讲清差异"原则。 | 华为任职资格体系 |
+| **dual-channel-career-designer** | -- | 双通道职业发展设计：管理+专业双通道、五级晋升、顶端待遇拉平、跨通道转换机制。 | 华为任职资格体系 |
+| **qualification-certifier** | -- | 任职资格认证设计：七步认证流程、证据导向评价、四等结果、专委会治理。 | 华为任职资格体系 |
+| **competency-qualification-integrator** | -- | 素质模型与任职资格整合：冰山上下的定位、统一术语、轻量素质落地。 | 华为任职资格体系 |
+| **learning-path-mapper** | -- | 基于任职资格的学习路径图设计：70-20-10培养、加速成长方案、分层成长路线。 | 华为任职资格体系 |
+| **qualification-hr-integrator** | -- | 任职资格与HR体系整合：以岗定级定薪、绩效边界厘清、晋升门槛设计。 | 华为任职资格体系 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手

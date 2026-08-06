@@ -118,7 +118,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **org-performance-aligner** | -- | Organizational and personal performance alignment: DSTE+BLM+PBC docking, hat-wearing and twisted rope, budget and payroll management. | Huawei performance management |
 | **rd-performance-designer** | -- | R&D performance management: benefit/efficiency/path/behavior four-dimension indicators, IPD-based R&D performance, project-based assessment. | Huawei performance management |
 | **incremental-performance-driver** | -- | Incremental performance and value distribution: value creation -> evaluation -> distribution closed loop, payroll control, 3-people-5-jobs-4-pay. | Huawei performance management |
-| **performance-coach-grow** | -- | Performance coaching and GROW model: coaching-style辅导, GROW four-step, performance interview, low-performer PIP management. | Huawei performance management |
+| **performance-coach-grow** | -- | Performance coaching and GROW model: coaching-style guidance, GROW four-step, performance interview, low-performer PIP management. | Huawei performance management |
 | **admin-baseline-manager** | -- | Admin baseline management: dual classification (autonomy vs standardization), country-level cost baselines, save-share/waste-burden incentives. | Huawei admin management |
 | **internal-service-marketizer** | -- | Internal service marketization: basic/premium tiering, privatization + competition, dynamic rent + survival-of-the-fittest. | Huawei admin management |
 | **lean-process-reformer** | -- | Lean process reform: value audit, cut non-value steps, process accountability for non-core flows, small-loop granularity. | Huawei admin management |
@@ -129,6 +129,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **business-change-it-land** | -- | Business transformation IT landing: rigid -> fixed -> optimized methodology, package-driven change, capability decoupling. | Huawei IT management |
 | **roads-digital-transformer** | -- | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
 | **global-it-controller** | -- | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
+| **qualification-standard-builder** | -- | Qualification standard development: five-step method from job analysis to behavioral standards, with broadband grading and "three sentences" clarity rule. | Huawei qualification system |
+| **dual-channel-career-designer** | -- | Dual-channel career design: management + professional tracks, five-level progression, top-tier pay parity, and cross-channel mobility rules. | Huawei qualification system |
+| **qualification-certifier** | -- | Qualification certification design: seven-step process, evidence-based evaluation, four-grade results, and committee governance. | Huawei qualification system |
+| **competency-qualification-integrator** | -- | Integrate competency models with qualification systems: iceberg-above vs iceberg-below, unified terminology, and lightweight competency deployment. | Huawei qualification system |
+| **learning-path-mapper** | -- | Learning path design based on qualification gaps: 70-20-10 development, acceleration programs, and tiered growth routes. | Huawei qualification system |
+| **qualification-hr-integrator** | -- | Qualification-HR integration: job-grade-pay linkage, performance boundary clarification, and promotion gatekeeping. | Huawei qualification system |
 | **qq-sticker-maker** | -- | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

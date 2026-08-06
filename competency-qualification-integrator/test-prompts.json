@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们做了素质模型但不知道怎么用，只在招聘用了一下，后面就没用了",
+    "expected_trigger": true,
+    "expected_behavior": "诊断孤立使用问题，提供整合框架（纳入任职资格参考项）"
+  },
+  {
+    "prompt": "素质模型和任职资格到底有什么区别？我们要做哪个？",
+    "expected_trigger": true,
+    "expected_behavior": "对比冰山上下、选人vs评人、建议整合方案"
+  },
+  {
+    "prompt": "任职资格通过了但这个人团队合作很差，怎么在体系里解决这个问题？",
+    "expected_trigger": true,
+    "expected_behavior": "建议将素质（团队合作）作为任职资格参考项，设置一票否决或降级机制"
+  },
+  {
+    "prompt": "帮我设计一个销售团队的KPI",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]
