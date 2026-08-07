@@ -127,6 +127,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **rd-performance-designer** | -- | R&D performance management: benefit/efficiency/path/behavior four-dimension indicators, IPD-based R&D performance, project-based assessment. | Huawei performance management |
 | **incremental-performance-driver** | -- | Incremental performance and value distribution: value creation -> evaluation -> distribution closed loop, payroll control, 3-people-5-jobs-4-pay. | Huawei performance management |
 | **performance-coach-grow** | -- | Performance coaching and GROW model: coaching-style guidance, GROW four-step, performance interview, low-performer PIP management. | Huawei performance management |
+| **performance-decomposition-engineer** | -- | Cross-functional performance decomposition: break final results into inter-departmental activity chains so the whole organization owns outcomes. | Huawei performance management |
 | **pricing-profit-lever** | -- | Pricing profit-lever analysis: 1% price change → 10% profit impact. Quantify price/cost/volume/fixed-cost leverage effects. | Huawei finance management |
 | **customer-centric-pricing** | -- | Customer-centric pricing architecture: IPD+LTC coupling, value-based pricing transition, cross-functional pricing governance. | Huawei finance management |
 | **price-anchoring-strategist** | -- | Price anchoring and psychological pricing: contrast effect, second-cup-half-price patterns, diminishing-return mitigation. | Huawei finance management |
@@ -175,6 +176,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **cross-industry-ecosystem-builder** | -- | Cross-industry ecosystem building: XYZ stereo blueprint, open partner enablement, anchor case scaling. | Huawei crossover management |
 | **qq-sticker-maker** | -- | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 | **training-battle-designer** | -- | Design and operate a training-battle talent development system: strategic reserve force, heavy-brigade bootcamp, train-fight-recharge loop. | Huawei talent & leadership development |
+| **strategic-reserve-force-operator** | -- | Strategic reserve force operations: selection -> training-combat -> deployment -> evaluation -> return/assignment loop for organizational blood circulation. | Huawei talent & leadership development |
 | **mentor-system-builder** | -- | Full-cycle mentor system design: selection, matching, agreements, progress tracking, and incentive mechanisms. Great leaders lead leaders. | Huawei talent & leadership development |
 | **training-needs-analyst** | -- | Training needs analysis via Three Hard + Three Soft framework. Align training investment with business strategy and prioritize by ROI. | Huawei talent & leadership development |
 | **enterprise-university-architect** | -- | Self-sustaining corporate university design: revenue-sharing funding, part-time faculty cycles, budget autonomy, curriculum architecture. | Huawei talent & leadership development |
@@ -185,6 +187,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **hr-blueprint-strategist** | -- | HR top-level blueprint from Huawei Outline 2.0: organizational vitality, dual drive, cadre/talent/org three objects, platform + frontline. | Huawei talent & leadership development |
 | **talent-exit-balancer** | -- | Talent exit and workforce balancing: three-axe rapid improvement, four exit pathways, new-veteran pay conflict resolution. | Huawei talent & leadership development |
 | **training-effect-measurer** | -- | Training effectiveness measurement: Kirkpatrick four-level model, conversion rate methodology, linking training to business outcomes. | Huawei talent & leadership development |
+| **talent-prsw-framework** | -- | Talent management PRSW framework: Peach (attraction), Rope (retention), Whip (drive), Sieve (elimination) -- systematic full-lifecycle talent management. | Huawei talent & leadership development |
 | **team-chemistry-builder** | -- | Team chemistry and leadership pairing: SHL shift model, value convergence + complementary strengths, wolf vs. deputy role design. | Huawei HR management |
 | **bonus-package-architect** | -- | Four-level bonus package design: company to system to organization to individual, gain-sharing vs. grant, strategic bounty system. | Huawei HR management |
 | **business-stage-appraiser** | -- | Business stage differentiated appraisal: mature (profit) / growth (scale) / exploratory (milestones) three-stage target design. | Huawei HR management |
@@ -197,6 +200,8 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **cadre-selection-architect** | -- | Cadre selection framework: four standards, four forces, nine traits, five qualities, key events, horse-race culture, frontline experience. | Huawei cadre management |
 | **cadre-appointment-tribunal** | -- | Cadre appointment and three-powers separation: AT/ST structures, nomination/review/veto, appointment procedures, eight staffing principles. | Huawei cadre management |
 | **cadre-performance-governor** | -- | Cadre performance governance: four-quadrant model, bottom-10% elimination, debriefing system, up-and-down mobility, three removals. | Huawei cadre management |
+| **cadre-vitality-diagnoser** | -- | Cadre and organizational vitality diagnosis: mission/responsibility/capability 3-layer scan + 10 involution symptoms + 18 laziness behaviors checklist. | Huawei cadre management |
+| **cadre-culling-protocol** | -- | Cadre culling and laziness governance: 13 unfit cadre types, 18 laziness behavior checklist, bottom elimination, and up-down mobility enforcement. | Huawei cadre management |
 | **commander-staff-pairing** | -- | Commander-staff pairing model: wolf (offense) vs bie (management), principal vs deputy, decision-making + execution pairing. | Huawei cadre management |
 | **cadre-values-guardian** | -- | Cadre values and discipline: eight requirements, hard struggle, self-critique, moral bottom line, openness-compromise-grayness. | Huawei cadre management |
 | **cadre-90day-turnaround** | -- | New cadre 90-day turnaround: role cognition, management coach, Quickwin targets, five key talks, pre-assignment review. | Huawei cadre management |
@@ -210,6 +215,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **finance-business-integrator** | -- | Finance-business integration: project estimation, pre-sales finance, project CFO, BP deployment. | Huawei financial management |
 | **growth-maximization-strategist** | -- | Growth maximization philosophy: deep-trench-low-dam, reasonable profit, anti-cyclical investment, barrier building. | Huawei financial management |
 | **wolf-pack-culture-builder** | -- | Wolf-pack team culture and new employee onboarding: 721 rule, three-stage training, mentor integration, 271 elimination. | Huawei team & cadre management |
+| **iron-army-builder** | -- | Iron army four-dimension build: deployable (frontline experience), mobile (3D rotation), capable (top-25% selection), uncorrupted (continuous struggle). | Huawei cadre management |
 | **cadre-shelf-operator** | -- | Cadre shelf model: four standards, four forces with six dimensions, four experiences, four-quadrant assessment, unified selection language. | Huawei cadre management |
 | **cadre-reserve-west-pointer** | -- | Cadre reserve West Point-style selection: 1/3-of-1/3 funnel, independent university tracking, three-powers oversight, continuous elimination. | Huawei cadre management |
 | **cadre-battlefield-groomer** | -- | Battlefield cadre grooming: select from successful frontline teams, clear reward/punishment, results + key-behavior evaluation, heavy incentive gaps. | Huawei cadre management |
