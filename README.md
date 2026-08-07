@@ -146,6 +146,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **equity-incentive-pain-doctor** | — | Equity incentive pain-point diagnosis: 14 failure modes, five shareholder-type matching, recovery roadmap. | Huawei equity incentive |
 | **atup-ecosystem-integrator** | — | ATUP ecosystem integration: extend acquire-share logic to external partners, platform value pools, 2-year partner cycles. | Huawei equity incentive |
 | **striver-ownership-culture** | — | Striver ownership culture: three-tier community, annual striver certification, story-based cultural transmission. | Huawei equity incentive |
+| **equity-10d-designer** | — | 10D equity incentive design model: purpose, architecture, targets, instrument, quantity, price, timeline, source, conditions, mechanism. | Huawei equity incentive |
+| **virtual-equity-architect** | — | Virtual restricted share and TUP plan design: holding platform, pricing, vesting, exit, and governance for non-listed companies. | Huawei equity incentive |
+| **knowledge-capitalization-strategist** | — | Knowledge capitalization framework: convert intellectual labor into equity, nine incentive mechanisms, striver culture foundation. | Huawei equity incentive |
+| **equity-governance-builder** | — | Employee ownership governance architecture: shareholding platform, employee representative meeting, rotating CEO, founder veto design. | Huawei equity incentive |
+| **stage-equity-matcher** | — | Stage-based equity instrument matching: real shares, virtual shares, TUP, options aligned to startup/growth/mature stages. | Huawei equity incentive |
+| **equity-saturation-governor** | — | Equity saturation and dynamic adjustment: saturation lines, reward shares, clawback, retirement retention, exit repurchase. | Huawei equity incentive |
 | **pbc-performance-contractor** | — | PBC performance commitment design: strategy decoding -> BSC -> KPI -> personal PBC, WET three elements, SMART criteria, refresh mechanism. | Huawei performance management |
 | **forced-distribution-enforcer** | — | Forced distribution and performance result application: 5-grade absolute definition, horse-racing mechanism, layered evaluation, 10%淘汰. | Huawei performance management |
 | **org-performance-aligner** | — | Organizational and personal performance alignment: DSTE+BLM+PBC docking, "hat-wearing" and "twisted rope", budget and payroll management. | Huawei performance management |
