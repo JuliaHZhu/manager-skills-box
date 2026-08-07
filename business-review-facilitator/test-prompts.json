@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们每月经营例会总是变成各部门晒成绩，老板听得很满意但问题一个没解决，怎么破？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我设计一个季度经营复盘会的流程，要求能直面差距、找到根因、建立流程",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "Q2销售额下滑了15%，经营分析会上销售部说是因为市场竞争太激烈，我怎么引导他们找到真正的根因？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "请帮我制定明年的战略规划",
+    "expected_trigger": false
+  },
+  {
+    "prompt": "个人每周复盘应该怎么写？",
+    "expected_trigger": false
+  }
+]

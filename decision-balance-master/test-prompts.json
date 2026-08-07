@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们公司应该追求利润最大化还是成长最大化？怎么平衡？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "管理层在讨论要不要大刀阔斧改革现有流程，还是渐进式改良，你怎么看？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "创始人事无巨细都要管，公司离不开他，怎么建立无生命的管理体系？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "研发团队总想做最先进的技术，但市场部说客户不需要，怎么平衡？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我写一个Python脚本",
+    "expected_trigger": false
+  }
+]

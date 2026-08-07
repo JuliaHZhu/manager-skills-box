@@ -264,6 +264,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **cadre-battlefield-groomer** | — | Battlefield cadre grooming: select from successful frontline teams, clear reward/punishment, results + key-behavior evaluation, heavy incentive gaps. | Huawei cadre management |
 | **emt-rotating-ceo-guardian** | — | Rotating CEO and EMT self-discipline: two mechanisms to eradicate three organizational tumors (factionalism, corruption, complacency). | Huawei cadre management |
 | **ren-cadre-tenets** | — | Ren Zhengfei ten cadre management tenets: systematic self-diagnostic framework for cadre system design. | Huawei cadre management |
+| **business-review-facilitator** | — | Business review meeting facilitation: start with gaps, find root causes with data, build processes. Three-common-failure diagnosis. | Huawei business management |
+| **process-driven-org-builder** | — | Process-driven organization design: business flow → process → data → IT → quality → organization six-layer integration. | Huawei business management |
+| **frontline-empowerment-architect** | — | Frontline empowerment and matrix organization: four authorization principles, four maturity stages, Navy SEALs model, post-authorization supervision. | Huawei business management |
+| **decision-balance-master** | — | Decision management balancing: growth vs profit, reform vs revolution, lifeless management, half-step lead, dictatorship vs democracy. | Huawei business management |
+| **management-twist-engineer** | — | Management tension design (twist the rope): front-back, top-bottom, inside-outside three twist types for scale-efficiency paradox. | Huawei business management |
+| **matter-accountability-designer** | — | Matter accountability system design: replace person-dependent culture with process-dependent, result-oriented responsibility. | Huawei business management |
 
 ## Design Philosophy
 

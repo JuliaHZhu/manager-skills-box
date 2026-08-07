@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们公司所有决策都要总部审批，一线销售响应客户慢得要死，怎么设计一线授权机制？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "想从职能型组织转型为矩阵型组织，有什么步骤和注意事项？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "怎么做到'让听得见炮声的人呼唤炮火'？需要哪些配套机制？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我写一份销售人员的岗位说明书",
+    "expected_trigger": false
+  },
+  {
+    "prompt": "授权后员工乱做决策导致亏损，怎么办？",
+    "expected_trigger": true
+  }
+]

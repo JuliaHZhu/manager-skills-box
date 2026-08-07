@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们公司事事都要请示领导，效率很低，怎么建立对事负责的机制？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "对事负责和对人负责到底有什么区别？怎么在组织里落地对事负责？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "员工怕担责，什么事都要老板点头，怎么改变这种文化？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我设计一个审批流程",
+    "expected_trigger": false
+  },
+  {
+    "prompt": "绩效考核怎么做到真正的责任结果导向？",
+    "expected_trigger": true
+  }
+]

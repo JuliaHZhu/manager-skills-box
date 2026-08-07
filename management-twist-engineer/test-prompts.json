@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "公司规模越大效率越低，怎么设计管理制度才能既有规模又有效益？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "华为说的'拧麻花'管理是什么意思？怎么用到我们公司？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "怎么在扩张期和 consolidation 期之间找到节奏？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "股东和员工利益冲突怎么平衡？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我设计一个绩效考核表",
+    "expected_trigger": false
+  }
+]

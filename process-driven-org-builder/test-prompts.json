@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们公司部门墙很厚，每个部门只关心自己的KPI，端到端效率很低，怎么设计流程化组织？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "请帮我梳理从客户需求到产品交付的端到端业务流，并设计匹配的组织架构",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "IT部门和业务部门总是打架，IT说需求不清楚，业务说系统不好用，问题出在哪？",
+    "expected_trigger": true
+  },
+  {
+    "prompt": "帮我选一个ERP系统",
+    "expected_trigger": false
+  },
+  {
+    "prompt": "如何把质量管控嵌入到研发流程中而不是事后检查？",
+    "expected_trigger": true
+  }
+]
