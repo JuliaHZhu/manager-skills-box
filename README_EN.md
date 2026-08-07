@@ -263,6 +263,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **decision-balance-master** | -- | Decision management balancing: growth vs profit, reform vs revolution, lifeless management, half-step lead, dictatorship vs democracy. | Huawei business management |
 | **management-twist-engineer** | -- | Management tension design (twist the rope): front-back, top-bottom, inside-outside three twist types for scale-efficiency paradox. | Huawei business management |
 | **matter-accountability-designer** | -- | Matter accountability system design: replace person-dependent culture with process-dependent, result-oriented responsibility. | Huawei business management |
+| **responsibility-center-operator** | -- | Responsibility center management: profit/cost/expense/investment center design, cost-based internal settlement, delegation + monitoring. | Huawei organization management |
+| **org-synergy-architect** | -- | Organizational synergy: process integration, matrix structure, market-driven internal mechanisms, anti-involution design. | Huawei organization management |
+| **result-orientation-guardian** | -- | Result-oriented management: forward KPI + backward event review, crisis decomposition, customer-process-performance triad. | Huawei organization management |
+| **anti-involution-diagnoser** | -- | Involution and internal waste diagnosis: 30-type involution checklist, 10-waste framework, organizational health examination. | Huawei organization management |
+| **consulting-value-maximizer** | -- | Consulting engagement value maximization: trust-first, milestone rigor, knowledge transfer, systematic consultant management. | Huawei organization management |
+| **simple-org-culture-builder** | -- | Simple organization and culture building: capability in systems, three mechanisms, values-to-behavior translation, contract over loyalty. | Huawei organization management |
 
 ## Design Philosophy
 
