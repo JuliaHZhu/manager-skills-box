@@ -1,0 +1,40 @@
+{
+  "skill": "project-team-communicator",
+  "tests": [
+    {
+      "prompt": "项目团队人多效率低，出了事互相推诿",
+      "expected": "should_trigger",
+      "reason": "团队效率低和推诿是项目团队管理核心场景"
+    },
+    {
+      "prompt": "跨部门项目团队各自为政，销售、研发、交付没法协同",
+      "expected": "should_trigger",
+      "reason": "跨部门协同是C8协同和项目沟通的核心场景"
+    },
+    {
+      "prompt": "项目HRBP应该怎么设？和传统HRBP有什么区别？",
+      "expected": "should_trigger",
+      "reason": "项目HRBP角色设计是本skill核心内容"
+    },
+    {
+      "prompt": "怎么提升ToB大项目的赢单率？",
+      "expected": "should_not_trigger",
+      "reason": "这是销售策略问题，应触发tob-big-project-strategist"
+    },
+    {
+      "prompt": "需要一套项目WBS和风险管理表格",
+      "expected": "should_not_trigger",
+      "reason": "这是工具模板需求，应触发project-standard-toolkit"
+    },
+    {
+      "prompt": "我们是一个完全自组织的Scrum团队，Daily Standup已经够用了",
+      "expected": "should_not_trigger",
+      "reason": "高度自组织敏捷小队已有固定仪式（边界）"
+    },
+    {
+      "prompt": "项目经理布置任务，成员总听错或理解偏差",
+      "expected": "should_trigger",
+      "reason": "沟通偏差是沟通三原则要解决的问题"
+    }
+  ]
+}

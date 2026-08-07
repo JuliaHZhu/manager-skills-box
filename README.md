@@ -188,6 +188,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **roads-digital-transformer** | — | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
 | **global-it-controller** | — | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
 | **project-four-accounting** | — | Project four-accounting management: estimate -> budget -> account -> settle, pulling through project-level profit management with CFO empowerment. | Huawei financial management |
+| **project-centric-org-transformer** | — | Project-centric organization transformation: five components (org definition, empowerment, resource trading, evaluation, IT), three key elements, iron triangle. | Huawei project management |
+| **tob-big-project-strategist** | — | ToB big-project winning strategy: five-stage funnel, three-axes + one-paper Zen, marketing four elements, LTC end-to-end, pre-bid guidance. | Huawei project management |
+| **project-standard-toolkit** | — | Project management standard toolkit: ten templates, six-steps-one-method, ten charts (Gantt, burndown, WBS, RACI, PERT, etc.). | Huawei project management |
+| **project-ceo-cultivator** | — | Project CEO cultivation: HEROS model, three soft skills (business acumen, quality, leadership), three-stage growth, 70-20-10 + AAR. | Huawei project management |
+| **project-team-communicator** | — | Project communication and team leadership: three communication principles, PL management, C8 collaboration, project HRBP "person" model. | Huawei project management |
+| **project-process-controller** | — | Project process and risk control: six stages 45 actions, IPD+CMMI+Agile fusion, PQA audit, four risk responses, change management. | Huawei project management |
 | **comprehensive-budget-manager** | — | Comprehensive budget management: two-layer budget generation (opportunity-based + resource-based), elastic grant, budget-to-strategy alignment. | Huawei financial management |
 | **cost-control-twist-towel** | — | Cost control "twist-towel" methodology: three-moves four-forms combo to squeeze costs while protecting strategic investment and customer interface. | Huawei financial management |
 | **ifs-finance-transformation** | — | IFS integrated financial transformation: rule-based certainty against outcome uncertainty, business-finance integration, CFO pipeline buildout. | Huawei financial management |

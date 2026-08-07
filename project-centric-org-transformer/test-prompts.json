@@ -1,0 +1,40 @@
+{
+  "skill": "project-centric-org-transformer",
+  "tests": [
+    {
+      "prompt": "我们公司职能部门太强，项目经理拿不到资源，怎么让一线快速决策？",
+      "expected": "should_trigger",
+      "reason": "核心痛点：职能部门板结、一线授权不足，直接对应以项目为中心转型"
+    },
+    {
+      "prompt": "想设计一个大平台+小前台的组织模式，让听得见炮声的人呼唤炮火",
+      "expected": "should_trigger",
+      "reason": "明确提到大平台小前台和一线炮火，是项目型组织典型场景"
+    },
+    {
+      "prompt": "项目经理只有协调权没有考核权，团队成员还是听职能经理的",
+      "expected": "should_trigger",
+      "reason": "授权不足是项目型组织关键痛点"
+    },
+    {
+      "prompt": "怎么做好一个ToB大项目的投标策略，提升赢单率？",
+      "expected": "should_not_trigger",
+      "reason": "这是大项目销售策略，应触发tob-big-project-strategist"
+    },
+    {
+      "prompt": "需要一套项目进度计划和风险管理表格模板",
+      "expected": "should_not_trigger",
+      "reason": "这是工具模板需求，应触发project-standard-toolkit"
+    },
+    {
+      "prompt": "我们是一个5人的初创公司，想直接建设项目型组织",
+      "expected": "should_not_trigger",
+      "reason": "初创公司无稳定职能体系，不适用项目型组织转型（边界）"
+    },
+    {
+      "prompt": "机关部门养了一堆人，一线需要的时候却调不动，怎么设计资源买卖机制？",
+      "expected": "should_trigger",
+      "reason": "资源板结和买卖机制是项目型组织核心要素"
+    }
+  ]
+}

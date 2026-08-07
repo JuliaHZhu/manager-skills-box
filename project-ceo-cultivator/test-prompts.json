@@ -1,0 +1,40 @@
+{
+  "skill": "project-ceo-cultivator",
+  "tests": [
+    {
+      "prompt": "怎么建立项目经理的认证和成长阶梯？",
+      "expected": "should_trigger",
+      "reason": "项目经理认证和成长阶梯是HEROS培养体系核心"
+    },
+    {
+      "prompt": "项目经理只会排进度催任务，不懂经营，项目亏了都不知道",
+      "expected": "should_trigger",
+      "reason": "项目经理不懂经营是项目CEO培养的关键痛点"
+    },
+    {
+      "prompt": "新人怎么快速成长为能独当一面的项目经理？",
+      "expected": "should_trigger",
+      "reason": "训战结合和721+AAR是新人快速成长的机制"
+    },
+    {
+      "prompt": "怎么设计资源买卖机制让职能部门放人？",
+      "expected": "should_not_trigger",
+      "reason": "这是组织转型问题，应触发project-centric-org-transformer"
+    },
+    {
+      "prompt": "客户频繁变更需求，范围控制不住",
+      "expected": "should_not_trigger",
+      "reason": "这是流程控制问题，应触发project-process-controller"
+    },
+    {
+      "prompt": "我想考个PMP证书，需要备考资料",
+      "expected": "should_not_trigger",
+      "reason": "纯考证辅导与实战能力培养无关（边界）"
+    },
+    {
+      "prompt": "项目经理沦为高级螺丝钉，没有领导力，团队不服",
+      "expected": "should_trigger",
+      "reason": "领导力不足是HEROS模型要解决的问题"
+    }
+  ]
+}

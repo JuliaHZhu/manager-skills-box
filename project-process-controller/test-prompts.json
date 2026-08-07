@@ -1,0 +1,40 @@
+{
+  "skill": "project-process-controller",
+  "tests": [
+    {
+      "prompt": "项目做到一半发现方向错了，前面投入全浪费",
+      "expected": "should_trigger",
+      "reason": "方向错误说明前期分析和规划阶段失控，需要流程管控"
+    },
+    {
+      "prompt": "质量问题总是在最后才发现，返工成本极高",
+      "expected": "should_trigger",
+      "reason": "后期发现质量问题是缺乏过程审计（PQA）的典型表现"
+    },
+    {
+      "prompt": "客户频繁变更需求，项目范围控制不住",
+      "expected": "should_trigger",
+      "reason": "变更控制是项目流程与风险管控的核心内容"
+    },
+    {
+      "prompt": "怎么设计大平台支撑小前台的组织模式？",
+      "expected": "should_not_trigger",
+      "reason": "这是组织转型问题，应触发project-centric-org-transformer"
+    },
+    {
+      "prompt": "项目经理不懂财务，项目亏了都不知道",
+      "expected": "should_not_trigger",
+      "reason": "这是项目经理能力问题，应触发project-ceo-cultivator"
+    },
+    {
+      "prompt": "我们是做创意广告的，每次项目都完全不一样，怎么建流程？",
+      "expected": "should_not_trigger",
+      "reason": "纯创意项目无重复性，流程化会扼杀创新（边界）"
+    },
+    {
+      "prompt": "IPD、敏捷、CMMI都想用，怎么融合而不是打架？",
+      "expected": "should_trigger",
+      "reason": "三者融合是研发项目流程控制的核心方法论"
+    }
+  ]
+}

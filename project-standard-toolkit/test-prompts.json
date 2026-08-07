@@ -1,0 +1,40 @@
+{
+  "skill": "project-standard-toolkit",
+  "tests": [
+    {
+      "prompt": "需要一套拿来就能用的项目管理模板，包括WBS、进度、风险、变更",
+      "expected": "should_trigger",
+      "reason": "直接索要项目管理模板"
+    },
+    {
+      "prompt": "新人项目经理不知道怎么写项目计划和甘特图",
+      "expected": "should_trigger",
+      "reason": "项目计划与甘特图是十大模板核心内容"
+    },
+    {
+      "prompt": "项目变更混乱，客户一句话就改，怎么建立变更控制表？",
+      "expected": "should_trigger",
+      "reason": "变更管理表是十大模板之一"
+    },
+    {
+      "prompt": "怎么培养项目经理像CEO一样懂经营？",
+      "expected": "should_not_trigger",
+      "reason": "这是项目经理培养问题，应触发project-ceo-cultivator"
+    },
+    {
+      "prompt": "项目团队推诿扯皮，信息总是断档",
+      "expected": "should_not_trigger",
+      "reason": "这是团队沟通问题，应触发project-team-communicator"
+    },
+    {
+      "prompt": "我们团队只有2个人，需要十大模板吗？",
+      "expected": "should_not_trigger",
+      "reason": "2人团队模板管理成本高于收益（边界）"
+    },
+    {
+      "prompt": "有没有项目会议纪要、状态报告和总结表的模板？",
+      "expected": "should_trigger",
+      "reason": "直接对应十大模板中的具体模板"
+    }
+  ]
+}

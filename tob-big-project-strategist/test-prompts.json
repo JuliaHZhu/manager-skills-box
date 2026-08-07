@@ -1,0 +1,40 @@
+{
+  "skill": "tob-big-project-strategist",
+  "tests": [
+    {
+      "prompt": "我们的ToB项目成功率很低，五个阶段下来只有16%，怎么破？",
+      "expected": "should_trigger",
+      "reason": "五阶段漏斗和16%陷阱是本书ToB大项目的核心方法论"
+    },
+    {
+      "prompt": "客户连交流机会都不给，直接发标书，怎么破局？",
+      "expected": "should_trigger",
+      "reason": "标前引导和三板斧是应对无交流直接投标的典型策略"
+    },
+    {
+      "prompt": "怎么设计营销四要素策划，把大项目拓展从艺术变成技术？",
+      "expected": "should_trigger",
+      "reason": "直接提到营销四要素和大项目拓展"
+    },
+    {
+      "prompt": "项目经理不懂经营，项目亏了都不知道怎么算的",
+      "expected": "should_not_trigger",
+      "reason": "这是项目经理能力培养问题，应触发project-ceo-cultivator"
+    },
+    {
+      "prompt": "怎么建设项目型组织，让职能部门放人给项目用？",
+      "expected": "should_not_trigger",
+      "reason": "这是组织转型问题，应触发project-centric-org-transformer"
+    },
+    {
+      "prompt": "我们是卖办公用品的，单笔订单几千块，怎么用大项目拓展方法？",
+      "expected": "should_not_trigger",
+      "reason": "金额小、周期短的标品采购不适用ToB大项目策略（边界）"
+    },
+    {
+      "prompt": "销售说是产品问题，产品说是客户关系问题，老板不知道真实丢单原因",
+      "expected": "should_trigger",
+      "reason": "丢单原因隐蔽、事后吵架是ToB大项目典型痛点，需要四要素事前策划"
+    }
+  ]
+}
