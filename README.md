@@ -99,6 +99,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **supply-chain-triad-collaborator** | — | Supply chain triad alignment: R&D + Sales + Supply Chain collaboration using the Iron Triangle (AR/SR/FR) to break silos. | Huawei supply chain management |
 | **strategic-sourcing-tco** | — | Strategic sourcing and total cost of ownership: move beyond unit price to evaluate transportation, inventory, risk, quality, and sustainability. | Huawei supply chain management |
 | **supplier-field-auditor** | — | Supplier on-site audit: 8-step process, three standard forms, 10-factor evaluation framework for qualification and improvement. | Huawei supply chain management |
+| **mrp-master-scheduler** | — | MRP three-tier planning (MDS-MPS-MRP): master scheduling, version switch control, exception handling, and pre-shortage management. | Huawei planning management |
+| **inventory-plan-controller** | — | Inventory planning and materials control: min-max planning, ABC classification, dead-stock analysis, shortage resolution, daily closing. | Huawei planning management |
+| **demand-supply-balancer** | — | S&OP demand-supply balancing: unconstrained forecast, supply-demand-review meetings, R&D demand review, internal demand governance. | Huawei planning management |
+| **bom-eco-guardian** | — | BOM engineering data and ECO control: product structure trees, item templates, BOM list types, engineering change orders, planning percentages. | Huawei planning management |
+| **planning-parameter-engineer** | — | Planning parameter configuration: lead time, lot sizing, safety stock, ABC fixed supply days, planner attributes, internal order setup. | Huawei planning management |
+| **supply-chain-planning-architect** | — | Supply chain planning system design: MRP/JIT/TOC selection, planning organization architecture, ISC transformation, TOM model. | Huawei planning management |
 | **blue-team-organizer** | — | Build an internal opposition team: positioning, staffing, budget, operations, protection mechanisms. Red-blue army organizational design. | Huawei Red-Blue Army |
 | **red-blue-debater** | — | Design and execute structured red-blue strategic debates: issue selection, role assignment, rules, decision flow. | Huawei Red-Blue Army |
 | **self-critique-institutionalizer** | — | Transform self-critique from personal virtue into organizational capability: anonymous channels, leadership modeling, closed-loop improvement. | Huawei Red-Blue Army |

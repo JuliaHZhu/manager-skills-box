@@ -99,6 +99,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **supply-chain-triad-collaborator** | -- | Supply chain triad alignment: R&D + Sales + Supply Chain collaboration using the Iron Triangle (AR/SR/FR) to break silos. | Huawei supply chain management |
 | **strategic-sourcing-tco** | -- | Strategic sourcing and total cost of ownership: move beyond unit price to evaluate transportation, inventory, risk, quality, and sustainability. | Huawei supply chain management |
 | **supplier-field-auditor** | -- | Supplier on-site audit: 8-step process, three standard forms, 10-factor evaluation framework for qualification and improvement. | Huawei supply chain management |
+| **mrp-master-scheduler** | -- | MRP three-tier master scheduling: MDS-MPS-MRP planning, version switch control, exception handling, pre-shortage management. | Huawei planning management |
+| **inventory-plan-controller** | -- | Inventory planning and materials control: min-max planning, ABC classification, dead-stock analysis, shortage resolution, daily closing. | Huawei planning management |
+| **demand-supply-balancer** | -- | S&OP demand-supply balancing: unconstrained forecast, supply-demand-review meetings, demand smoothing, R&D and internal demand review. | Huawei planning management |
+| **bom-eco-guardian** | -- | BOM engineering data and ECO control: product structure trees, item templates, BOM list types, engineering change orders, planning percentages. | Huawei planning management |
+| **planning-parameter-engineer** | -- | Planning parameter configuration: lead time, lot sizing, safety stock, ABC fixed supply days, planner attributes, internal order setup. | Huawei planning management |
+| **supply-chain-planning-architect** | -- | Supply chain planning system design: MRP/JIT/TOC methodology selection, planning organization architecture, ISC transformation, TOM model. | Huawei planning management |
 | **five-looks-market-insight** | -- | Five-looks market insight: industry/trends, customers, competition, self-assessment, opportunity. Structured scanning before strategy design. | Huawei strategic management |
 | **blm-strategic-planning** | -- | BLM (Business Leadership Model): gap analysis -> market insight -> strategic intent -> innovation focus -> business design -> execution system. | Huawei strategic management |
 | **business-model-five-elements** | -- | Business model design via five elements: customer selection, value proposition, profit model, strategic control, business scope. | Huawei strategic management |
