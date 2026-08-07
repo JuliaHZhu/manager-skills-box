@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们要组织任职资格认证，但不知道怎么设计流程，从申请到颁证应该有哪些步骤？",
+    "expected_trigger": true,
+    "expected_behavior": "提供七步认证流程和工具组合建议"
+  },
+  {
+    "prompt": "认证答辩会上评委总是凭印象打分，怎么让他们按标准评议？",
+    "expected_trigger": true,
+    "expected_behavior": "提供评议三维度（是否做到过/一贯性/效果）和单条标准判定表"
+  },
+  {
+    "prompt": "任职资格认证结果怎么和晋升挂钩？是不是通过了就能升职？",
+    "expected_trigger": true,
+    "expected_behavior": "解释必要条件vs充分条件，强调驾照比喻"
+  },
+  {
+    "prompt": "怎么写一份好的年终总结PPT？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]

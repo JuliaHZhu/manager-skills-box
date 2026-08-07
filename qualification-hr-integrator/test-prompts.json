@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "任职资格体系建好了，但不知道怎么和薪酬挂钩，职能工资制怎么设计？",
+    "expected_trigger": true,
+    "expected_behavior": "提供宽带薪酬设计、以岗定级以级定薪的操作方法"
+  },
+  {
+    "prompt": "绩效考核和任职资格认证有什么区别？两者怎么配合？",
+    "expected_trigger": true,
+    "expected_behavior": "明确边界（行为vs结果），提供联动机制"
+  },
+  {
+    "prompt": "员工任职资格通过了但工资没涨，闹情绪，怎么解释？",
+    "expected_trigger": true,
+    "expected_behavior": "解释驾照比喻（有资格≠必晋升），说明薪酬挂钩规则和岗位空缺因素"
+  },
+  {
+    "prompt": "怎么设计一个销售提成方案？",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]

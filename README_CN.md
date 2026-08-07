@@ -95,6 +95,13 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **stretch-goals-capability-building** | -- | 高目标倒逼能力建设：机会逻辑替代延长线思维，用差距创造"创造性张力"。 | 华为战略管理 |
 | **org-capability-elevation** | -- | 组织能力升维：五层级管理能力（业务→职能→要素→协作→战略）诊断与升级路径。 | 华为战略管理 |
 | **dste-strategy-execution** | -- | DSTE战略运营流程：SP→BP→预算→KPI→PBC→监控的闭环管理日历。 | 华为战略管理 |
+| **cross-border-strategist** | -- | 跨界战略决策师：错误清单→产业节点→战略空间→独立运作→压强投入五步框架，B2B转B2C转型手册。 | 华为跨界管理 |
+| **main-channel-guardian** | -- | 主航道边界守护者：三维检验法、不做边界外的事、平台三不原则。 | 华为跨界管理 |
+| **pressure-focus-investor** | -- | 压强原则投资者：战略生长点地图、三代战略储备、压强指数计算。 | 华为跨界管理 |
+| **backup-plan-architect** | -- | 备胎战略架构师：四层备胎分级、狗食自吃原则、转正触发机制设计。 | 华为跨界管理 |
+| **full-stack-vertical-integrator** | -- | 全栈垂直整合者：能力地图绘制、缺失层诊断、整合路径选择、生态兼容策略。 | 华为跨界管理 |
+| **black-soil-ecosystem-builder** | -- | 黑土地生态建设者：降低门槛、提供养分、平衡利益、让伙伴成功四步法。 | 华为跨界管理 |
+| **crisis-deterrence-survivor** | -- | 危机威慑与极限生存者：威慑-生存双循环、五阶段切换协议、阵营构建三步法。 | 华为跨界管理 |
 | **global-market-entry-strategist** | -- | 全球市场进入策略师：农村包围城市路径、市场吸引力×竞争力矩阵、阶段聚焦、进入模式组合。 | 华为国际化 |
 | **brand-globalization-builder** | -- | 品牌全球化建设者：三阶段模型（造势→外交→检阅）、跨文化品牌传播、B2B到B2C信任迁移。 | 华为国际化 |
 | **glocalization-operator** | -- | 全球本土化运营者：全球资源整合+本地价值创造、能力中心与共享中心布局、本土化率的度。 | 华为国际化 |
@@ -135,18 +142,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **competency-qualification-integrator** | -- | 素质模型与任职资格整合：冰山上下的定位、统一术语、轻量素质落地。 | 华为任职资格体系 |
 | **learning-path-mapper** | -- | 基于任职资格的学习路径图设计：70-20-10培养、加速成长方案、分层成长路线。 | 华为任职资格体系 |
 | **qualification-hr-integrator** | -- | 任职资格与HR体系整合：以岗定级定薪、绩效边界厘清、晋升门槛设计。 | 华为任职资格体系 |
-| **training-battle-designer** | -- | 训战结合人才培养模式：战略预备队训练营、真实项目作战、案例教学。 | 华为培训体系 |
-| **mentor-system-builder** | -- | 导师制全周期运作：导师选拔与匹配、协议签订、过程跟踪、激励机制。 | 华为培训体系 |
-| **training-needs-analyst** | -- | 培训需求分析"三硬三软"框架：业务差距→绩效差距→学习差距。 | 华为培训体系 |
-| **enterprise-university-architect** | -- | 企业大学战略架构：获取分享制经费、兼职师资、课程与业务战略对齐。 | 华为培训体系 |
-| **iron-triangle-organizer** | -- | 一线铁三角组织：客户经理+解决方案+交付经理集成作战与平台赋能。 | 华为培训体系 |
-| **training-effect-measurer** | -- | 培训效果评估：反应层/学习层/行为层/结果层+华为训战转化率方法。 | 华为培训体系 |
-| **strategic-reserve-operator** | -- | 战略预备队/重装旅运作：选拔→训战→项目实战→答辩→任用循环、成本机制、案例传承。 | 华为培训体系 |
-| **cadre-development-system** | -- | 干部培养三阶段体系：MST→SLD→ILD、角色职责导向课程、高研班。 | 华为培训体系 |
-| **cadre-rotation-designer** | -- | 干部之字形成长与轮岗设计：四类员工差异化、内部人才市场、能上能下。 | 华为培训体系 |
-| **successor-pipeline-architect** | -- | 继任计划TSP：四大风险、人才盘点、Ready Now/1 job away/2 jobs away、AAD年度任用。 | 华为培训体系 |
-| **individual-development-planner** | -- | IDP个人发展计划：70-20-10、MFP经理人反馈、季度回顾闭环。 | 华为培训体系 |
-| **product-manager-cultivator** | -- | 产品经理培养体系：双基因资源池、角色认知课程、生命周期差异化考核、投资权限。 | 华为培训体系 |
+| **admin-support-qualification-architect** | -- | 行政支持类任职资格架构设计：双通道五级分类、单元-要素行为标准、四维度门槛设计。 | 华为秘书任职资格体系 |
+| **secretary-excellence-ladder** | -- | 九段秘书卓越工作法：从任务执行到体系建设，含三层楼境界与四重成熟度模型。 | 华为秘书任职资格体系 |
+| **routine-exception-delegator** | -- | 例行与例外管理分离设计：经理管例外、秘书管例行，组织时间价值优化。 | 华为秘书任职资格体系 |
+| **meeting-management-master** | -- | 会议管理全流程方法论：会前三要点、会中三服务、会后三件事，外加查三遍质控。 | 华为秘书任职资格体系 |
+| **executive-support-system-designer** | -- | 高管支持体系设计：秘书定位、五项核心职责、成长通道、规范化服务体系。 | 华为秘书任职资格体系 |
+| **behavioral-standards-engineer** | -- | 行为标准工程师：任务到能力转化、分级行为描述、NVQ本土化、认证重点设计。 | 华为秘书任职资格体系 |
 | **industry-convergence-spotter** | -- | 产业融合机会识别：技术节奏匹配度、市场需求耦合度、基础设施整合度三维评估。 | 华为跨界管理 |
 | **enterprise-digital-transformer** | -- | 企业数字化转型建筑师：五转四举措四难点、Malik曲线、数据治理打底。 | 华为跨界管理 |
 | **limit-survival-strategist** | -- | 极限生存战略家：备胎体系、算力底座、生态开放，极端压力下的战略韧性构建。 | 华为跨界管理 |
@@ -154,6 +155,12 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **smart-meeting-operator** | -- | 智能会议运营家：会前准备×会中纪律×会后闭环，数字化会议效率提升。 | 华为跨界管理 |
 | **cross-industry-ecosystem-builder** | -- | 跨产业生态构建师：XYZ立体版图、开放伙伴赋能、标杆案例规模化。 | 华为跨界管理 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
+| **training-battle-designer** | -- | 训战结合设计师：训战闭环、战略预备队、重装旅训战营、选拔制非培养制。 | 华为人才发展与领导力 |
+| **mentor-system-builder** | -- | 导师制建设者：导师七角色、选拔匹配、协议过程、考核激励、晋升绑定。 | 华为人才发展与领导力 |
+| **training-needs-analyst** | -- | 培训需求分析师：三硬三软六维框架、差距分析、培训ROI排序、过滤非培训问题。 | 华为人才发展与领导力 |
+| **enterprise-university-architect** | -- | 企业大学架构师：获取分享制自运营、兼职讲师梯队、有偿服务、课程架构。 | 华为人才发展与领导力 |
+| **iron-triangle-organizer** | -- | 铁三角组织者：AR+SR+FR一线作战单元、平台赋能、让听得见炮火的人决策。 | 华为人才发展与领导力 |
+| **training-effect-measurer** | -- | 培训效果评估师：柯氏四级评估、培训转化率、对照组归因、课程淘汰机制。 | 华为人才发展与领导力 |
 
 ## 快速上手
 

@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们技术骨干老是离职，说看不到发展空间，只能去当主管，怎么办？",
+    "expected_trigger": true,
+    "expected_behavior": "诊断通道堵塞问题，建议设计专业通道并拉平顶端待遇"
+  },
+  {
+    "prompt": "管理和技术双通道怎么设计转换机制？",
+    "expected_trigger": true,
+    "expected_behavior": "提供管理转专业、专业转管理的条件与路径"
+  },
+  {
+    "prompt": "公司只有当官才能升工资，怎么改变这种文化？",
+    "expected_trigger": true,
+    "expected_behavior": "提供薪酬对标、荣誉体系、决策参与权等配套机制"
+  },
+  {
+    "prompt": "帮我写个年度工作总结",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]

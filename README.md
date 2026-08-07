@@ -102,6 +102,13 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **stretch-goals-capability-building** | — | Stretch goals to force capability building: opportunity logic replaces extension-line thinking. Goals exist to create tension, not just to be hit. | Huawei strategic management |
 | **org-capability-elevation** | — | Organizational capability elevation: five management levels (business → functional → factor → collaboration → strategic) with upgrade paths. | Huawei strategic management |
 | **dste-strategy-execution** | — | DSTE (Develop Strategy to Execute): integrated SP → BP → budget → KPI → PBC → monitoring closed-loop with annual management calendar. | Huawei strategic management |
+| **cross-border-strategist** | — | Cross-border strategy decision: 5-step framework from mistake inventory to pressure investment. B2B-to-B2C transformation playbook. | Huawei cross-border management |
+| **main-channel-guardian** | — | Main-channel boundary management: 3-dimension test, "don't do boundary-external things", platform three-no-principles. | Huawei cross-border management |
+| **pressure-focus-investor** | — | Pressure-focus investment: strategic growth point mapping, three-generation strategy reserve, pressure index calculation. | Huawei cross-border management |
+| **backup-plan-architect** | — | Backup plan architecture: 4-layer backup grading, dogfooding principle, activation trigger design. | Huawei cross-border management |
+| **full-stack-vertical-integrator** | — | Full-stack vertical integration: capability map, gap diagnosis, integration path selection, ecosystem compatibility. | Huawei cross-border management |
+| **black-soil-ecosystem-builder** | — | Black-soil ecosystem building: lower barrier, provide nutrients, balance interests, make partners win. | Huawei cross-border management |
+| **crisis-deterrence-survivor** | — | Crisis deterrence and survival: deterrence-survival dual loop, 5-stage survival switch protocol, coalition building. | Huawei cross-border management |
 | **global-market-entry-strategist** | — | Global market entry path design: rural-surrounds-city sequencing, market attractiveness × competitiveness matrix, phased focus. | Huawei internationalization |
 | **brand-globalization-builder** | — | Brand globalization: three-stage model (exhibit → diplomacy → certification), glocalized cross-cultural communication, B2B-to-B2C trust transfer. | Huawei internationalization |
 | **glocalization-operator** | — | Glocalization operations: global resource integration + local value creation, capability/shared center footprint, localization rate governance. | Huawei internationalization |
@@ -142,18 +149,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **competency-qualification-integrator** | — | Integrate competency models with qualification systems: iceberg-above vs iceberg-below, unified terminology, and lightweight competency deployment. | Huawei qualification system |
 | **learning-path-mapper** | — | Learning path design based on qualification gaps: 70-20-10 development, acceleration programs, and tiered growth routes. | Huawei qualification system |
 | **qualification-hr-integrator** | — | Qualification-HR integration: job-grade-pay linkage, performance boundary clarification, and promotion gatekeeping. | Huawei qualification system |
-| **training-battle-designer** | — | Training-battle (训战结合) talent development: strategic reserve bootcamps, real-project combat, case-based learning. | Huawei training system |
-| **mentor-system-builder** | — | Full-cycle mentor system: selection, matching, agreements, progress tracking, incentives. | Huawei training system |
-| **training-needs-analyst** | — | Training needs analysis via "three hard + three soft" framework: business gap → performance gap → learning gap. | Huawei training system |
-| **enterprise-university-architect** | — | Enterprise university as strategic engine: revenue-sharing funding, part-time faculty, curriculum tied to business strategy. | Huawei training system |
-| **iron-triangle-organizer** | — | Frontline iron triangle (account + solution + delivery) integrated team model with platform empowerment. | Huawei training system |
-| **training-effect-measurer** | — | Training effectiveness measurement: reaction, learning, behavior, result levels plus Huawei conversion rate methodology. | Huawei training system |
-| **strategic-reserve-operator** | — | Strategic reserve / heavy brigade operations: selection, train-fight-integrate loop, cost mechanism, case writing. | Huawei training system |
-| **cadre-development-system** | — | Cadre development three-stage system: MST → SLD → ILD, role-based curricula, senior seminar. | Huawei training system |
-| **cadre-rotation-designer** | — | Cadre zigzag growth and rotation: four employee categories, internal talent market, up-down mobility. | Huawei training system |
-| **successor-pipeline-architect** | — | Succession planning TSP: four risks, talent inventory, Ready Now / 1 job away / 2 jobs away, AAD. | Huawei training system |
-| **individual-development-planner** | — | IDP design and execution: 70-20-10, MFP manager feedback, quarterly review cycle. | Huawei training system |
-| **product-manager-cultivator** | — | Product manager cultivation: dual DNA resource pool, role cognition, lifecycle KPIs, investment limits. | Huawei training system |
+| **admin-support-qualification-architect** | — | Support-role qualification architecture: dual-track five-level classification, unit-element behavioral standards, four-dimension threshold design. | Huawei secretary qualification system |
+| **secretary-excellence-ladder** | — | Nine-level secretary excellence ladder: from task execution to system building, with three-floor and four-realm maturity models. | Huawei secretary qualification system |
+| **routine-exception-delegator** | — | Routine vs exception separation: manager handles exceptions, support staff manages routines. Organizational time-value optimization. | Huawei secretary qualification system |
+| **meeting-management-master** | — | Meeting management full-cycle methodology: three essentials before, three services during, three actions after, plus three-check quality control. | Huawei secretary qualification system |
+| **executive-support-system-designer** | — | Executive support system design: secretary positioning, five-core duties, growth channel, and normalization service system. | Huawei secretary qualification system |
+| **behavioral-standards-engineer** | — | Behavioral standards engineering: task-to-competency translation, graded behavior description, NVQ localization, and certification focus design. | Huawei secretary qualification system |
 | **industry-convergence-spotter** | — | Industry convergence opportunity spotting: technology rhythm matching, market demand coupling, infrastructure integration. | Huawei crossover management |
 | **enterprise-digital-transformer** | — | Enterprise digital transformation: five shifts, four initiatives, four hard points, Malik curve guidance. | Huawei crossover management |
 | **limit-survival-strategist** | — | Limit survival strategy: spare-tire system, compute foundation, open ecosystem under extreme pressure. | Huawei crossover management |
@@ -161,6 +162,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **smart-meeting-operator** | — | Smart meeting operations: pre-meeting preparation, in-meeting discipline, post-meeting closed-loop with digital tools. | Huawei crossover management |
 | **cross-industry-ecosystem-builder** | — | Cross-industry ecosystem building: XYZ stereo blueprint, open partner enablement, anchor case scaling. | Huawei crossover management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
+| **training-battle-designer** | — | Design and operate a training-battle (训战结合) talent development system: strategic reserve force, heavy-brigade bootcamp, train-fight-recharge loop. | Huawei talent & leadership development |
+| **mentor-system-builder** | — | Full-cycle mentor system design: selection, matching, agreements, progress tracking, and incentive mechanisms. Great leaders lead leaders. | Huawei talent & leadership development |
+| **training-needs-analyst** | — | Training needs analysis via "Three Hard + Three Soft" framework. Align training investment with business strategy and prioritize by ROI. | Huawei talent & leadership development |
+| **enterprise-university-architect** | — | Self-sustaining corporate university design: revenue-sharing funding, part-time faculty cycles, budget autonomy, curriculum architecture. | Huawei talent & leadership development |
+| **iron-triangle-organizer** | — | Frontline iron-triangle operating model: AR+SR+FR integrated teams, platform empowerment, delegated authority. Let those who hear gunfire call shots. | Huawei talent & leadership development |
+| **training-effect-measurer** | — | Training effectiveness measurement: Kirkpatrick four-level model, conversion rate methodology, linking training to business outcomes. | Huawei talent & leadership development |
 
 ## Design Philosophy
 

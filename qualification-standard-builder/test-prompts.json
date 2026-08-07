@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "我们要给研发团队设计任职资格标准，高级和资深工程师的区别怎么定？",
+    "expected_trigger": true,
+    "expected_behavior": "引导用户用行为标准定义级别差异，提供五步法"
+  },
+  {
+    "prompt": "写任职资格标准时，业务部门说HR写的太虚，HR说业务部门写得太碎，怎么办？",
+    "expected_trigger": true,
+    "expected_behavior": "提供标杆人物访谈+行为事件提取方法，让标准源于实际工作"
+  },
+  {
+    "prompt": "任职资格认证总是流于形式，评委凭印象打分，怎么解决？",
+    "expected_trigger": true,
+    "expected_behavior": "提供标准项四原则（关键评价点/可证明/副词/目标性），强调举证材料"
+  },
+  {
+    "prompt": "帮我写一个Python爬虫抓取招聘信息",
+    "expected_trigger": false,
+    "expected_behavior": "不触发"
+  }
+]
