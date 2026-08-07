@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "We're choosing between two chip suppliers. One is 15% cheaper but requires 6-month forecasts and has longer lead times. The other is more expensive but flexible. How do we decide?",
+    "expected": "CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Our procurement team is measured purely on purchase price reduction. We keep saving on price but inventory and quality costs are exploding. How do we shift to strategic sourcing?",
+    "expected": "CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Help us build a total cost of ownership model for our steel raw material procurement.",
+    "expected": "CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "What's the cheapest 3PL provider for domestic shipping from Shanghai to Beijing?",
+    "expected": "NO_CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We need to set up a TQRDC scoring system to evaluate our top 20 suppliers annually.",
+    "expected": "NO_CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "sibling_skill",
+    "note": "Should trigger tqrdc-supplier-evaluation instead"
+  },
+  {
+    "prompt": "Should we use competitive bidding or direct negotiation for this custom machined part?",
+    "expected": "NO_CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "sibling_skill",
+    "note": "Should trigger procurement-strategy-designer instead"
+  },
+  {
+    "prompt": "Why is bulk ordering for discounts sometimes a bad idea in supply chain management?",
+    "expected": "CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Write a legal contract template for a software subscription.",
+    "expected": "NO_CALL",
+    "skill": "strategic-sourcing-tco",
+    "type": "decoy"
+  }
+]

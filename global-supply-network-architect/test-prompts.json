@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "We are expanding into Southeast Asia and Europe. Should we centralize supply chain management in HQ or allow each country to customize? How do we balance the two?",
+    "expected": "CALL",
+    "skill": "global-supply-network-architect",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "We need to decide where to place our next regional distribution center to serve the Middle East and Africa. What factors should we consider?",
+    "expected": "CALL",
+    "skill": "global-supply-network-architect",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Our overseas subsidiaries all run different local systems. We want to roll out a unified ERP for supply chain. How did Huawei do it and what pitfalls should we avoid?",
+    "expected": "CALL",
+    "skill": "global-supply-network-architect",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Can you help me draft a contract with a third-party logistics provider for domestic trucking?",
+    "expected": "NO_CALL",
+    "skill": "global-supply-network-architect",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We want to build a digital twin of our global supply network and use AI to optimize routing.",
+    "expected": "NO_CALL",
+    "skill": "global-supply-network-architect",
+    "type": "sibling_skill",
+    "note": "Should trigger supply-chain-digitizer instead"
+  },
+  {
+    "prompt": "How do we run a SCOR-based benchmarking project to compare our global supply chain performance against competitors?",
+    "expected": "NO_CALL",
+    "skill": "global-supply-network-architect",
+    "type": "sibling_skill",
+    "note": "Should trigger scor-racetrack-improver instead"
+  },
+  {
+    "prompt": "What are the trade-offs between centralized and decentralized procurement in a multinational company?",
+    "expected": "CALL",
+    "skill": "global-supply-network-architect",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Translate this shipping document from Chinese to English.",
+    "expected": "NO_CALL",
+    "skill": "global-supply-network-architect",
+    "type": "decoy"
+  }
+]

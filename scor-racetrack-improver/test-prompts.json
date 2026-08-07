@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "We need to run a supply chain improvement project. Our order fulfillment cycle time is 12 days while our main competitor claims 5 days. How should we structure a SCOR-based diagnosis and improvement program?",
+    "expected": "CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Help me build a SCORcard to benchmark our perfect order fulfillment rate and cash-to-cash cycle against industry percentiles.",
+    "expected": "CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Our company wants to map the AS-IS supply chain for our European electronics distribution network and identify Quick Win projects. We have support from the COO.",
+    "expected": "CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "I want to buy a new ERP system for my factory. Which SAP module should I choose?",
+    "expected": "NO_CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We are planning to build a new distribution center in Hungary to serve European customers. How should we design the network?",
+    "expected": "NO_CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "sibling_skill",
+    "note": "Should trigger global-supply-network-architect instead"
+  },
+  {
+    "prompt": "Our warehouse wants to implement AGV robots and algorithmic wave planning. What's the digital transformation roadmap?",
+    "expected": "NO_CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "sibling_skill",
+    "note": "Should trigger supply-chain-digitizer instead"
+  },
+  {
+    "prompt": "Can you explain what SCOR model stands for and list its six main processes?",
+    "expected": "CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Help me negotiate a 5% price reduction from our key chip supplier.",
+    "expected": "NO_CALL",
+    "skill": "scor-racetrack-improver",
+    "type": "decoy"
+  }
+]

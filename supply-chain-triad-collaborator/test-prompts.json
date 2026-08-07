@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "Our sales team keeps promising delivery dates without checking with supply chain, and then blames us when we can't meet them. How do we fix this?",
+    "expected": "CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "We want to implement the Huawei iron triangle model for our key accounts. How should we structure AR, SR, and FR roles?",
+    "expected": "CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "R&D keeps designing products with components that have 20-week lead times while sales promises 4-week delivery. There's constant fighting. What should we do?",
+    "expected": "CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Help me write a job description for a supply chain planner.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We need to benchmark our order fulfillment performance and run a SCOR improvement project.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "sibling_skill",
+    "note": "Should trigger scor-racetrack-improver instead"
+  },
+  {
+    "prompt": "How do we set up a global supply network with regional distribution centers and intelligent order routing?",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "sibling_skill",
+    "note": "Should trigger global-supply-network-architect instead"
+  },
+  {
+    "prompt": "What does 'supply chain vs supply chain competition' mean, and why is internal collaboration more important than squeezing suppliers?",
+    "expected": "CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Calculate the EOQ for this inventory item given annual demand of 5000 units and ordering cost of $100.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-triad-collaborator",
+    "type": "decoy"
+  }
+]

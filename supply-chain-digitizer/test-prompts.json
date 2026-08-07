@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "Our supply chain still runs on Excel and phone calls. We want to build a digital twin and use algorithms to optimize inventory and fulfillment. What's the roadmap?",
+    "expected": "CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "How did Huawei build its 'Lingkun' intelligent operations center and 'Lingfeng' smart logistics center? We want to replicate that architecture.",
+    "expected": "CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "We have 20 legacy supply chain systems that don't talk to each other. How do we move to a service-oriented architecture where we can compose capabilities for new business lines?",
+    "expected": "CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Help me choose between SAP S/4HANA and Oracle SCM Cloud for our manufacturing company.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We need to benchmark our order fulfillment cycle against industry standards using SCOR metrics and identify Quick Win projects.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "sibling_skill",
+    "note": "Should trigger scor-racetrack-improver instead"
+  },
+  {
+    "prompt": "Should we build our next distribution center in Hungary or Poland to serve European customers?",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "sibling_skill",
+    "note": "Should trigger global-supply-network-architect instead"
+  },
+  {
+    "prompt": "What is a digital twin in supply chain and how does it close the loop between physical and digital worlds?",
+    "expected": "CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Write a Python script to parse CSV inventory data.",
+    "expected": "NO_CALL",
+    "skill": "supply-chain-digitizer",
+    "type": "decoy"
+  }
+]

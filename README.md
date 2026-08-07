@@ -87,6 +87,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **procurement-ethics-guardian** | — | Procurement compliance and ethics: conflict of interest, information confidentiality, gift limits, two-person rule, post-employment restrictions. | Huawei procurement management |
 | **emergency-procurement-protocol** | — | Three-tier emergency procurement: immediate repair / urgent implementation / government directive. Post-hoc audit to prevent abuse. | Huawei procurement management |
 | **vmi-inventory-designer** | — | Vendor Managed Inventory design: inventory-forward transaction models, legal framework, system integration, five-step implementation. | Huawei procurement management |
+| **scor-racetrack-improver** | — | SCOR model + five-phase Racetrack improvement: diagnose, benchmark, map processes, prioritize projects, and implement supply chain transformation. | Huawei supply chain management |
+| **supply-chain-digitizer** | — | Supply chain digital transformation: digitalization → intelligentization → governance, digital twin, Lingkun/Lingfeng dual-layer architecture. | Huawei supply chain management |
+| **global-supply-network-architect** | — | Global supply network design: standardization vs. personalization balance, supply/procurement/distribution center layout, ERP globalization. | Huawei supply chain management |
+| **supply-chain-triad-collaborator** | — | Supply chain triad alignment: R&D + Sales + Supply Chain collaboration using the Iron Triangle (AR/SR/FR) to break silos. | Huawei supply chain management |
+| **strategic-sourcing-tco** | — | Strategic sourcing and total cost of ownership: move beyond unit price to evaluate transportation, inventory, risk, quality, and sustainability. | Huawei supply chain management |
+| **supplier-field-auditor** | — | Supplier on-site audit: 8-step process, three standard forms, 10-factor evaluation framework for qualification and improvement. | Huawei supply chain management |
 | **blue-team-organizer** | — | Build an internal opposition team: positioning, staffing, budget, operations, protection mechanisms. Red-blue army organizational design. | Huawei Red-Blue Army |
 | **red-blue-debater** | — | Design and execute structured red-blue strategic debates: issue selection, role assignment, rules, decision flow. | Huawei Red-Blue Army |
 | **self-critique-institutionalizer** | — | Transform self-critique from personal virtue into organizational capability: anonymous channels, leadership modeling, closed-loop improvement. | Huawei Red-Blue Army |

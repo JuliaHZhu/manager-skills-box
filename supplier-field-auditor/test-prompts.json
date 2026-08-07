@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "We're visiting a new electronics component supplier next week. Can you give us a structured audit plan and checklist?",
+    "expected": "CALL",
+    "skill": "supplier-field-auditor",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "I need to create a supplier basic information survey form, an on-site audit form, and an evaluation form for our procurement team.",
+    "expected": "CALL",
+    "skill": "supplier-field-auditor",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "What are the 10 key factors we should evaluate when doing a factory audit of a potential automotive parts supplier?",
+    "expected": "CALL",
+    "skill": "supplier-field-auditor",
+    "type": "should_trigger"
+  },
+  {
+    "prompt": "Help me negotiate payment terms with our current supplier to extend from Net 30 to Net 60.",
+    "expected": "NO_CALL",
+    "skill": "supplier-field-auditor",
+    "type": "decoy"
+  },
+  {
+    "prompt": "We need to set up an annual TQRDC scoring system for our existing suppliers.",
+    "expected": "NO_CALL",
+    "skill": "supplier-field-auditor",
+    "type": "sibling_skill",
+    "note": "Should trigger tqrdc-supplier-evaluation instead"
+  },
+  {
+    "prompt": "Our procurement team only looks at unit price. How do we shift to evaluating total cost of ownership?",
+    "expected": "NO_CALL",
+    "skill": "supplier-field-auditor",
+    "type": "sibling_skill",
+    "note": "Should trigger strategic-sourcing-tco instead"
+  },
+  {
+    "prompt": "What should a cross-functional supplier audit team include, and what does each function focus on?",
+    "expected": "CALL",
+    "skill": "supplier-field-auditor",
+    "type": "boundary"
+  },
+  {
+    "prompt": "Calculate the shortest path for a traveling salesman visiting 5 cities.",
+    "expected": "NO_CALL",
+    "skill": "supplier-field-auditor",
+    "type": "decoy"
+  }
+]
