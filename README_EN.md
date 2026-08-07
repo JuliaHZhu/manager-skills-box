@@ -95,6 +95,13 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **stretch-goals-capability-building** | -- | Stretch goals to force capability building: opportunity logic replaces extension-line thinking. Goals exist to create tension, not just to be hit. | Huawei strategic management |
 | **org-capability-elevation** | -- | Organizational capability elevation: five management levels (business -> functional -> factor -> collaboration -> strategic) with upgrade paths. | Huawei strategic management |
 | **dste-strategy-execution** | -- | DSTE (Develop Strategy to Execute): integrated SP -> BP -> budget -> KPI -> PBC -> monitoring closed-loop with annual management calendar. | Huawei strategic management |
+| **cross-border-strategist** | -- | Cross-border strategy decision: 5-step framework from mistake inventory to pressure investment. B2B-to-B2C transformation playbook. | Huawei cross-border management |
+| **main-channel-guardian** | -- | Main-channel boundary management: 3-dimension test, "don't do boundary-external things", platform three-no-principles. | Huawei cross-border management |
+| **pressure-focus-investor** | -- | Pressure-focus investment: strategic growth point mapping, three-generation strategy reserve, pressure index calculation. | Huawei cross-border management |
+| **backup-plan-architect** | -- | Backup plan architecture: 4-layer backup grading, dogfooding principle, activation trigger design. | Huawei cross-border management |
+| **full-stack-vertical-integrator** | -- | Full-stack vertical integration: capability map, gap diagnosis, integration path selection, ecosystem compatibility. | Huawei cross-border management |
+| **black-soil-ecosystem-builder** | -- | Black-soil ecosystem building: lower barrier, provide nutrients, balance interests, make partners win. | Huawei cross-border management |
+| **crisis-deterrence-survivor** | -- | Crisis deterrence and survival: deterrence-survival dual loop, 5-stage survival switch protocol, coalition building. | Huawei cross-border management |
 | **global-market-entry-strategist** | -- | Global market entry path design: rural-surrounds-city sequencing, market attractiveness x competitiveness matrix, phased focus. | Huawei internationalization |
 | **brand-globalization-builder** | -- | Brand globalization: three-stage model (exhibit -> diplomacy -> certification), glocalized cross-cultural communication, B2B-to-B2C trust transfer. | Huawei internationalization |
 | **glocalization-operator** | -- | Glocalization operations: global resource integration + local value creation, capability/shared center footprint, localization rate governance. | Huawei internationalization |
