@@ -1,0 +1,52 @@
+{
+  "skill": "production-control-operator",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "车间在制品太多，想改成拉式生产，怎么设计排产规则？",
+      "expected_behavior": "应激活 production-control-operator，分析产品类型、推荐推/拉式组合、设计任务令排队规则",
+      "notes": "典型排产策略调整场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "缺料信息很乱，采购说计划没报清楚，计划说采购没回复，怎么建立分级处理机制？",
+      "expected_behavior": "应激活 production-control-operator，建立缺料三层分级通报通道和响应时效",
+      "notes": "缺料分层分级处理"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "发货总是延误，合同优先级混乱，预留时机也不对",
+      "expected_behavior": "应激活 production-control-operator，设计发货策略五大要素",
+      "notes": "发货策略优化"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "明年销售额目标怎么定？销售和生产怎么平衡？",
+      "expected_behavior": "不应激活本 skill，因为属于年度S&OP战略层面，应使用 tom-order-manager 或更高层战略工具",
+      "notes": "诱饵: 战略产销平衡"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "公用物料缺货，三个产品线都要用，怎么分配？",
+      "expected_behavior": "不应激活本 skill，应激活 bottleneck-material-allocator",
+      "notes": "跨 skill 混淆诱饵: 瓶颈物料分配属于 bottleneck-material-allocator"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "客户突然要求提前发货，但合同还没完成齐套，能不能先发部分？",
+      "expected_behavior": "可能激活 production-control-operator 处理分批发货和欠料发货例外审批；但需严格按规则评估（安装材料不欠发，7天内可解决不得入库等）",
+      "notes": "边界: 客户紧急需求与发货策略规则的冲突处理"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

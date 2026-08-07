@@ -1,0 +1,52 @@
+{
+  "skill": "tom-order-manager",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司销售、生产、采购各自为政，想建立一套端到端的订单管理体系",
+      "expected_behavior": "应激活 tom-order-manager，设计TOM四方阵闭环和业务规则体系",
+      "notes": "典型TOM应用场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "怎么设计销售与运作计划S&OP流程？",
+      "expected_behavior": "应激活 tom-order-manager，资源合理化流程就是S&OP在TOM中的实现",
+      "notes": "S&OP设计"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": " demand always exceeds supply, how to design fair resource allocation rules",
+      "expected_behavior": "应激活 tom-order-manager，设计业务规则体系（产品策略/区域策略/客户策略）",
+      "notes": "英文场景：资源分配规则设计"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一段Python代码来计算库存周转率",
+      "expected_behavior": "不应激活本 skill，属于编程需求",
+      "notes": "诱饵: 编程需求"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "车间排产用推式还是拉式好？",
+      "expected_behavior": "不应激活本 skill，应激活 production-control-operator",
+      "notes": "跨 skill 混淆诱饵: 车间排产属于 production-control-operator"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们刚上了一套SAP IBP系统，但业务规则还没理清，是先跑系统还是先定规则？",
+      "expected_behavior": "可激活 tom-order-manager 强调规则先行（TOM认为规则是灵魂），同时提醒参考华为1998年ATP失败教训；但需注意IBP已包含部分TOM功能，实施路径需调整",
+      "notes": "边界: 现代APS系统与TOM方法论的结合"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

@@ -1,0 +1,52 @@
+{
+  "skill": "version-switch-controller",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "2.5G产品要升级到128X，老版本物料还有500万库存，怎么制定切换方案？",
+      "expected_behavior": "应激活 version-switch-controller，执行切换类型判定、策略选择、跨部门协同和呆死料控制",
+      "notes": "典型版本切换场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "新版本切入后老版本产生大量呆料，各部门互相推诿，怎么建立责任机制？",
+      "expected_behavior": "应激活 version-switch-controller，建立大项目管理模式和五环节责任矩阵",
+      "notes": "版本切换后的组织协同问题"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "how to manage a smooth version switch between old and new product generations without supply disruption",
+      "expected_behavior": "应激活 version-switch-controller，提供版本切换管理方法论",
+      "notes": "英文场景触发"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们的APP要做一次大版本更新，怎么设计用户迁移策略？",
+      "expected_behavior": "不应激活本 skill，因为纯软件版本更新无物理物料约束",
+      "notes": "诱饵: 纯软件版本更新"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "库存里有一批半年没动的物料，是不是死料？",
+      "expected_behavior": "不应激活本 skill，应激活 inventory-health-diagnoser",
+      "notes": "跨 skill 混淆诱饵: 死料诊断属于 inventory-health-diagnoser"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "供应商说某个芯片半年后停产，我们需要开发替代方案，这算版本切换吗？",
+      "expected_behavior": "可激活 version-switch-controller（解决器件供应问题型切换），但需明确这更接近被动替代；若仅涉及单一器件替代且无需跨产品线协同，也可用 rd-logistics-planner",
+      "notes": "边界: 停产器件替代与主动版本升级的交叉地带"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

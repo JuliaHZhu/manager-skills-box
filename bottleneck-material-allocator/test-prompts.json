@@ -1,0 +1,52 @@
+{
+  "skill": "bottleneck-material-allocator",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "MC68160缺货，三个产品都要用，怎么分配？",
+      "expected_behavior": "应激活 bottleneck-material-allocator，执行需求汇总、基准比例计算、三原则调整和分配方案输出",
+      "notes": "典型瓶颈物料分配场景，与书中案例直接对应"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "客户问这个订单什么时候能交货，我需要算一下ATP",
+      "expected_behavior": "应激活 bottleneck-material-allocator，执行ATP模拟计算",
+      "notes": "ATP可承诺量分析"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "多个任务令都缺同一个物料，先保证哪个产品的生产？",
+      "expected_behavior": "应激活 bottleneck-material-allocator，进行瓶颈物料分配决策",
+      "notes": "多任务令瓶颈分配"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们仓库物料很充足，就是产能不够，怎么排产？",
+      "expected_behavior": "不应激活本 skill，因为瓶颈是产能而非物料；应使用产能规划或 production-control-operator",
+      "notes": "诱饵: 产能瓶颈而非物料瓶颈"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计TOM模型的四个方阵？",
+      "expected_behavior": "不应激活本 skill，应激活 tom-order-manager",
+      "notes": "跨 skill 混淆诱饵: TOM全局框架属于 tom-order-manager"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "这个物料现在不缺，但下个月供应商说可能要配额，要不要提前做分配预案？",
+      "expected_behavior": "可激活 bottleneck-material-allocator 进行预测性分配规划，但需明确当前无实际约束，更多是风险预案",
+      "notes": "边界: 当前无瓶颈但预期有瓶颈的预分配场景"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

@@ -1,0 +1,52 @@
+{
+  "skill": "rd-logistics-planner",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "新产品要选关键芯片，怎么评估供应商的可采购性？",
+      "expected_behavior": "应激活 rd-logistics-planner，执行器件选型五维评估",
+      "notes": "典型器件选型场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "市场部要求新产品提前3个月供货，能不能答应？",
+      "expected_behavior": "应激活 rd-logistics-planner，执行新品提前供货五维风险评估",
+      "notes": "新品提前供货风险评估"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "实验局物料总是到不齐，开发工程师花大量时间领料，怎么规范？",
+      "expected_behavior": "应激活 rd-logistics-planner，规范实验局物料计划流程",
+      "notes": "实验局物料管理"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "成熟产品量产后的库存周转率怎么提升？",
+      "expected_behavior": "不应激活本 skill，应激活 inventory-health-diagnoser",
+      "notes": "诱饵: 量产库存管理"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "老版本要退出市场，新版本怎么切入供应链？",
+      "expected_behavior": "不应激活本 skill，应激活 version-switch-controller",
+      "notes": "跨 skill 混淆诱饵: 版本切换执行属于 version-switch-controller"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "研发紧急需要一批器件做测试，采购周期要4周，能不能走自购？",
+      "expected_behavior": "可激活 rd-logistics-planner 评估自购条件（紧急需求、非关键器件、国内交货、金额/次数限制），符合条件则指导自购流程，不符合则建议其他加急采购途径",
+      "notes": "边界: 研发自购的适用条件判断"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}

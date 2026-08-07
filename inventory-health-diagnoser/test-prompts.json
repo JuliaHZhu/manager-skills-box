@@ -1,0 +1,52 @@
+{
+  "skill": "inventory-health-diagnoser",
+  "version": "0.1.0",
+  "source_book": "《华为管理手册（计划管理）》— 华为内部资料",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们工厂库存周转率只有3次/年，原材料占比60%，感觉结构有问题，帮我分析一下",
+      "expected_behavior": "应激活 inventory-health-diagnoser，执行库存结构分析、周转率计算、合理比例对比和根因诊断",
+      "notes": "典型库存健康诊断场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "版本切换后老物料积压了200万，怎么判断哪些是死料哪些还能用？",
+      "expected_behavior": "应激活 inventory-health-diagnoser，进行死料/低周转物料定义、清单确认和处置方案制定",
+      "notes": "版本切换后的不良库存处置"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "inventory turnover is too low and we have a lot of slow moving material in the warehouse",
+      "expected_behavior": "应激活 inventory-health-diagnoser，进行库存健康诊断",
+      "notes": "英文场景触发"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我设计一个仓库的WMS系统",
+      "expected_behavior": "不应激活本 skill，因为属于IT系统设计而非库存分析与优化",
+      "notes": "诱饵: IT系统设计与库存分析无关"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "新产品要上市了，老版本怎么平滑切换到新版本？",
+      "expected_behavior": "不应激活本 skill，应激活 version-switch-controller",
+      "notes": "跨 skill 混淆诱饵: 版本切换管理属于 version-switch-controller"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们库存金额不高，但总是有紧急缺料，是不是库存结构问题？",
+      "expected_behavior": "可能激活 inventory-health-diagnoser 进行结构分析，但需先排除瓶颈物料分配问题；若分析显示是齐套性问题则建议转向 bottleneck-material-allocator",
+      "notes": "边界: 库存结构问题与瓶颈物料分配问题的交叉地带"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过。"
+}
