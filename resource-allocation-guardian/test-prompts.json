@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "总部越来越庞大，一线资源不够怎么办？",
+    "expected": "CALL",
+    "note": "应调用：资源向一线倾斜"
+  },
+  {
+    "prompt": "销管费用增长要不要设上限？",
+    "expected": "CALL",
+    "note": "应调用：费用增长约束"
+  },
+  {
+    "prompt": "亏损区域还要投入吗？",
+    "expected": "CALL",
+    "note": "应调用：负增长区域资源配置"
+  },
+  {
+    "prompt": "预算怎么承接战略？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是战略预算闭环，应触发 sp-budget-closure"
+  },
+  {
+    "prompt": "财务老是卡费用怎么办？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是预算文化，应触发 budget-as-weapon"
+  },
+  {
+    "prompt": "公司经营困难，怎么系统性降本？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是危机期降本，应触发 cost-control-twist-towel"
+  },
+  {
+    "prompt": "这个月差旅费超了500块，能批吗？",
+    "expected": "NO_CALL",
+    "note": "不应调用：纯执行费用审批，本skill不适用"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "促销怎么设计才能让人感觉划算？",
+    "expected": "CALL",
+    "note": "应调用：促销心理设计"
+  },
+  {
+    "prompt": "第二杯半价和两杯七五折哪个转化更高？",
+    "expected": "CALL",
+    "note": "应调用：典型的心理定价对比场景"
+  },
+  {
+    "prompt": "价格锚点怎么设？",
+    "expected": "CALL",
+    "note": "应调用：价格锚点设计"
+  },
+  {
+    "prompt": "提价对利润影响多大？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是利润量化分析，应触发 pricing-profit-lever"
+  },
+  {
+    "prompt": "怎么建立公司的定价体系？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是体系设计，应触发 customer-centric-pricing"
+  },
+  {
+    "prompt": "预算是为了管控还是作战？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是预算定位，应触发 budget-as-weapon"
+  },
+  {
+    "prompt": "toB软件怎么给大客户报价？",
+    "expected": "NO_CALL",
+    "note": "不应调用：B2B理性采购，本skill不适用"
+  }
+]

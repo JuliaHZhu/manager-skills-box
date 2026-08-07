@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们的定价体系太随意了，怎么系统化？",
+    "expected": "CALL",
+    "note": "应调用：定价体系建立"
+  },
+  {
+    "prompt": "低价抢市场导致不挣钱，怎么转型做价值定价？",
+    "expected": "CALL",
+    "note": "应调用：从低价竞争到价值定价的转型"
+  },
+  {
+    "prompt": "怎么让研发也参与定价决策？",
+    "expected": "CALL",
+    "note": "应调用：IPD与定价耦合"
+  },
+  {
+    "prompt": "提价5%对利润影响多大？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是利润量化分析，应触发 pricing-profit-lever"
+  },
+  {
+    "prompt": "第二杯半价和两杯七五折哪个更好？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是促销心理定价，应触发 price-anchoring-strategist"
+  },
+  {
+    "prompt": "预算是为了管控还是作战？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是预算定位，应触发 budget-as-weapon"
+  },
+  {
+    "prompt": "钢铁行业随行就市，我们怎么定价比别人高？",
+    "expected": "NO_CALL",
+    "note": "不应调用：价格接受者市场，本skill不适用"
+  }
+]

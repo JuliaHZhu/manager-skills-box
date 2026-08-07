@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "战略和预算两张皮，怎么对齐？",
+    "expected": "CALL",
+    "note": "应调用：战略预算对齐"
+  },
+  {
+    "prompt": "预算怎么承接战略规划？",
+    "expected": "CALL",
+    "note": "应调用：SP到预算的闭环"
+  },
+  {
+    "prompt": "年度预算评审该审什么？",
+    "expected": "CALL",
+    "note": "应调用：预算评审机制"
+  },
+  {
+    "prompt": "财务老是卡费用怎么办？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是预算文化问题，应触发 budget-as-weapon"
+  },
+  {
+    "prompt": "销管费用增长要不要设上限？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是资源约束规则，应触发 resource-allocation-guardian"
+  },
+  {
+    "prompt": "怎么砍掉不产生价值的审批流程？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是流程简化，应触发 lean-process-reformer"
+  },
+  {
+    "prompt": "这个项目差5万，帮我批一下",
+    "expected": "NO_CALL",
+    "note": "不应调用：纯执行层面费用审批，本skill不适用"
+  }
+]

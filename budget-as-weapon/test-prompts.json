@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "财务老是卡我们的费用，怎么办？",
+    "expected": "CALL",
+    "note": "应调用：财务与业务对立"
+  },
+  {
+    "prompt": "预算是为了管控还是作战？",
+    "expected": "CALL",
+    "note": "应调用：预算功能定位的核心问题"
+  },
+  {
+    "prompt": "怎么让财务部门从绊脚石变成助推器？",
+    "expected": "CALL",
+    "note": "应调用：财经服务转型"
+  },
+  {
+    "prompt": "预算怎么编制才能承接战略？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是战略预算闭环，应触发 sp-budget-closure"
+  },
+  {
+    "prompt": "销管费用增长要不要设上限？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是资源配置约束，应触发 resource-allocation-guardian"
+  },
+  {
+    "prompt": "怎么砍掉不产生价值的审批流程？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是流程简化，应触发 lean-process-reformer"
+  },
+  {
+    "prompt": "上市公司怎么满足萨班斯法案的内控要求？",
+    "expected": "NO_CALL",
+    "note": "不应调用：合规审计场景，本skill不适用"
+  }
+]

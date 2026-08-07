@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们产品售价100元，变动成本60元，月销1万件，固定成本20万。如果提价5%，利润会变多少？",
+    "expected": "CALL",
+    "note": "应调用：典型的定价利润杠杆分析场景"
+  },
+  {
+    "prompt": "降价抢市场份额会不会划算？帮我算算",
+    "expected": "CALL",
+    "note": "应调用：价格调整对利润的影响分析"
+  },
+  {
+    "prompt": "降本和提价哪个对利润帮助更大？",
+    "expected": "CALL",
+    "note": "应调用：四项杠杆比较"
+  },
+  {
+    "prompt": "怎么设计一个定价体系，让销售、研发、财务都参与？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是定价体系设计，应触发 customer-centric-pricing"
+  },
+  {
+    "prompt": "第二杯半价和两杯七五折哪个更好？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是心理定价/促销策略，应触发 price-anchoring-strategist"
+  },
+  {
+    "prompt": "钢铁行业现在都是随行就市，我们怎么定价？",
+    "expected": "NO_CALL",
+    "note": "不应调用：价格接受者市场，本skill不适用"
+  },
+  {
+    "prompt": "预算怎么编制才能支撑战略落地？",
+    "expected": "NO_CALL",
+    "note": "不应调用：这是预算管理，应触发 sp-budget-closure"
+  }
+]

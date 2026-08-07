@@ -127,6 +127,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **rd-performance-designer** | -- | R&D performance management: benefit/efficiency/path/behavior four-dimension indicators, IPD-based R&D performance, project-based assessment. | Huawei performance management |
 | **incremental-performance-driver** | -- | Incremental performance and value distribution: value creation -> evaluation -> distribution closed loop, payroll control, 3-people-5-jobs-4-pay. | Huawei performance management |
 | **performance-coach-grow** | -- | Performance coaching and GROW model: coaching-style guidance, GROW four-step, performance interview, low-performer PIP management. | Huawei performance management |
+| **pricing-profit-lever** | -- | Pricing profit-lever analysis: 1% price change → 10% profit impact. Quantify price/cost/volume/fixed-cost leverage effects. | Huawei finance management |
+| **customer-centric-pricing** | -- | Customer-centric pricing architecture: IPD+LTC coupling, value-based pricing transition, cross-functional pricing governance. | Huawei finance management |
+| **price-anchoring-strategist** | -- | Price anchoring and psychological pricing: contrast effect, second-cup-half-price patterns, diminishing-return mitigation. | Huawei finance management |
+| **budget-as-weapon** | -- | Budget-as-weapon design: reframe budget from control tool to combat resource, frontline service culture, simplify approval chains. | Huawei finance management |
+| **sp-budget-closure** | -- | Strategy-to-budget closed loop: SP→BP→budget alignment, forced variance explanation, rolling monitoring with traffic-light. | Huawei finance management |
+| **resource-allocation-guardian** | -- | Resource allocation guardrails: expense-growth constraints, frontline tilt, efficiency metrics (AR/inventory), negative-growth regions. | Huawei finance management |
 | **admin-baseline-manager** | -- | Admin baseline management: dual classification (autonomy vs standardization), country-level cost baselines, save-share/waste-burden incentives. | Huawei admin management |
 | **internal-service-marketizer** | -- | Internal service marketization: basic/premium tiering, privatization + competition, dynamic rent + survival-of-the-fittest. | Huawei admin management |
 | **lean-process-reformer** | -- | Lean process reform: value audit, cut non-value steps, process accountability for non-core flows, small-loop granularity. | Huawei admin management |
