@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our team keeps missing deadlines because people 'start shooting before aiming.' How do we instill Huawei's 'five questions before work begins' discipline?",
+    "expected_invocation": "execution-craftsman"
+  },
+  {
+    "scenario": "I am a manager and my team asks me to approve every small decision. How do we shift from 'responsibility to person' to 'responsibility to task'?",
+    "expected_invocation": "execution-craftsman"
+  },
+  {
+    "scenario": "We have 20 active projects and none are excelling. Huawei talks about 'force through one hole.' How do we apply the pressure principle?",
+    "expected_invocation": "execution-craftsman"
+  },
+  {
+    "scenario": "Design a template for our monthly business review preparation so that every region follows the same format.",
+    "expected_invocation": "execution-craftsman"
+  },
+  {
+    "scenario": "My engineers spend too much time on trivial tasks and urgent emails. How do we protect deep-work blocks using Huawei work methods?",
+    "expected_invocation": "execution-craftsman"
+  }
+]

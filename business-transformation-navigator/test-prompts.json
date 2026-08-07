@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our company has been an OEM manufacturer for 20 years. We want to launch our own consumer brand but fear losing existing B2B customers. How should we sequence the transition?",
+    "expected_invocation": "business-transformation-navigator"
+  },
+  {
+    "scenario": "We are a mid-tier phone brand. Should we invest in developing our own chip, or continue buying from Qualcomm? The R&D cost is enormous and success is uncertain.",
+    "expected_invocation": "business-transformation-navigator"
+  },
+  {
+    "scenario": "Our leadership wants to abandon the low-end market and go premium. Sales teams are furious because low-end products still generate 60% of revenue. How do we manage this trade-off?",
+    "expected_invocation": "business-transformation-navigator"
+  },
+  {
+    "scenario": "Design a 'zero-takeoff award' equivalent for our company to signal that we accept short-term pain for strategic transformation.",
+    "expected_invocation": "business-transformation-navigator"
+  },
+  {
+    "scenario": "We have 15 fragmented product teams each optimizing for different regional specs. How do we consolidate into a unified platform without losing market responsiveness?",
+    "expected_invocation": "business-transformation-navigator"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our 2000-person manufacturing company currently uses KPIs but they feel too short-term. Should we move to BSC, OKR, or a hybrid?",
+    "expected_invocation": "goal-framework-navigator"
+  },
+  {
+    "scenario": "We want to implement OKR but our culture is heavily bonus-driven. How do we decouple OKR from compensation without losing motivation?",
+    "expected_invocation": "goal-framework-navigator"
+  },
+  {
+    "scenario": "Design a 'collective evaluation' mechanism for our promotion committee to prevent single-manager bias.",
+    "expected_invocation": "goal-framework-navigator"
+  },
+  {
+    "scenario": "Our startup tried OKR but teams set sandbagged goals they knew they could hit. How do we encourage stretch targets?",
+    "expected_invocation": "goal-framework-navigator"
+  },
+  {
+    "scenario": "What's the difference between 'target decomposition' and 'target decoding,' and why does Huawei prefer the latter?",
+    "expected_invocation": "goal-framework-navigator"
+  }
+]

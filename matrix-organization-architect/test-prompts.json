@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "A 500-person software company has functional silos (dev, test, product, ops). Projects constantly miss deadlines because handoffs between departments take weeks. The CEO wants to move to a matrix but fears chaos.",
+    "expected_invocation": "matrix-organization-architect"
+  },
+  {
+    "scenario": "Our company tried matrix before but project managers were just coordinators with no real authority. Teams still reported to functional bosses. How do we do it right this time?",
+    "expected_invocation": "matrix-organization-architect"
+  },
+  {
+    "scenario": "We are setting up a product committee and cross-functional product teams. Should the product manager or the R&D director have final say on staffing?",
+    "expected_invocation": "matrix-organization-architect"
+  },
+  {
+    "scenario": "How do we prevent employees from feeling they have two bosses and conflicting priorities in a matrix setup?",
+    "expected_invocation": "matrix-organization-architect"
+  },
+  {
+    "scenario": "Design a matrix organization for our consulting firm where consultants belong to practice areas but are deployed to client projects.",
+    "expected_invocation": "matrix-organization-architect"
+  }
+]

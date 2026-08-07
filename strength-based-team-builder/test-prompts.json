@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our startup has brilliant engineers who are terrible at communication and client management. Should we train them to be better communicators, or hire complementary roles?",
+    "expected_invocation": "strength-based-team-builder"
+  },
+  {
+    "scenario": "Design a 'wolf and bie' pairing for our sales team where the sales director is great at closing deals but terrible at operations and forecasting.",
+    "expected_invocation": "strength-based-team-builder"
+  },
+  {
+    "scenario": "We keep rejecting candidates because they have 'weaknesses' in public speaking or lack an MBA. Huawei apparently hires 'lopsided talent.' Should we change our approach?",
+    "expected_invocation": "strength-based-team-builder"
+  },
+  {
+    "scenario": "Our product team has strong technical people but no one with market intuition. The product leader insists everyone should attend marketing training. Is this the right move?",
+    "expected_invocation": "strength-based-team-builder"
+  },
+  {
+    "scenario": "What does Huawei mean by 'wolf nature' in team culture, and how is it different from toxic overwork culture?",
+    "expected_invocation": "strength-based-team-builder"
+  }
+]

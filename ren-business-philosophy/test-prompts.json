@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our board is debating whether to enter a high-growth but unprofitable emerging market. Some call it a 'saline-alkali land.' How would Ren Zhengfei think about this?",
+    "expected_invocation": "ren-business-philosophy"
+  },
+  {
+    "scenario": "We are a successful company and everyone is celebrating. But I feel uneasy. What does 'Bian Que's eldest brother' teach us about this moment?",
+    "expected_invocation": "ren-business-philosophy"
+  },
+  {
+    "scenario": "Our CEO wants to launch a radical new business with no connection to our current capabilities. He calls it 'disruption.' Is this consistent with 'fresh flowers from cow dung'?",
+    "expected_invocation": "ren-business-philosophy"
+  },
+  {
+    "scenario": "I am facing a difficult ethical gray area in a partnership decision. Everyone wants a black-and-white answer. How does Huawei's 'grayscale' philosophy help?",
+    "expected_invocation": "ren-business-philosophy"
+  },
+  {
+    "scenario": "Apply the 12 tenets as a stress-test to our current diversification strategy.",
+    "expected_invocation": "ren-business-philosophy"
+  }
+]

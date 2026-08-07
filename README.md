@@ -267,6 +267,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **business-review-facilitator** | — | Business review meeting facilitation: start with gaps, find root causes with data, build processes. Three-common-failure diagnosis. | Huawei business management |
 | **process-driven-org-builder** | — | Process-driven organization design: business flow → process → data → IT → quality → organization six-layer integration. | Huawei business management |
 | **frontline-empowerment-architect** | — | Frontline empowerment and matrix organization: four authorization principles, four maturity stages, Navy SEALs model, post-authorization supervision. | Huawei business management |
+| **matrix-organization-architect** | — | Matrix organization design: strong/balanced/weak matrix types, 1+N reporting, binary structure, committee governance, talent reuse. | Huawei business management |
+| **business-transformation-navigator** | — | Business transformation playbook: seven strategic decisions from Huawei Terminal case, zero-takeoff ritual, platform consolidation, strategic patience. | Huawei business management |
+| **strength-based-team-builder** | — | Strength-based team building: lopsided talent philosophy, wolf-and-bie pairing, complementary roles over perfect individuals. | Huawei business management |
+| **ren-business-philosophy** | — | Ren Zhengfei's twelve management tenets: survive, saline-alkali soil, red-blue army, deep-dredge/low-weir, force through one hole, grayscale, etc. | Huawei business management |
+| **execution-craftsman** | — | Huawei work methodology: SMART discipline, upper-momentum/lower-reality, responsibility to task, four standardizations, pressure principle. | Huawei business management |
+| **goal-framework-navigator** | — | Goal framework selection and operation: MBO decoding vs decomposition, BSC four perspectives, OKR with CFR, procedural justice in evaluation. | Huawei business management |
 | **decision-balance-master** | — | Decision management balancing: growth vs profit, reform vs revolution, lifeless management, half-step lead, dictatorship vs democracy. | Huawei business management |
 | **management-twist-engineer** | — | Management tension design (twist the rope): front-back, top-bottom, inside-outside three twist types for scale-efficiency paradox. | Huawei business management |
 | **matter-accountability-designer** | — | Matter accountability system design: replace person-dependent culture with process-dependent, result-oriented responsibility. | Huawei business management |
