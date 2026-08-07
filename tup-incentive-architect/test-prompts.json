@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "Our early employees hold too much stock and collect huge dividends without working. New hires feel it's unfair. How can TUP rebalance this?",
+    "expected_behavior": "Recommend freezing new ESOP, introducing TUP funded before ESOP dividend, setting 3:1 labor:capital ratio, letting veteran relative share decline naturally."
+  },
+  {
+    "prompt": "We want to give equity-like upside, but our engineers can't afford to buy shares. We also don't want to give away registered equity yet.",
+    "expected_behavior": "Recommend TUP with 3-year cycle, revenue-milestone funding, conversion to option rights at Year 3, legal structure as employment contract."
+  },
+  {
+    "prompt": "I need to show the CFO exactly how much TUP will cost us over 5 years and what ROI we get.",
+    "expected_behavior": "Outline spreadsheet model with projected value creation, TUP pool %, unit dividend/appreciation, stress-test scenarios, variable-cost framing."
+  }
+]

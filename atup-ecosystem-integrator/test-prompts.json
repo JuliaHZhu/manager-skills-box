@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "We run a B2B SaaS platform. We want independent developers to build plugins, but we don't want to give them equity in our parent company. How can ATUP work?",
+    "expected_behavior": "Recommend plugin revenue attribution pool, ATUP units based on installs/usage/rating, 2-year cycle, cash default + top-10% subsidiary conversion, IP contract."
+  },
+  {
+    "prompt": "We sell industrial equipment through regional distributors. They keep asking for exclusive territories and rebates. Can ATUP replace rebates with long-term alignment?",
+    "expected_behavior": "Propose 2-year ATUP replacing rebates, tied to growth/satisfaction/attach rate, exclusivity 1.5x multiplier, terminal JV conversion option, real-time dashboard."
+  },
+  {
+    "prompt": "Our industry association has 80 member SMEs. We want them to share procurement and cross-sell, but everyone free-rides. Can ATUP create real collaboration?",
+    "expected_behavior": "Suggest association ATUP pool from 2% cross-transactions, earning for referrals/procurement/shared resources, governance rights by balance, 50/50 cash/rollover."
+  }
+]

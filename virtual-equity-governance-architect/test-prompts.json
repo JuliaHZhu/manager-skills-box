@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "We are a pre-Series A tech startup with 15 employees. The founder wants to keep 60% voting control but share economic upside. Design a holding platform.",
+    "expected_behavior": "Recommend LP structure with founder as GP, employees as LPs, virtual stock agreements with dividend+appreciation only, repurchase at NAV, 4-year installment."
+  },
+  {
+    "prompt": "Our factory needs 5M RMB for expansion. We prefer employee investment over bank loans. How to structure it legally?",
+    "expected_behavior": "Propose employee holding company/LP, virtual share subscription at NAV, dividend rights, no guaranteed return, annual redemption cap."
+  },
+  {
+    "prompt": "I gave 30% real shares to early employees. Now I feel I might lose control if they team up. How to fix this?",
+    "expected_behavior": "Diagnose voting risk; suggest voting trust or unified action agreement short-term; holding-platform swap medium-term; virtual stock for new grants long-term."
+  }
+]

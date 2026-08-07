@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "We gave 20% real equity to 8 co-founders. Now 3 have left and won't return shares. The remaining 5 argue in every board meeting. What should we have done differently?",
+    "expected_behavior": "Diagnose control loss + no top architecture + wrong tool; recommend LP from day one, voting trust now, virtual stock for future."
+  },
+  {
+    "prompt": "How do we make sure employees don't treat their shares as a pension and stop working hard?",
+    "expected_behavior": "Recommend 5-year TUP expiration, saturation granting caps, annual performance gate for dividends, cultural messaging."
+  },
+  {
+    "prompt": "A key supplier wants equity instead of cash payment for a strategic component. How should we structure this?",
+    "expected_behavior": "Classify as Resource type; recommend ATUP tied to delivery/cost/exclusivity KPIs, conversion to JV options after 2 years, firewall from parent."
+  }
+]

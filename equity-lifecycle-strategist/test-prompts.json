@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "We just raised angel funding. Should we give real shares, options, or virtual stock to our first 10 employees?",
+    "expected_behavior": "Recommend real shares/options for 10 employees, 4-year vesting, 10-15% pool, switch to virtual/TUP at 50+ headcount."
+  },
+  {
+    "prompt": "Our company is 12 years old. Early employees act like landlords collecting rent. How do we fix this without legal war?",
+    "expected_behavior": "Advise against confiscation; introduce TUP funded before ESOP, cap new ESOP grants, create new business lines with separate TUP pools."
+  },
+  {
+    "prompt": "We may not make payroll in 3 months. Can we use equity to survive?",
+    "expected_behavior": "Propose salary-to-TUP conversion, retention ESOP for critical roles, transparent updates, convertible notes, recovery triggers."
+  }
+]
