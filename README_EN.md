@@ -194,6 +194,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **audit-deterrence-architect** | -- | Internal audit system design: independence, three-tier monitoring, BC/audit/inspection distinction, value-added audit transformation. | Huawei financial management |
 | **anti-corruption-protocol** | -- | Anti-corruption compliance framework: BCG policy, gift/entertainment rules, third-party management, graduated penalties, public dismissal registry. | Huawei financial management |
 | **cadre-rescue-protocol** | -- | Cadre supervision and rescue philosophy: investigation-separation principle, rescue-not-punish orientation, collective decision-making, innocence presumption. | Huawei financial management |
+| **cadre-selection-architect** | -- | Cadre selection framework: four standards, four forces, nine traits, five qualities, key events, horse-race culture, frontline experience. | Huawei cadre management |
+| **cadre-appointment-tribunal** | -- | Cadre appointment and three-powers separation: AT/ST structures, nomination/review/veto, appointment procedures, eight staffing principles. | Huawei cadre management |
+| **cadre-performance-governor** | -- | Cadre performance governance: four-quadrant model, bottom-10% elimination, debriefing system, up-and-down mobility, three removals. | Huawei cadre management |
+| **commander-staff-pairing** | -- | Commander-staff pairing model: wolf (offense) vs bie (management), principal vs deputy, decision-making + execution pairing. | Huawei cadre management |
+| **cadre-values-guardian** | -- | Cadre values and discipline: eight requirements, hard struggle, self-critique, moral bottom line, openness-compromise-grayness. | Huawei cadre management |
+| **cadre-90day-turnaround** | -- | New cadre 90-day turnaround: role cognition, management coach, Quickwin targets, five key talks, pre-assignment review. | Huawei cadre management |
 | **pfc-pipeline-cultivator** | -- | PFC (Project Financial Controller) cultivation: four basic requirements, four growth directions, remedial training + exam methodology, five excellence characteristics. | Huawei financial management |
 | **cost-incremental-evaluator** | -- | Cost evaluation philosophy: elastic budget vs rigid allocation, evaluate by incremental value, four-question cost review, labor-cost optimization. | Huawei financial management |
 | **cost-five-focuses** | -- | Five-cost-focus management: design cost (80% determinant), procurement, quality (hidden cost), inventory, period expenses. | Huawei financial management |
