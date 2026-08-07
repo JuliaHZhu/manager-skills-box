@@ -1,0 +1,52 @@
+{
+  "skill": "finance-bp-operator",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（5版）——财务四算",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "怎么建立财务BP体系？财务怎么支持业务？",
+      "expected_behavior": "应激活 finance-bp-operator，设计财务BP岗位和三支柱组织架构",
+      "notes": "建立BP体系场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "财务人员被业务部门排斥，怎么改善业财关系？",
+      "expected_behavior": "应激活 finance-bp-operator，建立"在一起、懂业务、提建议"的BP工作方法",
+      "notes": "业财关系改善场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "财务BP的5懂是什么？怎么培养懂业务的财务人才？",
+      "expected_behavior": "应激活 finance-bp-operator，明确5懂能力模型和培养路径",
+      "notes": "BP能力培养场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么做一个会计分录？",
+      "expected_behavior": "不应激活本 skill，因为这是传统会计核算操作",
+      "notes": "边界: 纯会计核算"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计公司的全面预算管理体系？",
+      "expected_behavior": "不应激活本 skill，应激活 comprehensive-budget-manager，因为用户需要的是预算体系而非BP组织",
+      "notes": "跨 skill 混淆诱饵: 预算体系 vs BP运作"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是远程办公公司，财务BP没法和业务坐在一起怎么办？",
+      "expected_behavior": "可以调用 finance-bp-operator，但需将"在一起"从物理同地调整为数字化协同（如云文档、在线会议、实时数据共享）",
+      "notes": "边界: 远程办公适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

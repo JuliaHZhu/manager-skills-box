@@ -1,0 +1,52 @@
+{
+  "skill": "plan-budget-accounting-closure",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（5版）——财务四算",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "战略规划做完没法落地，怎么建立从战略到执行的闭环？",
+      "expected_behavior": "应激活 plan-budget-accounting-closure，设计SP/BP/PP三层嵌套闭环",
+      "notes": "战略落地场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "预算年初定完就僵化，怎么建立滚动预测机制？",
+      "expected_behavior": "应激活 plan-budget-accounting-closure，设计季度滚动预测和动态资源配置机制",
+      "notes": "滚动预测场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "计划、预算、核算、考核各自为政，怎么拉通？",
+      "expected_behavior": "应激活 plan-budget-accounting-closure，建立计划-预算-核算-考核的完整闭环",
+      "notes": "管理碎片化场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "用BLM帮我们做一个业务战略规划",
+      "expected_behavior": "不应激活本 skill，应激活 blm-strategic-planning，因为用户需要的是战略制定工具而非闭环管理体系",
+      "notes": "跨 skill 混淆诱饵: 战略制定 vs 闭环管理"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么做一个项目的概算和预算？",
+      "expected_behavior": "不应激活本 skill，应激活 project-four-accounting，因为用户需要的是项目四算而非组织层面的计划预算核算闭环",
+      "notes": "跨 skill 混淆诱饵: 项目四算 vs 组织闭环"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是SaaS公司，没有明显的项目周期，SP/BP/PP还适用吗？",
+      "expected_behavior": "可以调用 plan-budget-accounting-closure，但需将PP从项目计划调整为产品迭代/运营周期计划",
+      "notes": "边界: 非项目制业务适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

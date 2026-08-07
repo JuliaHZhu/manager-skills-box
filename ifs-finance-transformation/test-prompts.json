@@ -1,0 +1,52 @@
+{
+  "skill": "ifs-finance-transformation",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（5版）——财务四算",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "财务体系严重滞后于业务，需要系统性变革",
+      "expected_behavior": "应激活 ifs-finance-transformation，设计财经变革蓝图和推进路径",
+      "notes": "财务体系变革场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "财务不懂业务，业务不信财务，怎么业财融合？",
+      "expected_behavior": "应激活 ifs-finance-transformation，建立业财融合机制和CFO队伍建设方案",
+      "notes": "业财脱节场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "公司快速扩张，内控风险上升，怎么平衡扩张和内控？",
+      "expected_behavior": "应激活 ifs-finance-transformation，设计扩张与内控统一的财经体系",
+      "notes": "扩张与内控场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们要上一个新的ERP财务模块",
+      "expected_behavior": "不应激活本 skill，因为这是IT系统实施项目，不是财经管理体系变革",
+      "notes": "边界: 纯IT实施"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计财务BP的日常工作？",
+      "expected_behavior": "不应激活本 skill，应激活 finance-bp-operator，因为用户需要的是BP运作而非体系变革",
+      "notes": "跨 skill 混淆诱饵: BP运作 vs 体系变革"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是50人的创业公司，需要IFS这么重的变革吗？",
+      "expected_behavior": "可以调用 ifs-finance-transformation，但需大幅简化，建议先建立基础的计划-预算-核算意识和项目财务跟踪即可",
+      "notes": "边界: 小型企业适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

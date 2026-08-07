@@ -1,0 +1,52 @@
+{
+  "skill": "cost-control-twist-towel",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（5版）——财务四算",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "公司经营困难，需要压降费用，怎么拧毛巾？",
+      "expected_behavior": "应激活 cost-control-twist-towel，设计三招四式费用压降组合拳",
+      "notes": "经营困难费用压降场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "平台组织费用增长太快，怎么定高压线？",
+      "expected_behavior": "应激活 cost-control-twist-towel，设计平台费用基线和零增长原则",
+      "notes": "平台费用管控场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "怎么保护战略投入？降本的时候别把研发砍了",
+      "expected_behavior": "应激活 cost-control-twist-towel，设计战略投入单列和分类管理策略",
+      "notes": "战略投入保护场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们公司今年增长很好，想加大市场投入",
+      "expected_behavior": "不应激活本 skill，因为用户需要的是投资扩张而非成本压降",
+      "notes": "边界: 增长期扩张"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "怎么和供应商谈判降低采购价格？",
+      "expected_behavior": "不应激活本 skill，应激活 procurement-strategy-designer，因为用户需要的是采购策略",
+      "notes": "跨 skill 混淆诱饵: 采购谈判 vs 成本管控"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是互联网公司，主要成本是人力，传统拧毛巾方法适用吗？",
+      "expected_behavior": "可以调用 cost-control-twist-towel，但需将"拧毛巾"重点从物理成本转向人效提升和人员费用分类管理",
+      "notes": "边界: 轻资产公司适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}

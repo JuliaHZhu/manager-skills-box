@@ -144,6 +144,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **business-change-it-land** | — | Business transformation IT landing: rigid -> fixed -> optimized methodology, package-driven change, capability decoupling. | Huawei IT management |
 | **roads-digital-transformer** | — | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
 | **global-it-controller** | — | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
+| **project-four-accounting** | — | Project four-accounting management: estimate -> budget -> account -> settle, pulling through project-level profit management with CFO empowerment. | Huawei financial management |
+| **comprehensive-budget-manager** | — | Comprehensive budget management: two-layer budget generation (opportunity-based + resource-based), elastic grant, budget-to-strategy alignment. | Huawei financial management |
+| **cost-control-twist-towel** | — | Cost control "twist-towel" methodology: three-moves four-forms combo to squeeze costs while protecting strategic investment and customer interface. | Huawei financial management |
+| **ifs-finance-transformation** | — | IFS integrated financial transformation: rule-based certainty against outcome uncertainty, business-finance integration, CFO pipeline buildout. | Huawei financial management |
+| **finance-bp-operator** | — | Finance BP operations: three-pillar model (COE/BP/SSC), "together-understand-advise" nine-character formula, five-understand capability model. | Huawei financial management |
+| **plan-budget-accounting-closure** | — | Plan-budget-accounting closure: SP/BP/PP nested loops, rolling forecast, five-cycle operating system for representative offices. | Huawei financial management |
 | **qualification-standard-builder** | — | Qualification standard development: five-step method from job analysis to behavioral standards, with broadband grading and "three sentences" clarity rule. | Huawei qualification system |
 | **dual-channel-career-designer** | — | Dual-channel career design: management + professional tracks, five-level progression, top-tier pay parity, and cross-channel mobility rules. | Huawei qualification system |
 | **qualification-certifier** | — | Qualification certification design: seven-step process, evidence-based evaluation, four-grade results, and committee governance. | Huawei qualification system |

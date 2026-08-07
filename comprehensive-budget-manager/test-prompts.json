@@ -1,0 +1,52 @@
+{
+  "skill": "comprehensive-budget-manager",
+  "version": "0.1.0",
+  "source_book": "华为管理手册（5版）——财务四算",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "全面预算怎么做？各部门和总部激烈博弈",
+      "expected_behavior": "应激活 comprehensive-budget-manager，设计一次预算+二次预算的双层生成机制",
+      "notes": "预算博弈场景"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "预算怎么对准战略？资源总是投不到主航道",
+      "expected_behavior": "应激活 comprehensive-budget-manager，建立预算由外而内生成和聚焦战略评审机制",
+      "notes": "预算与战略脱节场景"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "弹性预算怎么设计？经营不好的时候费用怎么控制？",
+      "expected_behavior": "应激活 comprehensive-budget-manager，设计按率授予和按额授予的弹性机制",
+      "notes": "弹性预算场景"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "用BLM帮我们做一个业务战略规划",
+      "expected_behavior": "不应激活本 skill，应激活 blm-strategic-planning，因为用户需要的是战略制定工具而非预算管理",
+      "notes": "跨 skill 混淆诱饵: 战略制定 vs 预算管理"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我个人想做一个家庭理财预算",
+      "expected_behavior": "不应激活本 skill，因为个人理财不在企业级预算管理范畴",
+      "notes": "边界: 个人预算"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们是快速变化的AI创业公司，年度预算跟不上市场变化怎么办？",
+      "expected_behavior": "可以调用 comprehensive-budget-manager，但需建议缩短预算周期（季度预算+月度预测），增加敏捷调整机制",
+      "notes": "边界: 快速变化行业适配"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。"
+}
