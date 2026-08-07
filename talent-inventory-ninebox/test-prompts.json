@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "A sales manager has delivered S-level revenue for 2 consecutive years, but their learning-agility score is only 9. Should they be promoted to regional director?",
+    "expected_skill_behavior": "Apply the dynamic assessment principle: acknowledge results for bonus, but flag the low potential score. Recommend verifying whether results were self-driven or luck/leader-assisted before promotion, and assign a stretch development project."
+  },
+  {
+    "scenario": "The engineering department has 60% of staff clustered in the 'B performance + B potential' cell. Is this healthy?",
+    "expected_skill_behavior": "Flag clustering as unhealthy. Recommend cross-department rotation, targeted upskilling, and adjusting hiring caliber to restore dispersion."
+  },
+  {
+    "scenario": "A high-potential employee (learning-agility 22) is underperforming (C results). What should the manager do?",
+    "expected_skill_behavior": "Diagnose as probable job mismatch. Recommend reassessing role fit, checking for wrong assignment (e.g., analytical person in sales), and considering rotation before punitive action."
+  },
+  {
+    "scenario": "Run a workload analysis for a recruiter who spends 59% of time interviewing but only 2% on employer branding, which the CEO says is strategic.",
+    "expected_skill_behavior": "Quantify current allocation, propose efficiency improvements (e.g., batch interviews, structured screening), and reallocate saved time toward branding to align with strategic priorities."
+  },
+  {
+    "scenario": "A new director inherits a 40-person department and needs to understand who can be promoted in the next 6 months.",
+    "expected_skill_behavior": "Recommend building a Position-Matching Matrix, overlaying performance history and potential scores, then producing a prioritized promotion slate with readiness ratings."
+  }
+]

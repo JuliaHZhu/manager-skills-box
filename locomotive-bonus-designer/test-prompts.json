@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": " Emerging market unit with 3-year loss due to strategic investment has generated a very low bonus pool via calculation. The team morale is collapsing and key salespeople are leaving.",
+    "expected_skill_behavior": "Apply削峰填谷 smoothing at the parent level, explain the wood-business rationale, and outline how the subsidy keeps per-capita bonus below normal units while preserving team stability."
+  },
+  {
+    "scenario": "Design a locomotive bonus plan for a regional sales head with target bonus of 2M. The region grew revenue 15% but missed profit target by 5%, and completed 7/10 strategic tasks.",
+    "expected_skill_behavior": "Calculate the 4:3:3 weighted coefficient, apply the range (0.5-1.5), show the formula, and note the 10-30% supervisor adjustment band."
+  },
+  {
+    "scenario": "A manager wants to give an 'A' performer 5× the 'B' performer bonus, but HR says the company guideline is 2-3×. How should they resolve this?",
+    "expected_skill_behavior": "Explain the gap between target (3-5×) and practical (2-3×), suggest phasing through additional timely/project awards within the 30% cap, and advise AT-level calibration."
+  },
+  {
+    "scenario": "Should we adopt an 'incremental acceleration' bonus scheme (higher rate on incremental revenue) for a mature product line?",
+    "expected_skill_behavior": "Argue against steep incremental schemes for mature lines using Huawei's linear rationale; recommend linear rate to avoid punishing base-business contributors."
+  },
+  {
+    "scenario": "The R&D department wants large project awards for every successful product launch. What risks should leadership consider?",
+    "expected_skill_behavior": "Warn about project cherry-picking, risk-aversion on hard projects, and recommend keeping project awards as honor + small timely incentives capped within the 30% pool, with the main reward coming from organizational bonus."
+  }
+]

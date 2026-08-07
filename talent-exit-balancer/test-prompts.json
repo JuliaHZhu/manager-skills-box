@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "A department head refuses to fire probationers who are clearly underperforming because 'we invested 3 months in them.'",
+    "expected_skill_behavior": "Insist on the 20% bottom cut at probation. Explain that retaining mis-hires poisons team culture and that the 3-month investment is already sunk cost. Protecting bad hires destroys the return on good hires."
+  },
+  {
+    "scenario": "We hired 10 PhDs at premium salaries. Two years later, several BSc veterans outperform them and are angry about the pay gap.",
+    "expected_skill_behavior": "Recommend 3Bonus signing premium for new hires with a 2-year sunset, plus accelerate long-term incentives for veteran Top 30%. Explain the shift from cost-based to value-based pricing."
+  },
+  {
+    "scenario": "A 15-year veteran's skills are obsolete but they have strong loyalty and historical contributions. What exit path fits?",
+    "expected_skill_behavior": "Recommend role conversion to advisory/board role or early retirement with honor package. Avoid firing if possible; preserve dignity and institutional memory."
+  },
+  {
+    "scenario": "The CEO wants to spin off a non-core unit. 80 employees are affected. What is the best exit design?",
+    "expected_skill_behavior": "Recommend side-business diversion to a new entity with equity participation, combined with internal entrepreneurship for high-potential individuals who want to lead. Avoid mass layoffs."
+  },
+  {
+    "scenario": "After year 3, our best young engineers are leaving to competitors just as they become productive. What should we do?",
+    "expected_skill_behavior": "Activate Axe 2: identify Top 30% at the 1-3 year mark immediately, grant differentiated opportunities and pay, and create a visible fast-track path so they see a future inside the company."
+  }
+]

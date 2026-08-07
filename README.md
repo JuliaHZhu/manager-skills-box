@@ -127,6 +127,7 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **result-oriented-appraiser** | — | Result-oriented appraisal: pay for real results not fake motion, three-employee-type classification, contribution-based distribution. | Huawei compensation management |
 | **compensation-strategy-evolver** | — | Compensation strategy evolution: three-stage pay strategy (startup / growth / maturity), efficiency-first fairness balance. | Huawei compensation management |
 | **award-culture-designer** | — | Award culture design: ceremony, innovation, zero-to-takeoff awards, making awards a management instrument. | Huawei compensation management |
+| **locomotive-bonus-designer** | — | Locomotive bonus and incentive pool design: three-layer pool generation, 4:3:3 manager coefficient, individual allocation, cross-unit smoothing. | Huawei compensation management |
 | **pbc-performance-contractor** | — | PBC performance commitment design: strategy decoding -> BSC -> KPI -> personal PBC, WET three elements, SMART criteria, refresh mechanism. | Huawei performance management |
 | **forced-distribution-enforcer** | — | Forced distribution and performance result application: 5-grade absolute definition, horse-racing mechanism, layered evaluation, 10%淘汰. | Huawei performance management |
 | **org-performance-aligner** | — | Organizational and personal performance alignment: DSTE+BLM+PBC docking, "hat-wearing" and "twisted rope", budget and payroll management. | Huawei performance management |
@@ -167,6 +168,11 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **training-needs-analyst** | — | Training needs analysis via "Three Hard + Three Soft" framework. Align training investment with business strategy and prioritize by ROI. | Huawei talent & leadership development |
 | **enterprise-university-architect** | — | Self-sustaining corporate university design: revenue-sharing funding, part-time faculty cycles, budget autonomy, curriculum architecture. | Huawei talent & leadership development |
 | **iron-triangle-organizer** | — | Frontline iron-triangle operating model: AR+SR+FR integrated teams, platform empowerment, delegated authority. Let those who hear gunfire call shots. | Huawei talent & leadership development |
+| **talent-inventory-ninebox** | — | Nine-box talent inventory operations: performance-potential matrix, learning-agility scoring, workload analysis, position-matching dashboard. | Huawei talent & leadership development |
+| **culture-institutionalizer-huawei** | — | Huawei-style culture institutionalization: debate to consensus, habit through institutionalization, atmosphere through leadership example. | Huawei talent & leadership development |
+| **elite-soldier-civilian-architect** | — | Elite + soldier + civilian talent structure: wolf-beaver pairing, zigzag rotation, training-battle integration, three-power separation. | Huawei talent & leadership development |
+| **hr-blueprint-strategist** | — | HR top-level blueprint from Huawei Outline 2.0: organizational vitality, dual drive, cadre/talent/org three objects, platform + frontline. | Huawei talent & leadership development |
+| **talent-exit-balancer** | — | Talent exit and workforce balancing: three-axe rapid improvement, four exit pathways, new-veteran pay conflict resolution. | Huawei talent & leadership development |
 | **training-effect-measurer** | — | Training effectiveness measurement: Kirkpatrick four-level model, conversion rate methodology, linking training to business outcomes. | Huawei talent & leadership development |
 | **team-chemistry-builder** | — | Team chemistry and leadership pairing: SHL shift model, value convergence + complementary strengths, wolf vs.狈 role design. | Huawei HR management |
 | **bonus-package-architect** | — | Four-level bonus package design: company -> system -> organization -> individual, gain-sharing vs. grant, strategic bounty system. | Huawei HR management |

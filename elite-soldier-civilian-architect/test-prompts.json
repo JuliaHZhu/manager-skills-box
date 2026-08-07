@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "We need to appoint a new product line head. The best technical candidate has never worked in sales or service. Should we appoint them?",
+    "expected_skill_behavior": "Block the appointment due to missing zigzag cross-domain experience. Recommend a 12-18 month rotation through GTS or a major region before reconsidering."
+  },
+  {
+    "scenario": "A star sales performer is being promoted to regional director. Who should be their deputy?",
+    "expected_skill_behavior": "Apply wolf-beaver logic: the sales head is the wolf (focused on victory). Pair with a beaver-type deputy strong in operations, finance, and service delivery. Disqualify candidates who are equally aggressive but weak on process."
+  },
+  {
+    "scenario": "Our operations team is 100% deterministic work. Should we rotate them every 2 years?",
+    "expected_skill_behavior": "Recommend civilian-track stability: no forced rotation if error rates are low and efficiency is improving. Offer voluntary cross-training but protect the stable core."
+  },
+  {
+    "scenario": "A senior leader refuses to send their best people to the internal 'Blue Army' opposition team, fearing they will be labeled contrarian.",
+    "expected_skill_behavior": "Explain Blue Army as a promotion prerequisite, not a punishment. Propose making Blue Army service a mandatory badge for next-level eligibility and protecting returning officers with fast-track reintegration."
+  },
+  {
+    "scenario": "After a training program, how do we know if the participants actually learned anything?",
+    "expected_skill_behavior": "Reject classroom exams. Define pass/fail by the participant's unit business results 3-6 months post-training. If their region's revenue/profit improved, the training worked."
+  }
+]

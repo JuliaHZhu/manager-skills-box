@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "Our company grew from one product to five business units. HR still uses the same appraisal form for all. How should we evolve?",
+    "expected_skill_behavior": "Recommend moving from 'one big tree' to 'forest' model: shared values + shared platform, with differentiated metrics per business. Seed businesses focus on prototype speed; growth businesses on scale; mature businesses on profit."
+  },
+  {
+    "scenario": "Investors demand we cut costs. HR proposes eliminating all ceremonies and medals to save money.",
+    "expected_skill_behavior": "Defend spiritual incentives as productive forces. Recommend keeping high-symbolism, low-cost ceremonies and linking honor points to long-term benefits rather than eliminating them."
+  },
+  {
+    "scenario": "The CEO wants to give frontline teams more authority but fears financial and compliance risks.",
+    "expected_skill_behavior": "Propose the three-central-authorities model: keep funds, accounting, and audit vertically controlled. Delegate all other decision rights to the front line within pre-defined compliance boundaries."
+  },
+  {
+    "scenario": "A high-potential 28-year-old has never managed a P&L. Should they be considered for a GM role?",
+    "expected_skill_behavior": "Emphasize potential over experience in fast-changing contexts. Recommend a rigorous zigzag path with P&L exposure and Blue Army opposition experience before GM appointment, but do not block purely on age."
+  },
+  {
+    "scenario": "Stock dividends now exceed salaries for veteran employees, creating a rentier class. What should HR do?",
+    "expected_skill_behavior": "Propose capping equity accumulation by level and shifting new grants to time-limited plans (e.g., 5-year TUP) that reset to zero, ensuring continuous contribution is required for continuous gain. Target labor returns > capital returns."
+  }
+]

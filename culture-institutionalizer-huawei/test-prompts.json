@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "We rolled out new values 6 months ago but employees still ignore them. HR wants another training campaign.",
+    "expected_skill_behavior": "Diagnose failure of Pillar 1 (lack of deep debate/understanding) and Pillar 2 (not embedded in processes). Recommend a Roman-square style open forum plus process changes that make customer-centric behavior the path of least resistance."
+  },
+  {
+    "scenario": "Early employees are wealthy from stock and no longer work hard. Young employees feel the system is unfair.",
+    "expected_skill_behavior": "Recommend evolving equity to TUP-style time-limited grants that reset after 5 years, plus saturated caps by level. Explain how this sustains long-term struggle culture."
+  },
+  {
+    "scenario": "A new batch of 50 graduates joined. How do we prevent them from diluting the existing culture?",
+    "expected_skill_behavior": "Design a 90-day immersion plan leveraging veteran mentorship, visible hero ceremonies, and placing new hires in high-expectation teams where desired behavior is the norm."
+  },
+  {
+    "scenario": "The CEO wants to build a 'self-critique' culture but middle managers feel it will undermine their authority.",
+    "expected_skill_behavior": "Propose a structured Roman-square mechanism with anonymous submissions, leadership public acknowledgment of valid critiques, and protection from retaliation. Emphasize that self-critique is a correction mechanism, not a shaming ritual."
+  },
+  {
+    "scenario": "Our 'customer-centric' value is not translating into behavior. Support staff still prioritize internal compliance speed over customer problem resolution.",
+    "expected_skill_behavior": "Recommend end-to-end process redesign with front-line call-for-firepower authority, plus KPI weighting that makes customer resolution time the primary metric for support roles."
+  }
+]
