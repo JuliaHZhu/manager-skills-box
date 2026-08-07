@@ -1,0 +1,36 @@
+{
+  "skill_id": "cadre-rescue-protocol",
+  "description": "Test prompts for cadre-rescue-protocol skill",
+  "test_cases": [
+    {
+      "id": "cr-1",
+      "prompt": "我们发现一个中层干部有违规报销行为，应该直接开除还是挽救？怎么设计处理流程？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cr-2",
+      "prompt": "怎么设计查处分离制度？调查部门和处理部门应该分开吗？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cr-3",
+      "prompt": "干部被举报后，调查过程怎么保证公正？会不会冤枉好人？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cr-4",
+      "prompt": "我们公司干部一犯错就开除，导致没人敢担当，怎么改成挽救导向？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "A1 — 书中的应用"]
+    },
+    {
+      "id": "cr-5",
+      "prompt": "怎么设计干部问责的梯度？不同程度的违规应该怎么处理？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    }
+  ]
+}

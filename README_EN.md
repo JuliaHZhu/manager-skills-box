@@ -191,6 +191,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **talent-trio-manager** | -- | Three-category talent management: commander (up/down) / expert (rotation) / staff (stability), de-Nanguo policy, role-specific assessment. | Huawei HR management |
 | **mid-leadership-accelerator** | -- | Mid-level leadership acceleration: two-focus-items method, on-the-job coaching, stakeholder scoring, 3-month sprint cycles. | Huawei HR management |
 | **talent-pipeline-accelerator** | -- | Talent pipeline ROI acceleration: STAR selection, three-stage nurture (bottom/top/exit), four-in-one engagement incentives. | Huawei HR management |
+| **audit-deterrence-architect** | -- | Internal audit system design: independence, three-tier monitoring, BC/audit/inspection distinction, value-added audit transformation. | Huawei financial management |
+| **anti-corruption-protocol** | -- | Anti-corruption compliance framework: BCG policy, gift/entertainment rules, third-party management, graduated penalties, public dismissal registry. | Huawei financial management |
+| **cadre-rescue-protocol** | -- | Cadre supervision and rescue philosophy: investigation-separation principle, rescue-not-punish orientation, collective decision-making, innocence presumption. | Huawei financial management |
+| **pfc-pipeline-cultivator** | -- | PFC (Project Financial Controller) cultivation: four basic requirements, four growth directions, remedial training + exam methodology, five excellence characteristics. | Huawei financial management |
+| **cost-incremental-evaluator** | -- | Cost evaluation philosophy: elastic budget vs rigid allocation, evaluate by incremental value, four-question cost review, labor-cost optimization. | Huawei financial management |
+| **cost-five-focuses** | -- | Five-cost-focus management: design cost (80% determinant), procurement, quality (hidden cost), inventory, period expenses. | Huawei financial management |
 | **finance-three-pillar-architect** | -- | Finance three-pillar (COE/BP/SSC) organization design and operations. | Huawei financial management |
 | **three-lines-defense-builder** | -- | Three lines of defense internal control system: process ownership, risk supervision, audit cold deterrence. | Huawei financial management |
 | **elastic-budget-strategist** | -- | Elastic budget and dynamic resource allocation: white paper, rolling forecast, strategic investment, management accounting. | Huawei financial management |

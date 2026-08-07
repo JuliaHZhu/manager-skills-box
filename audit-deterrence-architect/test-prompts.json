@@ -1,0 +1,36 @@
+{
+  "skill_id": "audit-deterrence-architect",
+  "description": "Test prompts for audit-deterrence-architect skill",
+  "test_cases": [
+    {
+      "id": "audit-1",
+      "prompt": "我们要建立内部审计部门，审计部应该向谁汇报？能不能放在CFO下面？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "audit-2",
+      "prompt": "审计和内控有什么区别？我们公司审计和稽查的职能总是打架，怎么划清边界？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "B — 边界"]
+    },
+    {
+      "id": "audit-3",
+      "prompt": "审计总是查不到大问题，员工也不怕审计，怎么让审计有威慑力？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "audit-4",
+      "prompt": "如何设计三级监控体系？业务部门、审查部门和审计怎么分工？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    },
+    {
+      "id": "audit-5",
+      "prompt": "我们的审计部门现在只查账，怎么转型为增值型审计？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "A1 — 书中的应用"]
+    }
+  ]
+}

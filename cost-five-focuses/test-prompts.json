@@ -1,0 +1,36 @@
+{
+  "skill_id": "cost-five-focuses",
+  "description": "Test prompts for cost-five-focuses skill",
+  "test_cases": [
+    {
+      "id": "cff-1",
+      "prompt": "华为说的五大成本是什么？我们应该从哪几个方面控制成本？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cff-2",
+      "prompt": "产品成本太高，设计阶段怎么控制成本？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cff-3",
+      "prompt": "质量问题频发，怎么核算质量成本？隐性质量成本怎么算？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cff-4",
+      "prompt": "库存占用资金太多，但又怕缺货，怎么平衡？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cff-5",
+      "prompt": "期间费用增长太快，管理费用、销售费用、财务费用分别怎么控制？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    }
+  ]
+}

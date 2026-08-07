@@ -1,0 +1,36 @@
+{
+  "skill_id": "cost-incremental-evaluator",
+  "description": "Test prompts for cost-incremental-evaluator skill",
+  "test_cases": [
+    {
+      "id": "cie-1",
+      "prompt": "怎么评价降成本的效果？是看费用总额还是看增量价值？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "cie-2",
+      "prompt": "华为说不迷信量入为出，崇尚弹性预算，弹性预算和传统预算有什么区别？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架"]
+    },
+    {
+      "id": "cie-3",
+      "prompt": "我们想减人增效，但怕影响业务，华为是怎么做的？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "A1 — 书中的应用"]
+    },
+    {
+      "id": "cie-4",
+      "prompt": "研发投入很大但短期看不到回报，怎么向管理层证明投入值得？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    },
+    {
+      "id": "cie-5",
+      "prompt": "客户一直要求降价，我们的成本底线应该怎么定？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    }
+  ]
+}

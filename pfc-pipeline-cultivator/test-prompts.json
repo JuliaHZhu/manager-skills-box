@@ -1,0 +1,36 @@
+{
+  "skill_id": "pfc-pipeline-cultivator",
+  "description": "Test prompts for pfc-pipeline-cultivator skill",
+  "test_cases": [
+    {
+      "id": "pfc-1",
+      "prompt": "怎么培养项目财务控制人员（PFC）？我们财务人员不懂业务，怎么让他们深入项目？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "pfc-2",
+      "prompt": "PFC的角色应该怎么定位？是监督者还是业务伙伴？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架"]
+    },
+    {
+      "id": "pfc-3",
+      "prompt": "怎么选拔和培养管理接班人？PFC可以作为项目经理后备吗？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "A1 — 书中的应用"]
+    },
+    {
+      "id": "pfc-4",
+      "prompt": "优秀PFC应该具备什么特点？怎么考核PFC的工作效果？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "pfc-5",
+      "prompt": "怎么设计财务BP的培养路径？补课和考试怎么结合？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    }
+  ]
+}

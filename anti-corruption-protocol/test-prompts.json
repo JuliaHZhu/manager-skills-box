@@ -1,0 +1,36 @@
+{
+  "skill_id": "anti-corruption-protocol",
+  "description": "Test prompts for anti-corruption-protocol skill",
+  "test_cases": [
+    {
+      "id": "ac-1",
+      "prompt": "我们公司想建立反腐败合规体系，应该怎么做？需要发布什么政策？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "E — 可执行步骤"]
+    },
+    {
+      "id": "ac-2",
+      "prompt": "员工收供应商礼品怎么处理？怎么设计礼品与招待政策？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    },
+    {
+      "id": "ac-3",
+      "prompt": "供应商行贿我们的采购人员，发现后该怎么处理？还能继续合作吗？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架", "A1 — 书中的应用"]
+    },
+    {
+      "id": "ac-4",
+      "prompt": "怎么设计员工举报机制？怎么保护举报人不被打击报复？",
+      "expected_activation": true,
+      "expected_sections": ["E — 可执行步骤"]
+    },
+    {
+      "id": "ac-5",
+      "prompt": "BCG商业行为准则应该怎么写？需要包含哪些内容？",
+      "expected_activation": true,
+      "expected_sections": ["I — 方法论骨架"]
+    }
+  ]
+}
