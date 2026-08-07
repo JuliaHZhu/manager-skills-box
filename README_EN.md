@@ -236,6 +236,13 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **talent-trio-manager** | -- | Three-category talent management: commander (up/down) / expert (rotation) / staff (stability), de-Nanguo policy, role-specific assessment. | Huawei HR management |
 | **mid-leadership-accelerator** | -- | Mid-level leadership acceleration: two-focus-items method, on-the-job coaching, stakeholder scoring, 3-month sprint cycles. | Huawei HR management |
 | **talent-pipeline-accelerator** | -- | Talent pipeline ROI acceleration: STAR selection, three-stage nurture (bottom/top/exit), four-in-one engagement incentives. | Huawei HR management |
+
+| **project-style-formula** | — | Huawei 14-character project management style: one-soul three-moves five-minds, two-poles four-generations eight-directions. Personal PM playbook. | Huawei project management |
+| **overseas-project-entrepreneur** | — | Overseas project entrepreneurial management: local team building, trust-based authority, customer-standard management, hardship welfare. | Huawei project management |
+| **project-commercial-closer** | — | Win-win-profit commercial closed-loop: value proposition alignment, partner-level positioning, pre-sales post-sales integration. | Huawei project management |
+| **project-time-rhythm-master** | — | Project time rhythm mastery: interruption diagnosis, focused time blocks, busyness broadcasting, collaborative scheduling. | Huawei project management |
+| **project-root-capability-builder** | — | Project management root capability: value delivery cycle, degradation thinking, HEROS model, PMO governance, four-in-one system. | Huawei project management |
+| **client-decision-navigator** | — | Client decision-chain navigation: power mapping, fishbone analysis, SPIN selling, visit planning, AAR review. | Huawei project management |
 | **audit-deterrence-architect** | -- | Internal audit system design: independence, three-tier monitoring, BC/audit/inspection distinction, value-added audit transformation. | Huawei financial management |
 | **anti-corruption-protocol** | -- | Anti-corruption compliance framework: BCG policy, gift/entertainment rules, third-party management, graduated penalties, public dismissal registry. | Huawei financial management |
 | **cadre-rescue-protocol** | -- | Cadre supervision and rescue philosophy: investigation-separation principle, rescue-not-punish orientation, collective decision-making, innocence presumption. | Huawei financial management |
