@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们公司机关人员越来越多，怎么精简机关又不影响业务？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "专家不愿意当管理者，怎么给他们设计发展通道？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "怎么判断一个技术专家是真有水平还是南郭先生？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我写一份招聘启事",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "员工之间闹矛盾了，我该怎么调解？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "怎么设计一个干部轮岗计划？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "如何建立任职资格体系？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]

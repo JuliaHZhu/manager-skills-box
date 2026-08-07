@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我要组建一个新的事业部，创始人技术很强但不太会管人，该给他配什么样的副手？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "我们公司CEO战略能力很强但执行很乱，董事会想给他配一个COO，怎么判断候选人合不合适？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "创业团队三个人都是技术出身，性格也都差不多，感觉团队有短板，怎么调整分工？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我写一份销售岗位的JD，要求有3年以上经验",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "我们部门要搞一次团建活动，你有什么建议？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "我的下属绩效一直不达标，该怎么跟他做绩效面谈？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "公司新来了一个高管，怎么帮他快速融入团队？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]

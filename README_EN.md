@@ -161,6 +161,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **enterprise-university-architect** | -- | Self-sustaining corporate university design: revenue-sharing funding, part-time faculty cycles, budget autonomy, curriculum architecture. | Huawei talent & leadership development |
 | **iron-triangle-organizer** | -- | Frontline iron-triangle operating model: AR+SR+FR integrated teams, platform empowerment, delegated authority. Let those who hear gunfire call shots. | Huawei talent & leadership development |
 | **training-effect-measurer** | -- | Training effectiveness measurement: Kirkpatrick four-level model, conversion rate methodology, linking training to business outcomes. | Huawei talent & leadership development |
+| **team-chemistry-builder** | -- | Team chemistry and leadership pairing: SHL shift model, value convergence + complementary strengths, wolf vs. deputy role design. | Huawei HR management |
+| **bonus-package-architect** | -- | Four-level bonus package design: company to system to organization to individual, gain-sharing vs. grant, strategic bounty system. | Huawei HR management |
+| **business-stage-appraiser** | -- | Business stage differentiated appraisal: mature (profit) / growth (scale) / exploratory (milestones) three-stage target design. | Huawei HR management |
+| **talent-trio-manager** | -- | Three-category talent management: commander (up/down) / expert (rotation) / staff (stability), de-Nanguo policy, role-specific assessment. | Huawei HR management |
+| **mid-leadership-accelerator** | -- | Mid-level leadership acceleration: two-focus-items method, on-the-job coaching, stakeholder scoring, 3-month sprint cycles. | Huawei HR management |
+| **talent-pipeline-accelerator** | -- | Talent pipeline ROI acceleration: STAR selection, three-stage nurture (bottom/top/exit), four-in-one engagement incentives. | Huawei HR management |
 
 ## Design Philosophy
 

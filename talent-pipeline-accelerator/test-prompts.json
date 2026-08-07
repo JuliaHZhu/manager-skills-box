@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们公司招聘的人经常不合适，面试该怎么问才能提高准确率？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "入职一两年的优秀员工流失严重，怎么留住他们？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "公司老人占着位置不出活，怎么建立退出机制？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我写一份劳动合同",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "员工请病假需要扣工资吗？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "怎么设计一个任职资格认证流程？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "年底怎么做人才盘点？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]

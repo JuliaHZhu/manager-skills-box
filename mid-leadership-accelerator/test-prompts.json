@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们公司中层上了很多培训课但没什么用，怎么让他们真正成长？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "中层管理者跨部门协作很差，怎么通过实战提升他们的沟通能力？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "选拔了几个高潜人才，怎么让他们快速具备接班能力？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我推荐几本管理类的书",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "新员工入职培训该怎么做？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "怎么设计一个中层管理者的培训课程体系？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "我的下属业绩不好，该怎么跟他做绩效面谈？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]

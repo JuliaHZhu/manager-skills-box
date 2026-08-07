@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们公司个人奖金发了很多，但公司业绩没完成，老板很不满，怎么设计奖金体系？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "新业务还没盈利，团队几千人怎么发奖金？用利润考核他们都不愿意干了",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "销售奖金是研发的3倍，研发不配合销售做方案，怎么让奖金驱动组织合力？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我算一下这个月的个人所得税",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "员工抱怨工资太低，该给他加薪吗？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "年底了，怎么设计绩效考核表？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "我们要招一个薪酬经理，面试该问什么问题？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]

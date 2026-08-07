@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "我们公司有成熟业务也有新业务，老板要求所有部门都考核利润，新业务团队都不愿意干了，怎么办？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "新产品还没上市，怎么给研发团队定KPI？不能考核收入吧？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "销售不愿意开拓空白市场，因为新市场没有销售额，考核完不成，怎么设计指标？",
+    "expected_trigger": true,
+    "category": "应调用"
+  },
+  {
+    "prompt": "帮我写一份年终总结",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "员工迟到很多次，该怎么处理？",
+    "expected_trigger": false,
+    "category": "不应调用"
+  },
+  {
+    "prompt": "年底奖金怎么分配比较公平？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  },
+  {
+    "prompt": "如何设计一个股权激励方案？",
+    "expected_trigger": false,
+    "category": "跨skill混淆"
+  }
+]
