@@ -216,6 +216,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **global-treasury-risk-manager** | — | Global treasury and financial risk management: liquidity, FX, interest rate, credit, daily reconciliation. | Huawei financial management |
 | **finance-business-integrator** | — | Finance-business integration: project estimation, pre-sales finance, project CFO, BP deployment. | Huawei financial management |
 | **growth-maximization-strategist** | — | Growth maximization philosophy: deep-trench-low-dam, reasonable profit, anti-cyclical investment, barrier building. | Huawei financial management |
+| **wolf-pack-culture-builder** | — | Wolf-pack team culture and new employee onboarding: 721 rule, three-stage training, mentor integration, 271 elimination. | Huawei team & cadre management |
+| **cadre-shelf-operator** | — | Cadre shelf model: four standards, four forces with six dimensions, four experiences, four-quadrant assessment, unified selection language. | Huawei cadre management |
+| **cadre-reserve-west-pointer** | — | Cadre reserve West Point-style selection: 1/3-of-1/3 funnel, independent university tracking, three-powers oversight, continuous elimination. | Huawei cadre management |
+| **cadre-battlefield-groomer** | — | Battlefield cadre grooming: select from successful frontline teams, clear reward/punishment, results + key-behavior evaluation, heavy incentive gaps. | Huawei cadre management |
+| **emt-rotating-ceo-guardian** | — | Rotating CEO and EMT self-discipline: two mechanisms to eradicate three organizational tumors (factionalism, corruption, complacency). | Huawei cadre management |
+| **ren-cadre-tenets** | — | Ren Zhengfei ten cadre management tenets: systematic self-diagnostic framework for cadre system design. | Huawei cadre management |
 
 ## Design Philosophy
 
