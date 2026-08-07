@@ -136,6 +136,30 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **business-change-it-land** | — | Business transformation IT landing: rigid -> fixed -> optimized methodology, package-driven change, capability decoupling. | Huawei IT management |
 | **roads-digital-transformer** | — | ROADS-driven digital transformation: three architecture shifts, front-light back-heavy system, multi-cloud design. | Huawei IT management |
 | **global-it-controller** | — | Global IT control model: centralize control + distribute resources, simplify backbone + flexible endpoints, frontline-driven operations. | Huawei IT management |
+| **qualification-standard-builder** | — | Qualification standard development: five-step method from job analysis to behavioral standards, with broadband grading and "three sentences" clarity rule. | Huawei qualification system |
+| **dual-channel-career-designer** | — | Dual-channel career design: management + professional tracks, five-level progression, top-tier pay parity, and cross-channel mobility rules. | Huawei qualification system |
+| **qualification-certifier** | — | Qualification certification design: seven-step process, evidence-based evaluation, four-grade results, and committee governance. | Huawei qualification system |
+| **competency-qualification-integrator** | — | Integrate competency models with qualification systems: iceberg-above vs iceberg-below, unified terminology, and lightweight competency deployment. | Huawei qualification system |
+| **learning-path-mapper** | — | Learning path design based on qualification gaps: 70-20-10 development, acceleration programs, and tiered growth routes. | Huawei qualification system |
+| **qualification-hr-integrator** | — | Qualification-HR integration: job-grade-pay linkage, performance boundary clarification, and promotion gatekeeping. | Huawei qualification system |
+| **training-battle-designer** | — | Training-battle (训战结合) talent development: strategic reserve bootcamps, real-project combat, case-based learning. | Huawei training system |
+| **mentor-system-builder** | — | Full-cycle mentor system: selection, matching, agreements, progress tracking, incentives. | Huawei training system |
+| **training-needs-analyst** | — | Training needs analysis via "three hard + three soft" framework: business gap → performance gap → learning gap. | Huawei training system |
+| **enterprise-university-architect** | — | Enterprise university as strategic engine: revenue-sharing funding, part-time faculty, curriculum tied to business strategy. | Huawei training system |
+| **iron-triangle-organizer** | — | Frontline iron triangle (account + solution + delivery) integrated team model with platform empowerment. | Huawei training system |
+| **training-effect-measurer** | — | Training effectiveness measurement: reaction, learning, behavior, result levels plus Huawei conversion rate methodology. | Huawei training system |
+| **strategic-reserve-operator** | — | Strategic reserve / heavy brigade operations: selection, train-fight-integrate loop, cost mechanism, case writing. | Huawei training system |
+| **cadre-development-system** | — | Cadre development three-stage system: MST → SLD → ILD, role-based curricula, senior seminar. | Huawei training system |
+| **cadre-rotation-designer** | — | Cadre zigzag growth and rotation: four employee categories, internal talent market, up-down mobility. | Huawei training system |
+| **successor-pipeline-architect** | — | Succession planning TSP: four risks, talent inventory, Ready Now / 1 job away / 2 jobs away, AAD. | Huawei training system |
+| **individual-development-planner** | — | IDP design and execution: 70-20-10, MFP manager feedback, quarterly review cycle. | Huawei training system |
+| **product-manager-cultivator** | — | Product manager cultivation: dual DNA resource pool, role cognition, lifecycle KPIs, investment limits. | Huawei training system |
+| **industry-convergence-spotter** | — | Industry convergence opportunity spotting: technology rhythm matching, market demand coupling, infrastructure integration. | Huawei crossover management |
+| **enterprise-digital-transformer** | — | Enterprise digital transformation: five shifts, four initiatives, four hard points, Malik curve guidance. | Huawei crossover management |
+| **limit-survival-strategist** | — | Limit survival strategy: spare-tire system, compute foundation, open ecosystem under extreme pressure. | Huawei crossover management |
+| **second-curve-navigator** | — | Second curve navigation: core capability reuse, boundary discipline, strategic patience for new businesses. | Huawei crossover management |
+| **smart-meeting-operator** | — | Smart meeting operations: pre-meeting preparation, in-meeting discipline, post-meeting closed-loop with digital tools. | Huawei crossover management |
+| **cross-industry-ecosystem-builder** | — | Cross-industry ecosystem building: XYZ stereo blueprint, open partner enablement, anchor case scaling. | Huawei crossover management |
 | **qq-sticker-maker** | — | Guide users through designing and producing animated stickers (APNG/WebP) for QQ and similar platforms, featuring scene + Emoji character composition. | Creative tool |
 
 ## Design Philosophy

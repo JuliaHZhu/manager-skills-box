@@ -129,6 +129,30 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **business-change-it-land** | -- | 业务变革IT落地：先僵化再固化后优化、软件包驱动、流程与能力解耦。 | 华为IT管理 |
 | **roads-digital-transformer** | -- | ROADS驱动数字化转型：三大架构转变、前轻后重作业系统、多云架构。 | 华为IT管理 |
 | **global-it-controller** | -- | 全球IT管控模式：集中控制分散资源、主干简捷末端灵活、一线驱动。 | 华为IT管理 |
+| **qualification-standard-builder** | -- | 任职资格标准开发五步法：从职位分析到行为标准定义，含宽带化设计与"三句话讲清差异"原则。 | 华为任职资格体系 |
+| **dual-channel-career-designer** | -- | 双通道职业发展设计：管理+专业双通道、五级晋升、顶端待遇拉平、跨通道转换机制。 | 华为任职资格体系 |
+| **qualification-certifier** | -- | 任职资格认证设计：七步认证流程、证据导向评价、四等结果、专委会治理。 | 华为任职资格体系 |
+| **competency-qualification-integrator** | -- | 素质模型与任职资格整合：冰山上下的定位、统一术语、轻量素质落地。 | 华为任职资格体系 |
+| **learning-path-mapper** | -- | 基于任职资格的学习路径图设计：70-20-10培养、加速成长方案、分层成长路线。 | 华为任职资格体系 |
+| **qualification-hr-integrator** | -- | 任职资格与HR体系整合：以岗定级定薪、绩效边界厘清、晋升门槛设计。 | 华为任职资格体系 |
+| **training-battle-designer** | -- | 训战结合人才培养模式：战略预备队训练营、真实项目作战、案例教学。 | 华为培训体系 |
+| **mentor-system-builder** | -- | 导师制全周期运作：导师选拔与匹配、协议签订、过程跟踪、激励机制。 | 华为培训体系 |
+| **training-needs-analyst** | -- | 培训需求分析"三硬三软"框架：业务差距→绩效差距→学习差距。 | 华为培训体系 |
+| **enterprise-university-architect** | -- | 企业大学战略架构：获取分享制经费、兼职师资、课程与业务战略对齐。 | 华为培训体系 |
+| **iron-triangle-organizer** | -- | 一线铁三角组织：客户经理+解决方案+交付经理集成作战与平台赋能。 | 华为培训体系 |
+| **training-effect-measurer** | -- | 培训效果评估：反应层/学习层/行为层/结果层+华为训战转化率方法。 | 华为培训体系 |
+| **strategic-reserve-operator** | -- | 战略预备队/重装旅运作：选拔→训战→项目实战→答辩→任用循环、成本机制、案例传承。 | 华为培训体系 |
+| **cadre-development-system** | -- | 干部培养三阶段体系：MST→SLD→ILD、角色职责导向课程、高研班。 | 华为培训体系 |
+| **cadre-rotation-designer** | -- | 干部之字形成长与轮岗设计：四类员工差异化、内部人才市场、能上能下。 | 华为培训体系 |
+| **successor-pipeline-architect** | -- | 继任计划TSP：四大风险、人才盘点、Ready Now/1 job away/2 jobs away、AAD年度任用。 | 华为培训体系 |
+| **individual-development-planner** | -- | IDP个人发展计划：70-20-10、MFP经理人反馈、季度回顾闭环。 | 华为培训体系 |
+| **product-manager-cultivator** | -- | 产品经理培养体系：双基因资源池、角色认知课程、生命周期差异化考核、投资权限。 | 华为培训体系 |
+| **industry-convergence-spotter** | -- | 产业融合机会识别：技术节奏匹配度、市场需求耦合度、基础设施整合度三维评估。 | 华为跨界管理 |
+| **enterprise-digital-transformer** | -- | 企业数字化转型建筑师：五转四举措四难点、Malik曲线、数据治理打底。 | 华为跨界管理 |
+| **limit-survival-strategist** | -- | 极限生存战略家：备胎体系、算力底座、生态开放，极端压力下的战略韧性构建。 | 华为跨界管理 |
+| **second-curve-navigator** | -- | 第二曲线导航员：核心能力复用、边界克制、战略耐心培育新业务。 | 华为跨界管理 |
+| **smart-meeting-operator** | -- | 智能会议运营家：会前准备×会中纪律×会后闭环，数字化会议效率提升。 | 华为跨界管理 |
+| **cross-industry-ecosystem-builder** | -- | 跨产业生态构建师：XYZ立体版图、开放伙伴赋能、标杆案例规模化。 | 华为跨界管理 |
 | **qq-sticker-maker** | -- | QQ 动态表情包制作工作流：场景插画 + Emoji 角色合成，APNG 动画导出与压缩。 | 创作工具 |
 
 ## 快速上手
