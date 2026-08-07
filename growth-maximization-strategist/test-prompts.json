@@ -1,0 +1,8 @@
+[
+  {"prompt": "我们公司该追求利润最大化还是成长最大化", "expected_trigger": true},
+  {"prompt": "深淘滩低作堰是什么意思，怎么应用到企业经营", "expected_trigger": true},
+  {"prompt": "经济下行期应该收缩还是加大投入", "expected_trigger": true},
+  {"prompt": "华为为什么主动选择8%的净利润率", "expected_trigger": true},
+  {"prompt": "本季度利润下滑30%怎么跟股东解释", "expected_trigger": false},
+  {"prompt": "财务三支柱里的SSC怎么建设", "expected_trigger": false, "note": "应触发 finance-three-pillar-architect"}
+]

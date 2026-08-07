@@ -1,0 +1,8 @@
+[
+  {"prompt": "请帮我设计一套弹性预算机制，让费用跟业务计划完成率挂钩", "expected_trigger": true},
+  {"prompt": "华为预算白皮书六要素具体是什么", "expected_trigger": true},
+  {"prompt": "业务单元为了保利润总是削减研发投入，怎么通过预算机制解决", "expected_trigger": true},
+  {"prompt": "管理核算方案里的节约不归己是什么意思", "expected_trigger": true},
+  {"prompt": "个人家庭年度开支预算怎么做", "expected_trigger": false},
+  {"prompt": "全球资金体系怎么设计汇率对冲策略", "expected_trigger": false, "note": "应触发 global-treasury-risk-manager"}
+]

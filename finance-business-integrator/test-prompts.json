@@ -1,0 +1,8 @@
+[
+  {"prompt": "我们财务部门总是被业务说不懂业务，怎么推动业财融合", "expected_trigger": true},
+  {"prompt": "华为的项目CFO是怎么运作的", "expected_trigger": true},
+  {"prompt": "项目概算应该包含哪些成本", "expected_trigger": true},
+  {"prompt": "售前阶段财经怎么参与商业模式设计", "expected_trigger": true},
+  {"prompt": "请帮我做一份增值税申报表", "expected_trigger": false},
+  {"prompt": "全球资金三级管理架构怎么设计", "expected_trigger": false, "note": "应触发 global-treasury-risk-manager"}
+]

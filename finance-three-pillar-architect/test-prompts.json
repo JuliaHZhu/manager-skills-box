@@ -1,0 +1,8 @@
+[
+  {"prompt": "我们公司财务部门只有20个人，现在业务扩张到5个城市，老板说要建共享中心，请帮我设计一下财经组织架构应该怎么调整", "expected_trigger": true},
+  {"prompt": "华为的三支柱模型里COE和BP到底怎么分工的", "expected_trigger": true},
+  {"prompt": "我们集团想从核算型财务转型为战略型财务，应该怎么设计组织", "expected_trigger": true},
+  {"prompt": "请推荐一款适合中小企业的财务软件", "expected_trigger": false},
+  {"prompt": "财务BP和HRBP的考核指标有什么区别", "expected_trigger": false},
+  {"prompt": "内控三道防线中审计和稽查怎么分工", "expected_trigger": false, "note": "应触发 three-lines-defense-builder"}
+]

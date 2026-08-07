@@ -191,6 +191,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **talent-trio-manager** | -- | Three-category talent management: commander (up/down) / expert (rotation) / staff (stability), de-Nanguo policy, role-specific assessment. | Huawei HR management |
 | **mid-leadership-accelerator** | -- | Mid-level leadership acceleration: two-focus-items method, on-the-job coaching, stakeholder scoring, 3-month sprint cycles. | Huawei HR management |
 | **talent-pipeline-accelerator** | -- | Talent pipeline ROI acceleration: STAR selection, three-stage nurture (bottom/top/exit), four-in-one engagement incentives. | Huawei HR management |
+| **finance-three-pillar-architect** | -- | Finance three-pillar (COE/BP/SSC) organization design and operations. | Huawei financial management |
+| **three-lines-defense-builder** | -- | Three lines of defense internal control system: process ownership, risk supervision, audit cold deterrence. | Huawei financial management |
+| **elastic-budget-strategist** | -- | Elastic budget and dynamic resource allocation: white paper, rolling forecast, strategic investment, management accounting. | Huawei financial management |
+| **global-treasury-risk-manager** | -- | Global treasury and financial risk management: liquidity, FX, interest rate, credit, daily reconciliation. | Huawei financial management |
+| **finance-business-integrator** | -- | Finance-business integration: project estimation, pre-sales finance, project CFO, BP deployment. | Huawei financial management |
+| **growth-maximization-strategist** | -- | Growth maximization philosophy: deep-trench-low-dam, reasonable profit, anti-cyclical investment, barrier building. | Huawei financial management |
 
 ## Design Philosophy
 

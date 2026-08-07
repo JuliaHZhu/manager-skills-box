@@ -1,0 +1,8 @@
+[
+  {"prompt": "我们公司开始做海外业务，怎么设计全球资金管理体系", "expected_trigger": true},
+  {"prompt": "华为的日清日结机制具体怎么做", "expected_trigger": true},
+  {"prompt": "汇率波动对我们的利润影响很大，有什么对冲策略", "expected_trigger": true},
+  {"prompt": "怎么评估客户的信用风险，应收账款增长太快怎么办", "expected_trigger": true},
+  {"prompt": "个人怎么进行外汇理财对冲", "expected_trigger": false},
+  {"prompt": "预算里的战略投入为什么要集团承担", "expected_trigger": false, "note": "应触发 elastic-budget-strategist"}
+]

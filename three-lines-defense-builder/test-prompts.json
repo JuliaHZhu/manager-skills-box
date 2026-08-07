@@ -1,0 +1,8 @@
+[
+  {"prompt": "我们公司准备上市，需要建立内控体系，请帮我设计一下三道防线", "expected_trigger": true},
+  {"prompt": "华为的内控三道防线具体是怎么分工的", "expected_trigger": true},
+  {"prompt": "流程Owner到底要不要承担内控责任", "expected_trigger": true},
+  {"prompt": "审计部门和稽查部门有什么区别", "expected_trigger": true},
+  {"prompt": "请帮我写一份ISO27001合规检查清单", "expected_trigger": false},
+  {"prompt": "财经三支柱里的COE和BP怎么分工", "expected_trigger": false, "note": "应触发 finance-three-pillar-architect"}
+]
