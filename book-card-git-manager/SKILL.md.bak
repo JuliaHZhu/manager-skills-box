@@ -1,0 +1,68 @@
+---
+name: book-card-git-manager
+description: |
+  管理 book-to-learn 知识卡片项目的 Git 策略：生成 .gitignore、
+  区分源数据与生成物、提供重建命令、处理跨设备迁移。
+  当用户说"知识卡片怎么git管理""卡片项目git策略""book-to-learn git"时激活。
+version: 1.0.0
+---
+
+# book-card-git-manager — 知识卡片 Git 管理
+
+## 核心规则
+
+1. **不 commit 生成物**：cards/ images/ full_text.txt 等均可重建
+2. **commit 源数据**：items.json 是唯一不可替代的核心资产
+3. **commit 进度凭证**：progress.json daily-progress.md 是学习状态的单一来源
+4. **自包含重建**：丢了 cards/ 或 images/ 能通过命令秒级恢复
+
+## 文件分级表
+
+| 路径 | 是否 commit | 理由 |
+|------|------------|------|
+| `items.json` | ✅ 必须 | 所有知识点数据源，丢了卡片全没 |
+| `config.json` | ✅ 必须 | 推送配置，换设备需要 |
+| `index.json` | ✅ 必须 | 索引，可从 items.json 重建但推荐 commit |
+| `progress.json` | ✅ 必须 | 学习进度唯一凭证 |
+| `daily-progress.md` | ✅ 必须 | 学习日志 |
+| `cards/*.pdf` `cards/*.html` | ❌ ignore | 生成物，items.json + 脚本重建 |
+| `images/*.png` `images/*.jpg` | ❌ ignore | 配图，download-imgs 重新下载 |
+| `full_text.txt` | ❌ ignore | 原始文本通常 5MB+，可从原书重新提取 |
+
+## 生成 .gitignore
+
+在书的根目录（如 `books/<slug>/`）创建：
+
+```gitignore
+# book-to-learn 生成物（可重建）
+cards/*.pdf
+cards/*.html
+cards/*.png
+cards/*.jpg
+images/*.png
+images/*.jpg
+images/*.jpeg
+images/*.gif
+full_text.txt
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+__pycache__/
+```
+
+## 重建命令
+
+```bash
+cd skills/book-to-learn
+python3 book_setup.py gen-cards --slug <book-slug>
+python3 book_setup.py gen-index --slug <book-slug>
+python3 book_setup.py download-imgs --slug <book-slug>
+```
+
+## 跨设备迁移
+
+1. clone repo
+2. 运行重建命令恢复 cards/ 和 images/
+3. 继续从 progress.json 的断点推送

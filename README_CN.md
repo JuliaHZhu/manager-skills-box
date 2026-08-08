@@ -29,6 +29,7 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **CodeGraph** | P1 | 用 Tree-sitter 解析代码（Python/JS/TS/Java/Go/Rust/C/C++），构建 SQLite 调用图谱。影响范围分析："改了 X 会波及哪些模块？" | 内部工具链 |
 | **WikiBrain** | P1 | 原始资料 → 结构化 wiki。并行摄入、frontmatter 索引、FTS5 全文搜索、死链检测、会话反馈提炼。 | 内部工具链 |
 | **NeatFreak** | P2 | 聚合所有底层的质量信号。三种安全模式：Scan（只读检测）、Fix（确定性修复）、Clean（agent 监督下深度清理）。 | 内部工具链 |
+| **book-card-git-manager** | -- | book-to-learn 知识卡片项目的 Git 管理策略：生成 .gitignore、区分源数据与生成物、重建命令、跨设备迁移。 | book-to-learn 工具链 |
 | **hw-normalization-design** | -- | 四层归一化设计方法论：器件 → 单板 → 平台 → 网络架构。 | 华为硬件平台设计 |
 | **project-delay-prevention** | -- | 研发项目防拖延六步法：从用人到计划到跟踪到闭环。 | 华为研发管理实践 + 曾国藩识人用人 |
 | **topic-analysis-driven-design** | -- | 用"专题分析"取代"画图-调试-改版"，先电源/时钟/小系统，再动手画原理图。 | 华为硬件设计方法论 |
