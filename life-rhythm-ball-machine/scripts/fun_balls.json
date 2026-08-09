@@ -1,0 +1,41 @@
+{
+  "读书": [
+    {"content": "读一本从未听说过的冷门小说，读完写三句话短评", "energy_level": "medium", "source": "fun"},
+    {"content": "去书店随机翻开一本书，读第 42 页", "energy_level": "low", "source": "fun"},
+    {"content": "重读一本十年前读过的书，只读当时划线的地方", "energy_level": "low", "source": "fun"},
+    {"content": "找一篇学术论文，只看图表和结论，反推作者想说什么", "energy_level": "high", "source": "fun"}
+  ],
+  "休息": [
+    {"content": "午睡 30 分钟，定闹钟，醒了不看手机", "energy_level": "low", "source": "fun"},
+    {"content": "看一集自然纪录片，不开倍速", "energy_level": "low", "source": "fun"},
+    {"content": "做 10 分钟肩颈拉伸，跟着呼吸", "energy_level": "low", "source": "fun"},
+    {"content": "什么都不做，盯着窗外看 5 分钟", "energy_level": "low", "source": "fun"}
+  ],
+  "自由探索": [
+    {"content": "去一家从来没去过的餐厅，不查点评", "energy_level": "medium", "source": "fun"},
+    {"content": "在地图上随机选一个离家 3 公里内没去过的地方散步", "energy_level": "medium", "source": "fun"},
+    {"content": "学一首新歌，能跟着哼副歌就算成功", "energy_level": "medium", "source": "fun"},
+    {"content": "用家里现有的材料做一道没做过的菜", "energy_level": "high", "source": "fun"},
+    {"content": "给朋友发一条语音，不讲正事，只说一个你刚想到的奇怪想法", "energy_level": "low", "source": "fun"},
+    {"content": "在维基百科随机词条里点 5 次链接，记录你最后到了哪里", "energy_level": "low", "source": "fun"}
+  ],
+  "社交": [
+    {"content": "给一个半年没联系的朋友发条消息，内容只有三个字", "energy_level": "low", "source": "fun"},
+    {"content": "约一个人本周内喝咖啡/吃饭，不提前想话题", "energy_level": "medium", "source": "fun"},
+    {"content": "在家庭群里发一个今天拍到的照片，配一句话", "energy_level": "low", "source": "fun"},
+    {"content": "给一个人打电话而不是发微信，时长不限", "energy_level": "medium", "source": "fun"},
+    {"content": "参加一个线下活动（讲座/市集/运动），和至少一个陌生人交换联系方式", "energy_level": "high", "source": "fun"}
+  ],
+  "运动": [
+    {"content": "快走 30 分钟，换一条没走过的路线", "energy_level": "medium", "source": "fun"},
+    {"content": "做 20 个俯卧撑，分几组都行", "energy_level": "medium", "source": "fun"},
+    {"content": "跟着视频跳 10 分钟健身操，不在乎动作对不对", "energy_level": "medium", "source": "fun"},
+    {"content": "爬楼梯到顶楼再下来", "energy_level": "low", "source": "fun"}
+  ],
+  "创作": [
+    {"content": "写 200 字，主题随机：此刻窗外最显眼的三样东西", "energy_level": "medium", "source": "fun"},
+    {"content": "用手机拍 5 张照片，拼成一个没有文字的故事", "energy_level": "low", "source": "fun"},
+    {"content": "画一幅简笔画，画你现在的情绪", "energy_level": "low", "source": "fun"},
+    {"content": "给一个你常用的概念重新起三个名字", "energy_level": "medium", "source": "fun"}
+  ]
+}
