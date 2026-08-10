@@ -48,6 +48,7 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **intentional-stance** | -- | Three-stances analysis (physical / institutional / game-theoretic) of the same phenomenon. From Dennett's Intuition Pumps Ch18. | Daniel Dennett |
 | **piling-on-detector** | -- | Detect rhetorical piling-on: multiple claims bundled so refuting one seems to defeat all. From Dennett's Intuition Pumps Ch9. | Daniel Dennett |
 | **reductio-ad-absurdum** | -- | Accept premises, push to absurdity, check for contradiction. From Dennett's Intuition Pumps Ch2. | Daniel Dennett |
+| **descartes-method** | -- | Systematic doubt, first-principles reasoning, and deductive construction. Five tools from Cartesian methodology. | René Descartes |
 | **mediation-model-designer** | -- | Design simple, parallel, serial, and multicategorical mediation models from theoretical hypotheses. | Hayes (2022) |
 | **indirect-effect-inference** | -- | Bootstrap / Monte Carlo inference for indirect effects. Replaces obsolete Sobel test and causal steps. | Hayes (2022) |
 | **moderation-prober** | -- | Probe interactions with pick-a-point and Johnson-Neyman technique. Includes simple slope visualization. | Hayes (2022) |

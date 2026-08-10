@@ -48,6 +48,7 @@ AI Agent 工作空间管理的分层工具箱 — 文件追踪、代码分析、
 | **intentional-stance** | -- | 三视角分析同一现象：物理/制度/博弈。源自丹尼特《直觉泵》Ch18。 | Daniel Dennett |
 | **piling-on-detector** | -- | 检测"故意堆积"：多个主张打包，驳倒一个就当全驳倒。源自丹尼特《直觉泵》Ch9。 | Daniel Dennett |
 | **reductio-ad-absurdum** | -- | 接受前提，推到荒谬，检验矛盾。源自丹尼特《直觉泵》Ch2。 | Daniel Dennett |
+| **descartes-method** | -- | 系统性怀疑、第一原理推导与演绎建构。笛卡尔方法论五工具。 | 勒内·笛卡尔 |
 | **mediation-model-designer** | -- | 设计简单、并行、串行及多分类中介模型。从理论假设到统计方程与PROCESS模型选择。 | Hayes (2022) |
 | **indirect-effect-inference** | -- | Bootstrap / Monte Carlo 间接效应推断。取代过时的Sobel检验与因果步骤法。 | Hayes (2022) |
 | **moderation-prober** | -- | pick-a-point / Johnson–Neyman 交互探测。含条件效应可视化与简单斜率图。 | Hayes (2022) |
