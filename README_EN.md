@@ -121,6 +121,12 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **stretch-goals-capability-building** | -- | Stretch goals to force capability building: opportunity logic replaces extension-line thinking. Goals exist to create tension, not just to be hit. | Huawei strategic management |
 | **org-capability-elevation** | -- | Organizational capability elevation: five management levels (business -> functional -> factor -> collaboration -> strategic) with upgrade paths. | Huawei strategic management |
 | **dste-strategy-execution** | -- | DSTE (Develop Strategy to Execute): integrated SP -> BP -> budget -> KPI -> PBC -> monitoring closed-loop with annual management calendar. | Huawei strategic management |
+| **pinpoint-strategy** | -- | Pinpoint strategy: focus on the main channel, pressure principle, narrow strategic surface, concentrate forces for breakthrough. | Huawei strategic management |
+| **business-design-four-elements** | -- | Business design four elements: customer selection/value proposition, profit model, strategic control point intensity index, activity scope. | Huawei strategic management |
+| **customer-demand-translator** | -- | Customer demand translation: three-level needs (R/W/P), $APPEALS eight dimensions, Kano classification, requirement-to-solution conversion. | Huawei strategic management |
+| **marketing-battle-planner** | -- | Marketing battle planning: hilltop + share targets, market position management, 18% budget for new markets, corral model. | Huawei strategic management |
+| **ansoff-growth-navigator** | -- | Ansoff growth navigation: old/new market x old/new business four-quadrant, Huawei three-stage path, main-channel definition. | Huawei strategic management |
+| **org-vitality-entropy-reducer** | -- | Organizational vitality and entropy reduction: five-highs four-senses, dissipative structure, self-critique mechanism, activation system. | Huawei strategic management |
 | **cross-border-strategist** | -- | Cross-border strategy decision: 5-step framework from mistake inventory to pressure investment. B2B-to-B2C transformation playbook. | Huawei cross-border management |
 | **main-channel-guardian** | -- | Main-channel boundary management: 3-dimension test, "don't do boundary-external things", platform three-no-principles. | Huawei cross-border management |
 | **pressure-focus-investor** | -- | Pressure-focus investment: strategic growth point mapping, three-generation strategy reserve, pressure index calculation. | Huawei cross-border management |
