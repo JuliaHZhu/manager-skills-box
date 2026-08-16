@@ -303,6 +303,12 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **anti-involution-diagnoser** | — | Involution and internal waste diagnosis: 30-type involution checklist, 10-waste framework, organizational health examination. | Huawei organization management |
 | **consulting-value-maximizer** | — | Consulting engagement value maximization: trust-first, milestone rigor, knowledge transfer, systematic consultant management. | Huawei organization management |
 | **simple-org-culture-builder** | — | Simple organization and culture building: capability in systems, three mechanisms, values-to-behavior translation, contract over loyalty. | Huawei organization management |
+| **internal-entrepreneurship-designer** | — | Internal entrepreneurship and spin-off strategy design: two-stage model, policy framework, competition boundary, and acquisition return path. | Huawei management philosophy (5th Ed) |
+| **org-top-designer** | — | Organizational top-level design: from business expert to organizational architect. Three-bay-reorganization insights, political-commissar system, Basic Law, HR evaluation. | Huawei management philosophy (5th Ed) |
+| **gray-management** | — | Gray management philosophy: three-layer gray (comprehensive view, tolerate imperfection, human complexity), six-dimensional application framework. | Huawei management philosophy (5th Ed) |
+| **collective-leadership-decision** | — | Collective leadership decision mechanism: democratic decision + authority management, committee + chief responsibility, from-virtue-not-from-crowd principle. | Huawei management philosophy (5th Ed) |
+| **expectation-management-incentive** | — | Expectation management and incentive design: 70-80% target challenge rate, gain-sharing differentiated by region maturity, TUP deferred incentive. | Huawei management philosophy (5th Ed) |
+| **uncertainty-management-strategist** | — | Uncertainty management strategy: multi-path multi-echelon saturation attack, certainty/uncertainty org differentiation, core competence驾驭uncertainty. | Huawei management philosophy (5th Ed) |
 
 ## Design Philosophy
 
