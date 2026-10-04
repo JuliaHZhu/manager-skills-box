@@ -310,6 +310,11 @@ Higher layers depend on lower ones. P0 is the bedrock — every file operation f
 | **collective-leadership-decision** | — | Collective leadership decision mechanism: democratic decision + authority management, committee + chief responsibility, from-virtue-not-from-crowd principle. | Huawei management philosophy (5th Ed) |
 | **expectation-management-incentive** | — | Expectation management and incentive design: 70-80% target challenge rate, gain-sharing differentiated by region maturity, TUP deferred incentive. | Huawei management philosophy (5th Ed) |
 | **uncertainty-management-strategist** | — | Uncertainty management strategy: multi-path multi-echelon saturation attack, certainty/uncertainty org differentiation, core competence驾驭uncertainty. | Huawei management philosophy (5th Ed) |
+| **strategic-intelligence-estimate** | — | Strategic intelligence estimation: three-tier classification (strategic/departmental/tactical), capability-intent separation, commander estimate methodology. | Gao Jinhu — *US Strategic Intelligence & Decision-Making System* |
+| **intelligence-decision-mechanism-designer** | — | Intelligence-decision mechanism design: four drivers analysis, three-layer status establishment (administrative/legal/core functions). | Gao Jinhu — *US Strategic Intelligence & Decision-Making System* |
+| **nsc-policy-hill-operator** | — | NSC Policy Hill operations: three-tier decision flow (department drafting → planning committee review → presidential decision), OCB execution oversight. | Gao Jinhu — *US Strategic Intelligence & Decision-Making System* |
+| **intelligence-decision-relationship-diagnoser** | — | Intelligence-decision relationship diagnosis: four-stage evolution model, three influence factors, four improvement pathways. | Gao Jinhu — *US Strategic Intelligence & Decision-Making System* |
+| **grand-strategy-intelligence-governor** | — | Grand strategy intelligence governance: strategic unification of intelligence, decision mechanism design, talent dual-track model. | Gao Jinhu — *US Strategic Intelligence & Decision-Making System* |
 
 ## Design Philosophy
 

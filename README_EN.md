@@ -303,6 +303,11 @@ Higher layers depend on lower ones. P0 is the bedrock -- every file operation fl
 | **collective-leadership-decision** | -- | Collective leadership decision mechanism: democratic decision + authority management, committee + chief responsibility. | Huawei management philosophy (5th Ed) |
 | **expectation-management-incentive** | -- | Expectation management and incentive design: 70-80% target challenge rate, gain-sharing by region maturity, TUP deferred incentive. | Huawei management philosophy (5th Ed) |
 | **uncertainty-management-strategist** | -- | Uncertainty management strategy: multi-path multi-echelon saturation attack, certainty vs uncertainty org design, core competence driver. | Huawei management philosophy (5th Ed) |
+| **strategic-intelligence-estimate** | -- | Strategic intelligence estimation: three-tier classification, capability-intent separation, commander estimate methodology. | Gao Jinhu — US Strategic Intelligence & Decision-Making System |
+| **intelligence-decision-mechanism-designer** | -- | Intelligence-decision mechanism design: four drivers analysis, three-layer status establishment. | Gao Jinhu — US Strategic Intelligence & Decision-Making System |
+| **nsc-policy-hill-operator** | -- | NSC Policy Hill operations: three-tier decision flow, OCB execution oversight. | Gao Jinhu — US Strategic Intelligence & Decision-Making System |
+| **intelligence-decision-relationship-diagnoser** | -- | Intelligence-decision relationship diagnosis: four-stage evolution, three influence factors, four improvement pathways. | Gao Jinhu — US Strategic Intelligence & Decision-Making System |
+| **grand-strategy-intelligence-governor** | -- | Grand strategy intelligence governance: strategic unification, decision mechanism, talent dual-track model. | Gao Jinhu — US Strategic Intelligence & Decision-Making System |
 
 ## Design Philosophy
 
